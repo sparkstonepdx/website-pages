@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF_8" ?>
+    <rss version="2.0">
+      <channel>
+        <title>Sparkstone Musings</title>
+        <language>en-us</language>
+        <link>undefined/posts</link>
+        <description>research and musings at Sparkstone LLC</description>
+        
+      <item>
+        <title><![CDATA[Build With People, Not In Isolation]]></title>
+        <link>undefined/post/Build%20With%20People%2C%20Not%20In%20Isolation</link>
+        <guid>undefined/post/Build%20With%20People%2C%20Not%20In%20Isolation</guid>
+        <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+        <description><![CDATA[A lot of us want to help. We want to build good software, useful tools, things that matter. There’s a strong urge to retreat into making “the right thing” — to design something elegant, principled, and technically solid as a response to everything feeling chaotic.]]></description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[CryptPad’s URL Trick Is Genius]]></title>
+        <link>undefined/post/CryptPad%E2%80%99s%20URL%20Trick%20Is%20Genius</link>
+        <guid>undefined/post/CryptPad%E2%80%99s%20URL%20Trick%20Is%20Genius</guid>
+        <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+        <description><![CDATA[CryptPad stores the shared encryption key in the URL fragment — the part after the `#`. That one choice quietly solves a whole class of secure-sharing problems.]]></description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[OpenMLS Looked Like the Perfect Answer — Until It Wasn’t]]></title>
+        <link>undefined/post/OpenMLS%20Looked%20Like%20the%20Perfect%20Answer%20%E2%80%94%20Until%20It%20Wasn%E2%80%99t</link>
+        <guid>undefined/post/OpenMLS%20Looked%20Like%20the%20Perfect%20Answer%20%E2%80%94%20Until%20It%20Wasn%E2%80%99t</guid>
+        <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+        <description><![CDATA[ On paper, it checked all the boxes.  In practice, I eventually ran into a hard constraint that made it the wrong fit for what I was trying to build.]]></description>
+      </item>
+    
+      </channel>
+    </rss>

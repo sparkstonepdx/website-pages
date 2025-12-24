@@ -1,0 +1,1 @@
+import{C as o}from"./config-context-Bqa-_nJu.js";import{e as i,p as u,b as n,S as a}from"./solid-DK4Op-bj.js";function c(e){const[t,r]=i();return u(()=>{r(!0)}),n(a,{get when(){return t()},get children(){return e.children}})}function d(e){return n(c,{get children(){return n(o,{get children(){return e.children}})}})}export{d as default};

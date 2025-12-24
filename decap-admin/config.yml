@@ -1,0 +1,61 @@
+local_backend: true
+backend:
+  name: git-gateway
+  dev:
+    url: http://localhost:4050
+
+media_folder: "/public"
+public_folder: "/"
+
+collections:
+  - name: Posts
+    label: Posts
+    create: true
+    folder: "src/routes/post/"
+    preview_path: "/post/{{filename}}"
+    keyField: title
+    fields:
+      - {label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 20 characters"] }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Created", name: "created", widget: "date", default: "{{now}}" }
+      - {label: "Published", name: "published", widget: "date", default: "{{now}}"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: 'Blurb', name: 'blurb', widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: projects
+    label: Projects
+    create: true
+    folder: "src/routes/project/"
+    preview_path: "/project/{{filename}}"
+    keyField: title
+    fields:
+      - {label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 20 characters"] }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Created", name: "created", widget: "date", default: "{{now}}" }
+      - {label: "Published", name: "published", widget: "date", default: "{{now}}"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: 'Blurb', name: 'blurb', widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: Contributors
+    label: Contributors
+    create: true
+    folder: "src/data/contributors/"
+    keyField: 'name'
+    preview:
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Profile Photo", name: "profilePhoto", widget: "image", required: false }
+      - {label: "Role", name: "role", widget: "string", required: false}
+      - {label: "Testimony", name: "testimony", widget: "string"}
+  - name: Emails
+    label: Emails
+    create: true
+    keyField: 'name'
+    folder: "public/email-templates/"
+    fields:
+      - {label: "Template Name", name: "name", widget: "string"}
+      - {label: "From Email", name: "from", widget: "email"}
+      - {label: "Subject", name: "subject", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
