@@ -3,61 +3,61 @@
       <channel>
         <title>Sparkstone Musings</title>
         <language>en-us</language>
-        <link>undefined/projects</link>
+        <link>https://sparkstonepdx.com/projects</link>
         <description>Products, Projects, and one off prototypes</description>
         
       <item>
         <title><![CDATA[Arcanetable]]></title>
-        <link>undefined/project/Arcanetable</link>
-        <guid>undefined/project/Arcanetable</guid>
+        <link>https://sparkstonepdx.com/project/Arcanetable</link>
+        <guid>https://sparkstonepdx.com/project/Arcanetable</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
         <description>A browser-based 3D virtual tabletop built for playtesting trading card games. Arcanetable gives designers and playgroups a flexible, shared space to test ideas together without enforcing rules or workflows.</description>
       </item>
     ,
       <item>
         <title><![CDATA[Blathadex]]></title>
-        <link>undefined/project/Blathadex</link>
-        <guid>undefined/project/Blathadex</guid>
+        <link>https://sparkstonepdx.com/project/Blathadex</link>
+        <guid>https://sparkstonepdx.com/project/Blathadex</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
         <description>a companion guide for Animal Crossing: New Horizons, designed to help players track, discover, and plan around the creatures, flowers, villagers, and items available on their island.</description>
       </item>
     ,
       <item>
         <title><![CDATA[Grim Choices]]></title>
-        <link>undefined/project/Grim%20Choices</link>
-        <guid>undefined/project/Grim%20Choices</guid>
+        <link>https://sparkstonepdx.com/project/Grim%20Choices</link>
+        <guid>https://sparkstonepdx.com/project/Grim%20Choices</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
         <description>A human-centered planning tool for documenting end-of-life decisions with clarity and care, designed to reduce uncertainty and emotional burden for loved ones.</description>
       </item>
     ,
       <item>
         <title><![CDATA[Liveframe]]></title>
-        <link>undefined/project/Liveframe</link>
-        <guid>undefined/project/Liveframe</guid>
+        <link>https://sparkstonepdx.com/project/Liveframe</link>
+        <guid>https://sparkstonepdx.com/project/Liveframe</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
         <description>A privacy-first live slideshow for events. Guests scan a QR code to share photos, messages, and polls in real time—no apps, no accounts.</description>
       </item>
     ,
       <item>
         <title><![CDATA[North Tabor Yard Sale Map]]></title>
-        <link>undefined/project/North%20Tabor%20Yard%20Sale%20Map</link>
-        <guid>undefined/project/North%20Tabor%20Yard%20Sale%20Map</guid>
+        <link>https://sparkstonepdx.com/project/North%20Tabor%20Yard%20Sale%20Map</link>
+        <guid>https://sparkstonepdx.com/project/North%20Tabor%20Yard%20Sale%20Map</guid>
         <pubDate>Tue, 20 May 2025 18:39:00 GMT</pubDate>
         <description>How we mapped 32 sales, drew over 3 thousand visitors, and helped a community plant sale sell out before noon</description>
       </item>
     ,
       <item>
         <title><![CDATA[Solid Forms]]></title>
-        <link>undefined/project/Solid%20Forms</link>
-        <guid>undefined/project/Solid%20Forms</guid>
+        <link>https://sparkstonepdx.com/project/Solid%20Forms</link>
+        <guid>https://sparkstonepdx.com/project/Solid%20Forms</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
         <description>Simple, Shareable Forms Built for Real People</description>
       </item>
     ,
       <item>
         <title><![CDATA[Sparkstone/css]]></title>
-        <link>undefined/project/Sparkstone%2Fcss</link>
-        <guid>undefined/project/Sparkstone%2Fcss</guid>
+        <link>https://sparkstonepdx.com/project/Sparkstone%2Fcss</link>
+        <guid>https://sparkstonepdx.com/project/Sparkstone%2Fcss</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
         <description>I Finally Built the CSS Framework I Wanted</description>
       </item>
