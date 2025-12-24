@@ -54,8 +54,9 @@ collections:
     create: true
     keyField: 'name'
     folder: "public/email-templates/"
+    preview_path: "/email-templates/{{filename}}"
     fields:
       - {label: "Template Name", name: "name", widget: "string"}
       - {label: "From Email", name: "from", widget: "email"}
-      - {label: "Subject", name: "subject", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Subject", name: "subject", widget: "string",  template: {}}
+      - {label: "Body", name: "body", widget: "markdown", template: {}}
