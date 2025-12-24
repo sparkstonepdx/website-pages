@@ -1,1 +1,0 @@
-import{e as a}from"./solid-DK4Op-bj.js";function n(e){return e.replace(/\.md$/,"")}function s(e){return Promise.all(Object.entries(e).map(async([t,r])=>({path:n(t),page:await r()})))}function i(e){const[t,r]=a([]);return s(e).then(r).catch(o=>console.error(o)),[t]}export{s as a,i as g};
