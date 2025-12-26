@@ -1,1 +1,0 @@
-import{C as o}from"./config-context-RfAPyplx.js";import{e as i,p as u,b as t,S as a}from"./solid-DLBwXPei.js";import"./handlebars-C7IZMBRA.js";function c(e){const[n,r]=i();return u(()=>{r(!0)}),t(a,{get when(){return n()},get children(){return e.children}})}function m(e){return t(c,{get children(){return t(o,{get children(){return e.children}})}})}export{m as default};
