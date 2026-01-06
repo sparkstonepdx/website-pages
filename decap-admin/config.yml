@@ -31,6 +31,7 @@ collections:
     keyField: title
     fields:
       - {label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 20 characters"] }
+      - {label: "Popularity Rank", name: 'rank', widget: "number", required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Created", name: "created", widget: "date", default: "{{now}}" }
       - {label: "Published", name: "published", widget: "date", default: "{{now}}"}

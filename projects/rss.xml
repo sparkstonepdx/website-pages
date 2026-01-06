@@ -7,11 +7,11 @@
         <description>Products, Projects, and one off prototypes</description>
         
       <item>
-        <title><![CDATA[Grim Choices]]></title>
-        <link>https://sparkstonepdx.com/project/Grim%20Choices</link>
-        <guid>https://sparkstonepdx.com/project/Grim%20Choices</guid>
-        <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
-        <description>A human-centered planning tool for documenting end-of-life decisions with clarity and care, designed to reduce uncertainty and emotional burden for loved ones.</description>
+        <title><![CDATA[Arcanetable]]></title>
+        <link>https://sparkstonepdx.com/project/Arcanetable</link>
+        <guid>https://sparkstonepdx.com/project/Arcanetable</guid>
+        <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
+        <description>A browser-based 3D virtual tabletop built for playtesting trading card games. Arcanetable gives designers and playgroups a flexible, shared space to test ideas together without enforcing rules or workflows.</description>
       </item>
     ,
       <item>
@@ -23,35 +23,27 @@
       </item>
     ,
       <item>
-        <title><![CDATA[Solid Forms]]></title>
-        <link>https://sparkstonepdx.com/project/Solid%20Forms</link>
-        <guid>https://sparkstonepdx.com/project/Solid%20Forms</guid>
+        <title><![CDATA[Grim Choices]]></title>
+        <link>https://sparkstonepdx.com/project/Grim%20Choices</link>
+        <guid>https://sparkstonepdx.com/project/Grim%20Choices</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
-        <description>Simple, Shareable Forms Built for Real People</description>
+        <description>A human-centered planning tool for documenting end-of-life decisions with clarity and care. Designed to reduce uncertainty and emotional burden for loved ones.</description>
       </item>
     ,
       <item>
-        <title><![CDATA[Sparkstone/css]]></title>
-        <link>https://sparkstonepdx.com/project/Sparkstone%2Fcss</link>
-        <guid>https://sparkstonepdx.com/project/Sparkstone%2Fcss</guid>
+        <title><![CDATA[katachi]]></title>
+        <link>https://sparkstonepdx.com/project/katachi</link>
+        <guid>https://sparkstonepdx.com/project/katachi</guid>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        <description>Fast-paced, real-time puzzle battles. Last stack standing.</description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[sparkstone/css]]></title>
+        <link>https://sparkstonepdx.com/project/sparkstone%2Fcss</link>
+        <guid>https://sparkstonepdx.com/project/sparkstone%2Fcss</guid>
         <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
         <description>I Finally Built the CSS Framework I Wanted</description>
-      </item>
-    ,
-      <item>
-        <title><![CDATA[feature-flags]]></title>
-        <link>https://sparkstonepdx.com/project/feature-flags</link>
-        <guid>https://sparkstonepdx.com/project/feature-flags</guid>
-        <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
-        <description>Tiny, framework-agnostic feature flags for TypeScript.</description>
-      </item>
-    ,
-      <item>
-        <title><![CDATA[id-order-spacing]]></title>
-        <link>https://sparkstonepdx.com/project/id-order-spacing</link>
-        <guid>https://sparkstonepdx.com/project/id-order-spacing</guid>
-        <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
-        <description>Minimal, collision-safe ordering for sortable lists.</description>
       </item>
     ,
       <item>
@@ -71,46 +63,6 @@
       </item>
     ,
       <item>
-        <title><![CDATA[North Tabor Yard Sale Map]]></title>
-        <link>https://sparkstonepdx.com/project/North%20Tabor%20Yard%20Sale%20Map</link>
-        <guid>https://sparkstonepdx.com/project/North%20Tabor%20Yard%20Sale%20Map</guid>
-        <pubDate>Sat, 22 Mar 2025 18:39:00 GMT</pubDate>
-        <description>How we mapped 32 sales, drew over 3 thousand visitors, and helped a community plant sale sell out before noon</description>
-      </item>
-    ,
-      <item>
-        <title><![CDATA[katachi]]></title>
-        <link>https://sparkstonepdx.com/project/katachi</link>
-        <guid>https://sparkstonepdx.com/project/katachi</guid>
-        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
-        <description>Fast-paced, real-time puzzle battles. Last stack standing.</description>
-      </item>
-    ,
-      <item>
-        <title><![CDATA[tasks]]></title>
-        <link>https://sparkstonepdx.com/project/tasks</link>
-        <guid>https://sparkstonepdx.com/project/tasks</guid>
-        <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
-        <description>Local-first, collaborative notes and tasks—built for offline reliability.</description>
-      </item>
-    ,
-      <item>
-        <title><![CDATA[Arcanetable]]></title>
-        <link>https://sparkstonepdx.com/project/Arcanetable</link>
-        <guid>https://sparkstonepdx.com/project/Arcanetable</guid>
-        <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
-        <description>A browser-based 3D virtual tabletop built for playtesting trading card games. Arcanetable gives designers and playgroups a flexible, shared space to test ideas together without enforcing rules or workflows.</description>
-      </item>
-    ,
-      <item>
-        <title><![CDATA[version-json]]></title>
-        <link>https://sparkstonepdx.com/project/version-json</link>
-        <guid>https://sparkstonepdx.com/project/version-json</guid>
-        <pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate>
-        <description>Effortless versioning for long-lived JSON payloads.</description>
-      </item>
-    ,
-      <item>
         <title><![CDATA[Blathadex]]></title>
         <link>https://sparkstonepdx.com/project/Blathadex</link>
         <guid>https://sparkstonepdx.com/project/Blathadex</guid>
@@ -124,6 +76,54 @@
         <guid>https://sparkstonepdx.com/project/dawei</guid>
         <pubDate>Sat, 16 Jan 2021 00:00:00 GMT</pubDate>
         <description>Minimal, flexible state management for React.</description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[feature-flags]]></title>
+        <link>https://sparkstonepdx.com/project/feature-flags</link>
+        <guid>https://sparkstonepdx.com/project/feature-flags</guid>
+        <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
+        <description>Tiny, framework-agnostic feature flags for TypeScript.</description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[id-order-spacing]]></title>
+        <link>https://sparkstonepdx.com/project/id-order-spacing</link>
+        <guid>https://sparkstonepdx.com/project/id-order-spacing</guid>
+        <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+        <description>Minimal, collision-safe ordering for sortable lists.</description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[North Tabor Yard Sale Map]]></title>
+        <link>https://sparkstonepdx.com/project/North%20Tabor%20Yard%20Sale%20Map</link>
+        <guid>https://sparkstonepdx.com/project/North%20Tabor%20Yard%20Sale%20Map</guid>
+        <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
+        <description>How we mapped 32 sales, drew over 3 thousand visitors, and helped a community plant sale sell out before noon.</description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[solid forms]]></title>
+        <link>https://sparkstonepdx.com/project/solid%20forms</link>
+        <guid>https://sparkstonepdx.com/project/solid%20forms</guid>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
+        <description>Simple, Shareable Forms Built for Real People</description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[tasks]]></title>
+        <link>https://sparkstonepdx.com/project/tasks</link>
+        <guid>https://sparkstonepdx.com/project/tasks</guid>
+        <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+        <description>Local-first, collaborative notes and tasks—built for offline reliability.</description>
+      </item>
+    ,
+      <item>
+        <title><![CDATA[version-json]]></title>
+        <link>https://sparkstonepdx.com/project/version-json</link>
+        <guid>https://sparkstonepdx.com/project/version-json</guid>
+        <pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate>
+        <description>Effortless versioning for long-lived JSON payloads.</description>
       </item>
     
       </channel>
