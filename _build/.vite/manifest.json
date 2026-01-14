@@ -3,8 +3,12 @@
     "file": "assets/HttpStatusCode-DjTx85av.js",
     "name": "HttpStatusCode"
   },
-  "_about-section-B5dag6fB.js": {
-    "file": "assets/about-section-B5dag6fB.js",
+  "_about-section-BVs4yY_U.css": {
+    "file": "assets/about-section-BVs4yY_U.css",
+    "src": "_about-section-BVs4yY_U.css"
+  },
+  "_about-section-DOWECW66.js": {
+    "file": "assets/about-section-DOWECW66.js",
     "name": "about-section",
     "imports": [
       "_preload-helper-ug3pwPZ1.js",
@@ -21,10 +25,6 @@
     "css": [
       "assets/about-section-BVs4yY_U.css"
     ]
-  },
-  "_about-section-BVs4yY_U.css": {
-    "file": "assets/about-section-BVs4yY_U.css",
-    "src": "_about-section-BVs4yY_U.css"
   },
   "_animation-Cctr2Xef.js": {
     "file": "assets/animation-Cctr2Xef.js",
@@ -93,8 +93,8 @@
       "_solid-CBRdhu3b.js"
     ]
   },
-  "_meta-tags-Ch-r3pNj.js": {
-    "file": "assets/meta-tags-Ch-r3pNj.js",
+  "_meta-tags-BMhtRh7m.js": {
+    "file": "assets/meta-tags-BMhtRh7m.js",
     "name": "meta-tags",
     "imports": [
       "_footer-Bstxb7w_.js",
@@ -260,7 +260,7 @@
     "src": "public/hero.jpg"
   },
   "src/data/contributors/adam-sparks.md": {
-    "file": "assets/adam-sparks-BP86O6PG.js",
+    "file": "assets/adam-sparks-r87mSzOp.js",
     "name": "adam-sparks",
     "src": "src/data/contributors/adam-sparks.md",
     "isDynamicEntry": true,
@@ -271,7 +271,7 @@
     ]
   },
   "src/data/contributors/lin-wang.md": {
-    "file": "assets/lin-wang-BSwongdl.js",
+    "file": "assets/lin-wang-BO1s4p18.js",
     "name": "lin-wang",
     "src": "src/data/contributors/lin-wang.md",
     "isDynamicEntry": true,
@@ -282,7 +282,7 @@
     ]
   },
   "src/data/contributors/monica-welty.md": {
-    "file": "assets/monica-welty-DQxlcIed.js",
+    "file": "assets/monica-welty-ChJY8ssd.js",
     "name": "monica-welty",
     "src": "src/data/contributors/monica-welty.md",
     "isDynamicEntry": true,
@@ -293,7 +293,7 @@
     ]
   },
   "src/data/contributors/you.md": {
-    "file": "assets/you-C4wHGTe_.js",
+    "file": "assets/you-BiuPztQh.js",
     "name": "you",
     "src": "src/data/contributors/you.md",
     "isDynamicEntry": true,
@@ -314,7 +314,7 @@
     ]
   },
   "src/routes/[...404].mdx?pick=$css": {
-    "file": "assets/_...404_-D6fHIPPO.js",
+    "file": "assets/_...404_-dE-TbTng.js",
     "name": "_...404_",
     "src": "src/routes/[...404].mdx?pick=$css",
     "isEntry": true,
@@ -327,7 +327,7 @@
     ]
   },
   "src/routes/about.mdx?pick=$css": {
-    "file": "assets/about-AkcU41xw.js",
+    "file": "assets/about-Cl7qDc7V.js",
     "name": "about",
     "src": "src/routes/about.mdx?pick=$css",
     "isEntry": true,
@@ -335,7 +335,7 @@
     "imports": [
       "_web-D9HcAmXK.js",
       "_index-CO3KURWx.js",
-      "_about-section-B5dag6fB.js",
+      "_about-section-DOWECW66.js",
       "_solid-CBRdhu3b.js",
       "_preload-helper-ug3pwPZ1.js",
       "_routes-C45221wd.js"
@@ -420,7 +420,7 @@
     ]
   },
   "src/routes/contact.tsx?pick=default&pick=$css": {
-    "file": "assets/contact-D4_MwJ3c.js",
+    "file": "assets/contact-DZWLUEiq.js",
     "name": "contact",
     "src": "src/routes/contact.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -431,7 +431,7 @@
       "_solid-CBRdhu3b.js",
       "_header-CJhEAd4T.js",
       "_config-context-Bt3Lq7ah.js",
-      "_meta-tags-Ch-r3pNj.js",
+      "_meta-tags-BMhtRh7m.js",
       "_footer-Bstxb7w_.js",
       "_sparkstone-logo-full-BzSmPZhe.js",
       "_youtube-BVzIT54F.js"
@@ -454,7 +454,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-CVHCVcvL.js",
+    "file": "assets/index-B2qGRghR.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -464,12 +464,12 @@
       "_sparkstone-logo-full-BzSmPZhe.js",
       "_preload-helper-ug3pwPZ1.js",
       "_animation-Cctr2Xef.js",
-      "_meta-tags-Ch-r3pNj.js",
+      "_meta-tags-BMhtRh7m.js",
       "_footer-Bstxb7w_.js",
       "_solid-CBRdhu3b.js",
       "_header-CJhEAd4T.js",
       "_routes-C45221wd.js",
-      "_about-section-B5dag6fB.js",
+      "_about-section-DOWECW66.js",
       "_youtube-BVzIT54F.js"
     ],
     "dynamicImports": [
@@ -511,7 +511,7 @@
     ]
   },
   "src/routes/links/aligned.md?pick=$css": {
-    "file": "assets/aligned-BxOlGsel.js",
+    "file": "assets/aligned-CuCsub6a.js",
     "name": "aligned",
     "src": "src/routes/links/aligned.md?pick=$css",
     "isEntry": true,
@@ -523,7 +523,7 @@
     ]
   },
   "src/routes/links/mentions.md?pick=$css": {
-    "file": "assets/mentions-wPjEbGbL.js",
+    "file": "assets/mentions-BtwqbtVn.js",
     "name": "mentions",
     "src": "src/routes/links/mentions.md?pick=$css",
     "isEntry": true,
@@ -535,7 +535,7 @@
     ]
   },
   "src/routes/post.tsx?pick=default&pick=$css": {
-    "file": "assets/post-DHk80b5Y.js",
+    "file": "assets/post-dN3zIPcV.js",
     "name": "post",
     "src": "src/routes/post.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -548,13 +548,13 @@
       "_header-CJhEAd4T.js",
       "_index-CO3KURWx.js",
       "_post.module-DJjLhV9C.js",
-      "_meta-tags-Ch-r3pNj.js",
+      "_meta-tags-BMhtRh7m.js",
       "_sparkstone-logo-full-BzSmPZhe.js",
       "_youtube-BVzIT54F.js"
     ]
   },
   "src/routes/post/arcanetable-insight.md": {
-    "file": "assets/arcanetable-insight-D2AnRzWc.js",
+    "file": "assets/arcanetable-insight-5z6KSYf6.js",
     "name": "arcanetable-insight",
     "src": "src/routes/post/arcanetable-insight.md",
     "isDynamicEntry": true,
@@ -565,7 +565,7 @@
     ]
   },
   "src/routes/post/arcanetable-insight.md?pick=$css": {
-    "file": "assets/arcanetable-insight-DzxwyWAF.js",
+    "file": "assets/arcanetable-insight-DImSdXCX.js",
     "name": "arcanetable-insight",
     "src": "src/routes/post/arcanetable-insight.md?pick=$css",
     "isEntry": true,
@@ -577,7 +577,7 @@
     ]
   },
   "src/routes/post/build-with-people.md": {
-    "file": "assets/build-with-people-C16X-Nqr.js",
+    "file": "assets/build-with-people-gS-lesRJ.js",
     "name": "build-with-people",
     "src": "src/routes/post/build-with-people.md",
     "isDynamicEntry": true,
@@ -588,7 +588,7 @@
     ]
   },
   "src/routes/post/build-with-people.md?pick=$css": {
-    "file": "assets/build-with-people-Nfwzy0U-.js",
+    "file": "assets/build-with-people-SKavEO7f.js",
     "name": "build-with-people",
     "src": "src/routes/post/build-with-people.md?pick=$css",
     "isEntry": true,
@@ -600,7 +600,7 @@
     ]
   },
   "src/routes/post/cryptpads-url-trick.md": {
-    "file": "assets/cryptpads-url-trick-DMrxxBH5.js",
+    "file": "assets/cryptpads-url-trick-D4Aki7KR.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/post/cryptpads-url-trick.md",
     "isDynamicEntry": true,
@@ -611,7 +611,7 @@
     ]
   },
   "src/routes/post/cryptpads-url-trick.md?pick=$css": {
-    "file": "assets/cryptpads-url-trick-DJDDwknJ.js",
+    "file": "assets/cryptpads-url-trick-BbpzG5la.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/post/cryptpads-url-trick.md?pick=$css",
     "isEntry": true,
@@ -623,7 +623,7 @@
     ]
   },
   "src/routes/post/openmls-looked-like-the-perfect-answer.md": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-DWLd0Ojs.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-C5iXJMgK.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/post/openmls-looked-like-the-perfect-answer.md",
     "isDynamicEntry": true,
@@ -634,7 +634,7 @@
     ]
   },
   "src/routes/post/openmls-looked-like-the-perfect-answer.md?pick=$css": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-C3h-exbg.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-DFlXLi1T.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/post/openmls-looked-like-the-perfect-answer.md?pick=$css",
     "isEntry": true,
@@ -646,7 +646,7 @@
     ]
   },
   "src/routes/posts/index.tsx?pick=PostsGrid&pick=getPostsRss&pick=default&pick=$css": {
-    "file": "assets/index-BzsuDj7D.js",
+    "file": "assets/index-D5IrX1FD.js",
     "name": "index",
     "src": "src/routes/posts/index.tsx?pick=PostsGrid&pick=getPostsRss&pick=default&pick=$css",
     "isEntry": true,
@@ -657,7 +657,7 @@
       "_solid-CBRdhu3b.js",
       "_footer-Bstxb7w_.js",
       "_header-CJhEAd4T.js",
-      "_meta-tags-Ch-r3pNj.js",
+      "_meta-tags-BMhtRh7m.js",
       "_routes-C45221wd.js",
       "_sparkstone-logo-full-BzSmPZhe.js",
       "_youtube-BVzIT54F.js"
@@ -674,7 +674,7 @@
     ]
   },
   "src/routes/project.tsx?pick=default&pick=$css": {
-    "file": "assets/project-lfTIrblx.js",
+    "file": "assets/project-DCv_rycg.js",
     "name": "project",
     "src": "src/routes/project.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -687,13 +687,13 @@
       "_header-CJhEAd4T.js",
       "_index-CO3KURWx.js",
       "_post.module-DJjLhV9C.js",
-      "_meta-tags-Ch-r3pNj.js",
+      "_meta-tags-BMhtRh7m.js",
       "_sparkstone-logo-full-BzSmPZhe.js",
       "_youtube-BVzIT54F.js"
     ]
   },
   "src/routes/project/arcanetable.md": {
-    "file": "assets/arcanetable-BTIyuxyR.js",
+    "file": "assets/arcanetable-C7TQkQmX.js",
     "name": "arcanetable",
     "src": "src/routes/project/arcanetable.md",
     "isDynamicEntry": true,
@@ -704,7 +704,7 @@
     ]
   },
   "src/routes/project/arcanetable.md?pick=$css": {
-    "file": "assets/arcanetable-BttkSTfR.js",
+    "file": "assets/arcanetable-BPMha7vR.js",
     "name": "arcanetable",
     "src": "src/routes/project/arcanetable.md?pick=$css",
     "isEntry": true,
@@ -716,7 +716,7 @@
     ]
   },
   "src/routes/project/blathadex.md": {
-    "file": "assets/blathadex-CHR8FLqx.js",
+    "file": "assets/blathadex-ChK-U_54.js",
     "name": "blathadex",
     "src": "src/routes/project/blathadex.md",
     "isDynamicEntry": true,
@@ -727,7 +727,7 @@
     ]
   },
   "src/routes/project/blathadex.md?pick=$css": {
-    "file": "assets/blathadex-DkwHrH61.js",
+    "file": "assets/blathadex-DzE1Um9R.js",
     "name": "blathadex",
     "src": "src/routes/project/blathadex.md?pick=$css",
     "isEntry": true,
@@ -739,7 +739,7 @@
     ]
   },
   "src/routes/project/dawei.md": {
-    "file": "assets/dawei-BpjeUHm9.js",
+    "file": "assets/dawei-BR07GEH3.js",
     "name": "dawei",
     "src": "src/routes/project/dawei.md",
     "isDynamicEntry": true,
@@ -750,7 +750,7 @@
     ]
   },
   "src/routes/project/dawei.md?pick=$css": {
-    "file": "assets/dawei-4xG43XRn.js",
+    "file": "assets/dawei-CrnjDPot.js",
     "name": "dawei",
     "src": "src/routes/project/dawei.md?pick=$css",
     "isEntry": true,
@@ -762,7 +762,7 @@
     ]
   },
   "src/routes/project/feature-flags.md": {
-    "file": "assets/feature-flags-lazvToKi.js",
+    "file": "assets/feature-flags-Dl8Q4Plv.js",
     "name": "feature-flags",
     "src": "src/routes/project/feature-flags.md",
     "isDynamicEntry": true,
@@ -773,7 +773,7 @@
     ]
   },
   "src/routes/project/feature-flags.md?pick=$css": {
-    "file": "assets/feature-flags-CouNIqkO.js",
+    "file": "assets/feature-flags-Bp0Upp6q.js",
     "name": "feature-flags",
     "src": "src/routes/project/feature-flags.md?pick=$css",
     "isEntry": true,
@@ -785,7 +785,7 @@
     ]
   },
   "src/routes/project/grim-choices.md": {
-    "file": "assets/grim-choices-BQlrvEt3.js",
+    "file": "assets/grim-choices-BIW7zdTR.js",
     "name": "grim-choices",
     "src": "src/routes/project/grim-choices.md",
     "isDynamicEntry": true,
@@ -796,7 +796,7 @@
     ]
   },
   "src/routes/project/grim-choices.md?pick=$css": {
-    "file": "assets/grim-choices-XjvOIgoe.js",
+    "file": "assets/grim-choices-CF0mhCit.js",
     "name": "grim-choices",
     "src": "src/routes/project/grim-choices.md?pick=$css",
     "isEntry": true,
@@ -808,7 +808,7 @@
     ]
   },
   "src/routes/project/id-order-spacing.md": {
-    "file": "assets/id-order-spacing-CQlEI_RB.js",
+    "file": "assets/id-order-spacing-535pdxt1.js",
     "name": "id-order-spacing",
     "src": "src/routes/project/id-order-spacing.md",
     "isDynamicEntry": true,
@@ -819,7 +819,7 @@
     ]
   },
   "src/routes/project/id-order-spacing.md?pick=$css": {
-    "file": "assets/id-order-spacing-D4wYc4M0.js",
+    "file": "assets/id-order-spacing-BtFtFJdX.js",
     "name": "id-order-spacing",
     "src": "src/routes/project/id-order-spacing.md?pick=$css",
     "isEntry": true,
@@ -831,7 +831,7 @@
     ]
   },
   "src/routes/project/katachi.md": {
-    "file": "assets/katachi-Cw6fWxZH.js",
+    "file": "assets/katachi-kcVMpT1_.js",
     "name": "katachi",
     "src": "src/routes/project/katachi.md",
     "isDynamicEntry": true,
@@ -842,7 +842,7 @@
     ]
   },
   "src/routes/project/katachi.md?pick=$css": {
-    "file": "assets/katachi-BITf8rA3.js",
+    "file": "assets/katachi-BHm6apqK.js",
     "name": "katachi",
     "src": "src/routes/project/katachi.md?pick=$css",
     "isEntry": true,
@@ -854,7 +854,7 @@
     ]
   },
   "src/routes/project/liveframe.md": {
-    "file": "assets/liveframe-FM0o9g76.js",
+    "file": "assets/liveframe-C2oH7puw.js",
     "name": "liveframe",
     "src": "src/routes/project/liveframe.md",
     "isDynamicEntry": true,
@@ -865,7 +865,7 @@
     ]
   },
   "src/routes/project/liveframe.md?pick=$css": {
-    "file": "assets/liveframe-BRmi3Zwo.js",
+    "file": "assets/liveframe-DAw2AiLg.js",
     "name": "liveframe",
     "src": "src/routes/project/liveframe.md?pick=$css",
     "isEntry": true,
@@ -877,7 +877,7 @@
     ]
   },
   "src/routes/project/ntna-yard-sale-map.md": {
-    "file": "assets/ntna-yard-sale-map-DYZ1G93K.js",
+    "file": "assets/ntna-yard-sale-map-DLewXtmo.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/project/ntna-yard-sale-map.md",
     "isDynamicEntry": true,
@@ -888,7 +888,7 @@
     ]
   },
   "src/routes/project/ntna-yard-sale-map.md?pick=$css": {
-    "file": "assets/ntna-yard-sale-map-aewkYyGu.js",
+    "file": "assets/ntna-yard-sale-map-B_8HvIpK.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/project/ntna-yard-sale-map.md?pick=$css",
     "isEntry": true,
@@ -900,7 +900,7 @@
     ]
   },
   "src/routes/project/pocketbase-schema.md": {
-    "file": "assets/pocketbase-schema-CRl4-6XV.js",
+    "file": "assets/pocketbase-schema-Cpjk8A8f.js",
     "name": "pocketbase-schema",
     "src": "src/routes/project/pocketbase-schema.md",
     "isDynamicEntry": true,
@@ -911,7 +911,7 @@
     ]
   },
   "src/routes/project/pocketbase-schema.md?pick=$css": {
-    "file": "assets/pocketbase-schema-o7hwHcIf.js",
+    "file": "assets/pocketbase-schema-D-sXxGuo.js",
     "name": "pocketbase-schema",
     "src": "src/routes/project/pocketbase-schema.md?pick=$css",
     "isEntry": true,
@@ -923,7 +923,7 @@
     ]
   },
   "src/routes/project/solid-forms.md": {
-    "file": "assets/solid-forms-DzFn86xA.js",
+    "file": "assets/solid-forms-C_2kSql-.js",
     "name": "solid-forms",
     "src": "src/routes/project/solid-forms.md",
     "isDynamicEntry": true,
@@ -934,7 +934,7 @@
     ]
   },
   "src/routes/project/solid-forms.md?pick=$css": {
-    "file": "assets/solid-forms-CJxpZRHA.js",
+    "file": "assets/solid-forms-ZwDFOVRb.js",
     "name": "solid-forms",
     "src": "src/routes/project/solid-forms.md?pick=$css",
     "isEntry": true,
@@ -946,7 +946,7 @@
     ]
   },
   "src/routes/project/solid-validation.md": {
-    "file": "assets/solid-validation-C2ZLjrEw.js",
+    "file": "assets/solid-validation-BzeNDbwV.js",
     "name": "solid-validation",
     "src": "src/routes/project/solid-validation.md",
     "isDynamicEntry": true,
@@ -957,7 +957,7 @@
     ]
   },
   "src/routes/project/solid-validation.md?pick=$css": {
-    "file": "assets/solid-validation-CqBmU5s4.js",
+    "file": "assets/solid-validation-Bzm-gDM1.js",
     "name": "solid-validation",
     "src": "src/routes/project/solid-validation.md?pick=$css",
     "isEntry": true,
@@ -969,7 +969,7 @@
     ]
   },
   "src/routes/project/sparkstone-css.md": {
-    "file": "assets/sparkstone-css-olqO9ILx.js",
+    "file": "assets/sparkstone-css-D3gbzAU-.js",
     "name": "sparkstone-css",
     "src": "src/routes/project/sparkstone-css.md",
     "isDynamicEntry": true,
@@ -980,7 +980,7 @@
     ]
   },
   "src/routes/project/sparkstone-css.md?pick=$css": {
-    "file": "assets/sparkstone-css--hPe5CuF.js",
+    "file": "assets/sparkstone-css-BzSFEEjg.js",
     "name": "sparkstone-css",
     "src": "src/routes/project/sparkstone-css.md?pick=$css",
     "isEntry": true,
@@ -992,7 +992,7 @@
     ]
   },
   "src/routes/project/tasks.md": {
-    "file": "assets/tasks-B43Kg8gD.js",
+    "file": "assets/tasks-bqeQClsc.js",
     "name": "tasks",
     "src": "src/routes/project/tasks.md",
     "isDynamicEntry": true,
@@ -1003,7 +1003,7 @@
     ]
   },
   "src/routes/project/tasks.md?pick=$css": {
-    "file": "assets/tasks-D9R1BlEK.js",
+    "file": "assets/tasks-jXpLuqlH.js",
     "name": "tasks",
     "src": "src/routes/project/tasks.md?pick=$css",
     "isEntry": true,
@@ -1015,7 +1015,7 @@
     ]
   },
   "src/routes/project/version-json.md": {
-    "file": "assets/version-json-C4GUQxS9.js",
+    "file": "assets/version-json-Bu-Og4kv.js",
     "name": "version-json",
     "src": "src/routes/project/version-json.md",
     "isDynamicEntry": true,
@@ -1026,7 +1026,7 @@
     ]
   },
   "src/routes/project/version-json.md?pick=$css": {
-    "file": "assets/version-json-DZ9W7iGU.js",
+    "file": "assets/version-json-BJO9HhU9.js",
     "name": "version-json",
     "src": "src/routes/project/version-json.md?pick=$css",
     "isEntry": true,
@@ -1038,7 +1038,7 @@
     ]
   },
   "src/routes/projects/index.tsx?pick=ProjectsGrid&pick=getPostsRss&pick=default&pick=$css": {
-    "file": "assets/index-CsZggbsv.js",
+    "file": "assets/index-CyyHAMjS.js",
     "name": "index",
     "src": "src/routes/projects/index.tsx?pick=ProjectsGrid&pick=getPostsRss&pick=default&pick=$css",
     "isEntry": true,
@@ -1049,7 +1049,7 @@
       "_solid-CBRdhu3b.js",
       "_footer-Bstxb7w_.js",
       "_header-CJhEAd4T.js",
-      "_meta-tags-Ch-r3pNj.js",
+      "_meta-tags-BMhtRh7m.js",
       "_routes-C45221wd.js",
       "_sparkstone-logo-full-BzSmPZhe.js",
       "_youtube-BVzIT54F.js"
@@ -1110,7 +1110,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-Bh-Re-4B.js",
+    "file": "assets/client-BCzmPJ5y.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
