@@ -16,8 +16,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 20 characters"] }
       - {name: "layout", widget: "hidden", default: "post"}
-      - {label: "Created", name: "created", widget: "dateTime", default: "{{now}}" }
-      - {label: "Published", name: "published", widget: "dateTime", default: "{{now}}"}
+      - {label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
+      - {label: "Published", name: "published", widget: "datetime", default: "{{now}}"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: 'Blurb', name: 'blurb', widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -31,8 +31,8 @@ collections:
       - {label: "Title", name: "title", widget: "string", pattern: ['.{5,}', "Must have at least 20 characters"] }
       - {label: "Popularity Rank", name: 'rank', widget: "number", required: false}
       - {  name: "layout", widget: "hidden", default: "post"}
-      - {label: "Created", name: "created", widget: "dateTime", default: "{{now}}" }
-      - {label: "Published", name: "published", widget: "dateTime", default: "{{now}}"}
+      - {label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
+      - {label: "Published", name: "published", widget: "datetime", default: "{{now}}"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: 'Blurb', name: 'blurb', widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
