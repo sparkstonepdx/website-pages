@@ -2,7 +2,7 @@
 backend:
   name: github
   repo: sparkstonepdx/website-src
-  
+
 media_folder: "/public"
 public_folder: "/"
 app_title: Sparkstone Admin
@@ -19,6 +19,7 @@ collections:
       - {label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
       - {label: "Published", name: "published", widget: "datetime", default: "{{now}}"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
       - {label: 'Blurb', name: 'blurb', widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -34,6 +35,7 @@ collections:
       - {label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
       - {label: "Published", name: "published", widget: "datetime", default: "{{now}}"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
       - {label: 'Blurb', name: 'blurb', widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
