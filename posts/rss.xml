@@ -7,6 +7,14 @@
         <description>research and musings at Sparkstone LLC</description>
         
       <item>
+        <title><![CDATA[Syncing Single Files Across Repos Without ceremony]]></title>
+        <link>https://sparkstonepdx.com/post/Syncing%20Single%20Files%20Across%20Repos%20Without%20ceremony</link>
+        <guid>https://sparkstonepdx.com/post/Syncing%20Single%20Files%20Across%20Repos%20Without%20ceremony</guid>
+        <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[We all have useful shared files spread over multiple repos. npm is too heavy and copying by hand makes a mess.  There is an easier way. filesync closes the gap with git merges across repos, a one-line provenance header, and private-first regions for the parts you can't share.]]></description>
+      </item>
+    ,
+      <item>
         <title><![CDATA[Edible Neighborhoods]]></title>
         <link>https://sparkstonepdx.com/post/Edible%20Neighborhoods</link>
         <guid>https://sparkstonepdx.com/post/Edible%20Neighborhoods</guid>
@@ -27,7 +35,7 @@
         <link>https://sparkstonepdx.com/post/Build%20With%20People%2C%20Not%20In%20Isolation</link>
         <guid>https://sparkstonepdx.com/post/Build%20With%20People%2C%20Not%20In%20Isolation</guid>
         <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
-        <description><![CDATA[A lot of us want to help. We want to build good software, useful tools, things that matter. There’s a strong urge to retreat into making “the right thing” — to design something elegant, principled, and technically solid as a response to everything feeling chaotic.]]></description>
+        <description><![CDATA[A lot of us want to help by building good, useful things. But retreating to make the elegant, principled "right thing" in isolation is a trap. Software matters because it gets used, and the surest way to get it used is to build it with the people who need it.]]></description>
       </item>
     ,
       <item>
