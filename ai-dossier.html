@@ -514,23 +514,30 @@ Fill every field. Keep each string short enough to fit on a card.`;
     return JSON.parse(new TextDecoder().decode(bytes));
   }
 
-  // Share: on a phone this opens the share sheet with the image attached
+  // Share: opens the OS share sheet with the image plus a make-your-own invite and the link
   $("shareBtn").addEventListener("click", async () => {
     const btn = $("shareBtn");
+    const link = "https://" + SITE_URL;
+    const pitch = "Here's what my AI thinks it knows about me. Make your own here:";
+    const title = "What Your AI Knows About You";
     try {
       busy(btn, true, "Preparing...");
       const canvas = await renderCanvas();
       const file = new File([await canvasBlob(canvas)], "ai-dossier-" + normalizeName() + ".png", { type: "image/png" });
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
-        await navigator.share({ files: [file], title: "My AI dossier", text: "Here is what my AI thinks it knows about me. Make yours: https://" + SITE_URL });
+        await navigator.share({ files: [file], title: title, text: pitch + " " + link });
         flash("Shared.", "var(--file)");
+      } else if (navigator.share) {
+        await navigator.share({ title: title, text: pitch, url: link });
+        downloadCanvas(canvas);
+        flash("Your device shared the link but would not attach the image, so it downloaded for you.", "var(--file)");
       } else {
         downloadCanvas(canvas);
-        flash("Sharing is not available here, so the image downloaded instead.", "var(--file)");
+        flash("Sharing is not available here, so the image downloaded. Use Copy link to send the link.", "var(--file)");
       }
     } catch (e) {
       if (e && e.name === "AbortError") flash("", "");
-      else flash("Could not share. Try Copy image or Download.", "var(--amber)");
+      else flash("Could not share. Try Copy image or Copy link.", "var(--amber)");
     } finally { busy(btn, false); }
   });
 
