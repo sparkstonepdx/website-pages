@@ -465,6 +465,15 @@ Fill every field. Keep each string short enough to fit on a card.`;
   $("sampleBtn").addEventListener("click", () => { $("input").value = JSON.stringify(SAMPLE, null, 2); $("msg").textContent = ""; build(false); });
   let deb; $("input").addEventListener("input", () => { clearTimeout(deb); deb = setTimeout(() => build(false), 350); });
 
+  // tap or click into the paste box selects everything, so a new reply pastes over the old one
+  (function () {
+    const input = $("input");
+    let wasFocused = false;
+    input.addEventListener("mousedown", () => { wasFocused = document.activeElement === input; });
+    input.addEventListener("focus", () => input.select());
+    input.addEventListener("mouseup", (e) => { if (!wasFocused) e.preventDefault(); });
+  })();
+
   function normalizeName() {
     const el = $("card").querySelector(".codename");
     const base = el ? el.textContent : "dossier";
