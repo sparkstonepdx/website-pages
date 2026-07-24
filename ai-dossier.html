@@ -61,7 +61,7 @@
 
   /* ---- tool chrome ---- */
   .controls { display: grid; gap: 16px; }
-  .step { background: var(--panel); border: 1px solid var(--panel-line); border-radius: 4px; padding: 16px; }
+  .step { background: var(--panel); border: 1px solid var(--panel-line); border-radius: 4px; padding: 16px; transition: border-color 220ms ease, box-shadow 220ms ease; }
   .step .num {
     display: inline-block; font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
     color: var(--file); background: rgba(44, 90, 86, 0.16);
@@ -201,6 +201,26 @@
   .cardfoot .src { color: var(--stamp); font-weight: 700; }
 
   .exportrow { display: flex; justify-content: center; gap: 8px; margin-top: 18px; flex-wrap: wrap; }
+  .exporthint { text-align: center; font-size: 11px; color: #9a9b8c; margin: 10px auto 0; max-width: 430px; line-height: 1.5; }
+
+  /* ---- viral landing (shown only when opened from a shared link) ---- */
+  .cta { display: none; margin: 0 0 26px; padding: 20px 22px; border: 1px solid var(--panel-line); border-left: 3px solid var(--stamp); border-radius: 4px; background: linear-gradient(180deg, #34352e, #2e2f28); }
+  .cta .eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--stamp); font-weight: 700; margin: 0 0 8px; }
+  .cta h2 { font-family: var(--sans); font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; font-size: clamp(20px, 4.5vw, 30px); line-height: 1.03; margin: 0 0 8px; color: #f0efe4; }
+  .cta p { font-size: 13px; line-height: 1.55; color: #b4b5a6; margin: 0 0 14px; max-width: 560px; }
+  .cta .cta-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .cta .cta-note { font-size: 11px; color: #9a9b8c; line-height: 1.4; }
+  #ctaBtn { font-size: 13px; padding: 11px 18px; }
+
+  .shared .cta { display: block; }
+  .shared .masthead { display: none; }
+  #step1.pulse { border-color: var(--stamp); box-shadow: 0 0 0 2px rgba(158, 43, 37, 0.4); }
+  @media (max-width: 859px) {
+    .shared .showcase { order: -1; }
+  }
+
+  .pagefoot { max-width: 640px; margin: 36px auto 0; text-align: center; font-size: 11px; line-height: 1.65; color: #86877a; }
+  .pagefoot .pf-eyebrow { display: block; font-size: 9px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--file); font-weight: 700; margin-bottom: 7px; }
 
   @media (prefers-reduced-motion: no-preference) {
     .card { animation: dropin 340ms cubic-bezier(0.2, 0.7, 0.2, 1) both; }
@@ -218,9 +238,11 @@
     <p>Run the prompt on your assistant. Paste back whatever it says. You get the same clean dossier no matter which model your friend used, so you can line them up and see whose AI is keeping the thickest file.</p>
   </header>
 
+  <div id="cta" class="cta"></div>
+
   <div class="layout">
     <section class="controls">
-      <div class="step">
+      <div class="step" id="step1">
         <span class="num">Step 01</span>
         <h2>Copy the prompt</h2>
         <p class="hint">Send it to your AI. ChatGPT, Claude, Gemini, any of them.</p>
@@ -241,11 +263,22 @@
       </div>
     </section>
 
-    <section>
+    <section class="showcase">
       <div class="stage"><article class="card" id="card"></article></div>
-      <div class="exportrow"><button class="primary" id="pngBtn">Download PNG</button></div>
+      <div class="exportrow">
+        <button class="primary" id="shareBtn">Share</button>
+        <button id="copyImgBtn">Copy image</button>
+        <button id="linkBtn">Copy link</button>
+        <button id="pngBtn">Download PNG</button>
+      </div>
+      <p class="exporthint">Share drops the image into any app on your phone. Copy link reopens this exact card for whoever you send it to.</p>
     </section>
   </div>
+
+  <footer class="pagefoot">
+    <span class="pf-eyebrow">Notice</span>
+    Nothing you paste or make here is collected or sent to a server. Your dossier stays in your browser, and a shared link carries it only to the people you choose to send it to. This is a game, meant for fun and information only. An AI guessing about you gets plenty wrong, so do not take any of it as fact.
+  </footer>
 </div>
 
 <script>
@@ -312,6 +345,10 @@ Fill every field. Keep each string short enough to fit on a card.`;
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const clampPct = (n) => { n = parseInt(n, 10); if (isNaN(n)) n = 50; return Math.max(0, Math.min(100, n)); };
+  let currentData = null;
+  const SITE_URL = (location.protocol.indexOf("http") === 0 && location.host)
+    ? (location.host + location.pathname).replace(/\/$/, "")
+    : "sparkstonepdx.com/ai-dossier";
 
   $("promptText").textContent = PROMPT;
 
@@ -402,9 +439,10 @@ Fill every field. Keep each string short enough to fit on a card.`;
 
       ${d.blind_spots.length ? `<div class="section"><div class="lbl">Blind Spots</div><div class="redacts">${d.blind_spots.map((b) => `<div class="redact"><span class="rk">No Data</span>${esc(b)}</div>`).join("")}</div></div>` : ""}
 
-      <div class="cardfoot"><span>Compiled by <span class="src">${esc(d.generated_by)}</span></span><span>What Your AI Knows</span></div>
+      <div class="cardfoot"><span>Compiled by <span class="src">${esc(d.generated_by)}</span></span><span>${esc(SITE_URL)}</span></div>
     `;
     $("card").innerHTML = html;
+    currentData = d;
   }
 
   function build(showErrors) {
@@ -433,32 +471,132 @@ Fill every field. Keep each string short enough to fit on a card.`;
     return base.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || "dossier";
   }
 
-  $("pngBtn").addEventListener("click", () => {
-    if (typeof html2canvas === "undefined") { $("msg").textContent = "Image export helper did not load. You can still screenshot the card."; return; }
-    const card = $("card");
-    const prev = $("pngBtn").textContent; $("pngBtn").textContent = "Rendering...";
-    html2canvas(card, {
-      scale: 2,
-      backgroundColor: "#e4e3da",
-      useCORS: true,
-      logging: false,
+  function renderCanvas() {
+    if (typeof html2canvas === "undefined") return Promise.reject(new Error("no-lib"));
+    return html2canvas($("card"), {
+      scale: 2, backgroundColor: "#e4e3da", useCORS: true, logging: false,
       onclone: (doc) => {
         const c = doc.getElementById("card");
         if (c) { c.style.boxShadow = "none"; c.style.animation = "none"; }
         const s = c && c.querySelector(".seal");
         if (s) s.style.animation = "none";
       }
-    }).then((canvas) => {
-      const a = document.createElement("a");
-      a.href = canvas.toDataURL("image/png");
-      a.download = "ai-dossier-" + normalizeName() + ".png";
-      a.click();
-      $("pngBtn").textContent = prev;
-    }).catch(() => { $("pngBtn").textContent = prev; $("msg").textContent = "Export failed. Try a screenshot instead."; });
+    });
+  }
+  const canvasBlob = (canvas) => new Promise((res) => canvas.toBlob(res, "image/png"));
+  const flash = (msg, color) => { $("msg").style.color = color || "var(--amber)"; $("msg").textContent = msg; };
+  const busy = (btn, on, label) => { btn.disabled = on; btn.textContent = on ? label : btn.dataset.label; };
+  function downloadCanvas(canvas) {
+    const a = document.createElement("a");
+    a.href = canvas.toDataURL("image/png");
+    a.download = "ai-dossier-" + normalizeName() + ".png";
+    a.click();
+  }
+
+  // encode / decode a dossier into a URL-safe string
+  function encodeData(obj) {
+    const bytes = new TextEncoder().encode(JSON.stringify(obj));
+    let bin = ""; bytes.forEach((b) => (bin += String.fromCharCode(b)));
+    return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+  function decodeData(str) {
+    str = str.replace(/-/g, "+").replace(/_/g, "/");
+    const bytes = Uint8Array.from(atob(str), (c) => c.charCodeAt(0));
+    return JSON.parse(new TextDecoder().decode(bytes));
+  }
+
+  // Share: on a phone this opens the share sheet with the image attached
+  $("shareBtn").addEventListener("click", async () => {
+    const btn = $("shareBtn");
+    try {
+      busy(btn, true, "Preparing...");
+      const canvas = await renderCanvas();
+      const file = new File([await canvasBlob(canvas)], "ai-dossier-" + normalizeName() + ".png", { type: "image/png" });
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({ files: [file], title: "My AI dossier", text: "Here is what my AI thinks it knows about me. Make yours: https://" + SITE_URL });
+        flash("Shared.", "var(--file)");
+      } else {
+        downloadCanvas(canvas);
+        flash("Sharing is not available here, so the image downloaded instead.", "var(--file)");
+      }
+    } catch (e) {
+      if (e && e.name === "AbortError") flash("", "");
+      else flash("Could not share. Try Copy image or Download.", "var(--amber)");
+    } finally { busy(btn, false); }
   });
 
-  $("input").value = JSON.stringify(SAMPLE, null, 2);
-  build(false);
+  // Copy image to clipboard, for pasting into a chat on desktop
+  $("copyImgBtn").addEventListener("click", async () => {
+    const btn = $("copyImgBtn");
+    try {
+      busy(btn, true, "Copying...");
+      const blob = await canvasBlob(await renderCanvas());
+      await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+      flash("Image copied. Paste it into your chat.", "var(--file)");
+    } catch (e) {
+      try { downloadCanvas(await renderCanvas()); flash("Copy is not supported here, so the image downloaded instead.", "var(--file)"); }
+      catch (e2) { flash("Could not copy the image. Try Download.", "var(--amber)"); }
+    } finally { busy(btn, false); }
+  });
+
+  // Copy a link that reopens this exact dossier
+  $("linkBtn").addEventListener("click", async () => {
+    const data = currentData || normalize(SAMPLE);
+    const base = location.origin === "null" ? location.href.split("#")[0] : location.origin + location.pathname;
+    const url = base + "#d=" + encodeData(data);
+    try {
+      await navigator.clipboard.writeText(url);
+      flash(location.protocol === "file:" ? "Link copied. It works for friends once this page is hosted online." : "Link copied.", location.protocol === "file:" ? "var(--amber)" : "var(--file)");
+    } catch (e) { $("input").value = url; flash("Copy failed. The link is in the paste box so you can grab it by hand.", "var(--amber)"); }
+  });
+
+  // Download PNG
+  $("pngBtn").addEventListener("click", async () => {
+    const btn = $("pngBtn");
+    try { busy(btn, true, "Rendering..."); downloadCanvas(await renderCanvas()); }
+    catch (e) { flash("Image export helper did not load. You can still screenshot the card.", "var(--amber)"); }
+    finally { busy(btn, false); }
+  });
+
+  ["shareBtn", "copyImgBtn", "linkBtn", "pngBtn"].forEach((id) => { $(id).dataset.label = $(id).textContent; });
+
+  // when opened from a shared link, turn the page into a "now make yours" landing
+  function enterSharedMode(d) {
+    document.body.classList.add("shared");
+    $("cta").innerHTML = `
+      <p class="eyebrow">A friend ran this on their AI</p>
+      <h2>What does your AI know about you?</h2>
+      <p>Below is <b style="color:var(--paper)">${esc(d.codename)}</b>'s dossier, straight from their assistant. Run the same prompt on yours and see how thick your file is.</p>
+      <div class="cta-actions">
+        <button class="primary" id="ctaBtn">Make my dossier</button>
+        <span class="cta-note" id="ctaNote"></span>
+      </div>`;
+    $("ctaBtn").addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(PROMPT); $("ctaNote").textContent = "Prompt copied. Paste it to your AI, then bring its answer back here."; }
+      catch (e) { $("ctaNote").textContent = "Copy the prompt in step one, then paste your AI's answer below."; }
+      const s = $("step1");
+      s.scrollIntoView({ behavior: "smooth", block: "center" });
+      s.classList.add("pulse");
+      setTimeout(() => s.classList.remove("pulse"), 2200);
+    });
+  }
+
+  // open a shared dossier from the URL if present, otherwise show the sample
+  (function boot() {
+    const m = location.hash.match(/^#d=(.+)$/);
+    if (m) {
+      try {
+        const obj = decodeData(m[1]);
+        $("input").value = JSON.stringify(obj, null, 2);
+        const d = normalize(obj);
+        render(d);
+        enterSharedMode(d);
+        return;
+      } catch (e) { /* fall through to sample */ }
+    }
+    $("input").value = JSON.stringify(SAMPLE, null, 2);
+    build(false);
+  })();
 </script>
 </body>
 </html>
