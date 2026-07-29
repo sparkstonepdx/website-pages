@@ -3,8 +3,8 @@
     "file": "assets/HttpStatusCode-DjTx85av.js",
     "name": "HttpStatusCode"
   },
-  "_about-section-D-Iydfd6.js": {
-    "file": "assets/about-section-D-Iydfd6.js",
+  "_about-section-B6o54Fmn.js": {
+    "file": "assets/about-section-B6o54Fmn.js",
     "name": "about-section",
     "imports": [
       "_preload-helper-ug3pwPZ1.js",
@@ -243,7 +243,7 @@
     "src": "public/hero.webp"
   },
   "src/data/contributors/adam-sparks.md": {
-    "file": "assets/adam-sparks-CSXTaO9_.js",
+    "file": "assets/adam-sparks-5JMw2ECc.js",
     "name": "adam-sparks",
     "src": "src/data/contributors/adam-sparks.md",
     "isDynamicEntry": true,
@@ -254,7 +254,7 @@
     ]
   },
   "src/data/contributors/lin-wang.md": {
-    "file": "assets/lin-wang-CRnjFzLU.js",
+    "file": "assets/lin-wang-DTWbzGDB.js",
     "name": "lin-wang",
     "src": "src/data/contributors/lin-wang.md",
     "isDynamicEntry": true,
@@ -265,7 +265,7 @@
     ]
   },
   "src/data/contributors/monica-welty.md": {
-    "file": "assets/monica-welty-Bqj1cw76.js",
+    "file": "assets/monica-welty-B3QRS6pP.js",
     "name": "monica-welty",
     "src": "src/data/contributors/monica-welty.md",
     "isDynamicEntry": true,
@@ -276,7 +276,7 @@
     ]
   },
   "src/data/contributors/you.md": {
-    "file": "assets/you-DYbIUnDq.js",
+    "file": "assets/you-CA6RN1P4.js",
     "name": "you",
     "src": "src/data/contributors/you.md",
     "isDynamicEntry": true,
@@ -297,7 +297,7 @@
     ]
   },
   "src/routes/[...404].mdx?pick=$css": {
-    "file": "assets/_...404_-94bLHKd1.js",
+    "file": "assets/_...404_-49aDH2ha.js",
     "name": "_...404_",
     "src": "src/routes/[...404].mdx?pick=$css",
     "isEntry": true,
@@ -310,7 +310,7 @@
     ]
   },
   "src/routes/about.mdx?pick=$css": {
-    "file": "assets/about-DW0zXgWK.js",
+    "file": "assets/about-Co6zrgxF.js",
     "name": "about",
     "src": "src/routes/about.mdx?pick=$css",
     "isEntry": true,
@@ -318,7 +318,7 @@
     "imports": [
       "_web-DQMegCKO.js",
       "_index-DkW_6x52.js",
-      "_about-section-D-Iydfd6.js",
+      "_about-section-B6o54Fmn.js",
       "_solid-BA4oW9hv.js",
       "_preload-helper-ug3pwPZ1.js",
       "_routes-BtTDLt_e.js"
@@ -437,7 +437,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-6--J5ar5.js",
+    "file": "assets/index-Czkh9KiZ.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -452,7 +452,7 @@
       "_solid-BA4oW9hv.js",
       "_header-CqJg8rTp.js",
       "_routes-BtTDLt_e.js",
-      "_about-section-D-Iydfd6.js",
+      "_about-section-B6o54Fmn.js",
       "_youtube-BmyoNzE0.js",
       "_main.modern-Df4lzn4C.js"
     ],
@@ -497,7 +497,7 @@
     ]
   },
   "src/routes/links/aligned.md?pick=$css": {
-    "file": "assets/aligned-BtxxdFak.js",
+    "file": "assets/aligned-D9XrpIda.js",
     "name": "aligned",
     "src": "src/routes/links/aligned.md?pick=$css",
     "isEntry": true,
@@ -509,7 +509,7 @@
     ]
   },
   "src/routes/links/mentions.md?pick=$css": {
-    "file": "assets/mentions-BHkUPzCG.js",
+    "file": "assets/mentions-h4CMAzqx.js",
     "name": "mentions",
     "src": "src/routes/links/mentions.md?pick=$css",
     "isEntry": true,
@@ -541,7 +541,7 @@
     ]
   },
   "src/routes/post/2026-06-28-filesync.md": {
-    "file": "assets/2026-06-28-filesync-Dez67LHD.js",
+    "file": "assets/2026-06-28-filesync-Dy5ZQHwk.js",
     "name": "2026-06-28-filesync",
     "src": "src/routes/post/2026-06-28-filesync.md",
     "isDynamicEntry": true,
@@ -552,7 +552,7 @@
     ]
   },
   "src/routes/post/2026-06-28-filesync.md?pick=$css": {
-    "file": "assets/2026-06-28-filesync-Dud28e4a.js",
+    "file": "assets/2026-06-28-filesync-ByaD7gqr.js",
     "name": "2026-06-28-filesync",
     "src": "src/routes/post/2026-06-28-filesync.md?pick=$css",
     "isEntry": true,
@@ -564,7 +564,7 @@
     ]
   },
   "src/routes/post/arcanetable-insight.md": {
-    "file": "assets/arcanetable-insight-DLklhRNg.js",
+    "file": "assets/arcanetable-insight-CfvVqTK6.js",
     "name": "arcanetable-insight",
     "src": "src/routes/post/arcanetable-insight.md",
     "isDynamicEntry": true,
@@ -575,7 +575,7 @@
     ]
   },
   "src/routes/post/arcanetable-insight.md?pick=$css": {
-    "file": "assets/arcanetable-insight-rBWJV3CR.js",
+    "file": "assets/arcanetable-insight-B9LNabIK.js",
     "name": "arcanetable-insight",
     "src": "src/routes/post/arcanetable-insight.md?pick=$css",
     "isEntry": true,
@@ -587,7 +587,7 @@
     ]
   },
   "src/routes/post/build-with-people.md": {
-    "file": "assets/build-with-people-BkonUnYx.js",
+    "file": "assets/build-with-people-CMNyQPrr.js",
     "name": "build-with-people",
     "src": "src/routes/post/build-with-people.md",
     "isDynamicEntry": true,
@@ -598,7 +598,7 @@
     ]
   },
   "src/routes/post/build-with-people.md?pick=$css": {
-    "file": "assets/build-with-people-C7CJaVTu.js",
+    "file": "assets/build-with-people-D1aZwXzL.js",
     "name": "build-with-people",
     "src": "src/routes/post/build-with-people.md?pick=$css",
     "isEntry": true,
@@ -610,7 +610,7 @@
     ]
   },
   "src/routes/post/cryptpads-url-trick.md": {
-    "file": "assets/cryptpads-url-trick-CSEZB42j.js",
+    "file": "assets/cryptpads-url-trick-BWoQuH_Z.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/post/cryptpads-url-trick.md",
     "isDynamicEntry": true,
@@ -621,7 +621,7 @@
     ]
   },
   "src/routes/post/cryptpads-url-trick.md?pick=$css": {
-    "file": "assets/cryptpads-url-trick-DroFbBmj.js",
+    "file": "assets/cryptpads-url-trick-DSdXHfFB.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/post/cryptpads-url-trick.md?pick=$css",
     "isEntry": true,
@@ -633,7 +633,7 @@
     ]
   },
   "src/routes/post/edible-neighborhoods.md": {
-    "file": "assets/edible-neighborhoods-BsxaCJA7.js",
+    "file": "assets/edible-neighborhoods-DaSgW9uF.js",
     "name": "edible-neighborhoods",
     "src": "src/routes/post/edible-neighborhoods.md",
     "isDynamicEntry": true,
@@ -644,7 +644,7 @@
     ]
   },
   "src/routes/post/edible-neighborhoods.md?pick=$css": {
-    "file": "assets/edible-neighborhoods-BeiwcA2P.js",
+    "file": "assets/edible-neighborhoods-CfbDTDDN.js",
     "name": "edible-neighborhoods",
     "src": "src/routes/post/edible-neighborhoods.md?pick=$css",
     "isEntry": true,
@@ -656,7 +656,7 @@
     ]
   },
   "src/routes/post/openmls-looked-like-the-perfect-answer.md": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-Exs63FqL.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-CLY5iwt8.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/post/openmls-looked-like-the-perfect-answer.md",
     "isDynamicEntry": true,
@@ -667,7 +667,7 @@
     ]
   },
   "src/routes/post/openmls-looked-like-the-perfect-answer.md?pick=$css": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-BmVagVXQ.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-CPOb8Xzq.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/post/openmls-looked-like-the-perfect-answer.md?pick=$css",
     "isEntry": true,
@@ -679,7 +679,7 @@
     ]
   },
   "src/routes/posts/index.tsx?pick=PostsGrid&pick=getPostsRss&pick=default&pick=$css": {
-    "file": "assets/index-QbFd_oMZ.js",
+    "file": "assets/index-BW9qpBeo.js",
     "name": "index",
     "src": "src/routes/posts/index.tsx?pick=PostsGrid&pick=getPostsRss&pick=default&pick=$css",
     "isEntry": true,
@@ -732,7 +732,7 @@
     ]
   },
   "src/routes/project/arcanetable.md": {
-    "file": "assets/arcanetable-0QCVdOoJ.js",
+    "file": "assets/arcanetable-fDD3zzhW.js",
     "name": "arcanetable",
     "src": "src/routes/project/arcanetable.md",
     "isDynamicEntry": true,
@@ -743,7 +743,7 @@
     ]
   },
   "src/routes/project/arcanetable.md?pick=$css": {
-    "file": "assets/arcanetable-hgHsQuis.js",
+    "file": "assets/arcanetable-ni-Xzfeq.js",
     "name": "arcanetable",
     "src": "src/routes/project/arcanetable.md?pick=$css",
     "isEntry": true,
@@ -755,7 +755,7 @@
     ]
   },
   "src/routes/project/blathadex.md": {
-    "file": "assets/blathadex-BCHvJVG3.js",
+    "file": "assets/blathadex-BjhxJUrA.js",
     "name": "blathadex",
     "src": "src/routes/project/blathadex.md",
     "isDynamicEntry": true,
@@ -766,7 +766,7 @@
     ]
   },
   "src/routes/project/blathadex.md?pick=$css": {
-    "file": "assets/blathadex-Ce-cwxn-.js",
+    "file": "assets/blathadex-C9KkQjec.js",
     "name": "blathadex",
     "src": "src/routes/project/blathadex.md?pick=$css",
     "isEntry": true,
@@ -778,7 +778,7 @@
     ]
   },
   "src/routes/project/dawei.md": {
-    "file": "assets/dawei-C2vvg09F.js",
+    "file": "assets/dawei-BjWnJV5B.js",
     "name": "dawei",
     "src": "src/routes/project/dawei.md",
     "isDynamicEntry": true,
@@ -789,7 +789,7 @@
     ]
   },
   "src/routes/project/dawei.md?pick=$css": {
-    "file": "assets/dawei-Bj1BHnZi.js",
+    "file": "assets/dawei-CUmuTX-D.js",
     "name": "dawei",
     "src": "src/routes/project/dawei.md?pick=$css",
     "isEntry": true,
@@ -801,7 +801,7 @@
     ]
   },
   "src/routes/project/feature-flags.md": {
-    "file": "assets/feature-flags-Bp3WUmmo.js",
+    "file": "assets/feature-flags-DJCFrnBz.js",
     "name": "feature-flags",
     "src": "src/routes/project/feature-flags.md",
     "isDynamicEntry": true,
@@ -812,7 +812,7 @@
     ]
   },
   "src/routes/project/feature-flags.md?pick=$css": {
-    "file": "assets/feature-flags-G7-f6eiS.js",
+    "file": "assets/feature-flags-Bi5TnR9R.js",
     "name": "feature-flags",
     "src": "src/routes/project/feature-flags.md?pick=$css",
     "isEntry": true,
@@ -824,7 +824,7 @@
     ]
   },
   "src/routes/project/grim-choices.md": {
-    "file": "assets/grim-choices-HBX3mmGe.js",
+    "file": "assets/grim-choices-Bj-AeEt9.js",
     "name": "grim-choices",
     "src": "src/routes/project/grim-choices.md",
     "isDynamicEntry": true,
@@ -835,7 +835,7 @@
     ]
   },
   "src/routes/project/grim-choices.md?pick=$css": {
-    "file": "assets/grim-choices--1LamSnC.js",
+    "file": "assets/grim-choices-C4_3uHZS.js",
     "name": "grim-choices",
     "src": "src/routes/project/grim-choices.md?pick=$css",
     "isEntry": true,
@@ -847,7 +847,7 @@
     ]
   },
   "src/routes/project/id-order-spacing.md": {
-    "file": "assets/id-order-spacing-BhfLjLBo.js",
+    "file": "assets/id-order-spacing-Ctmkj_9H.js",
     "name": "id-order-spacing",
     "src": "src/routes/project/id-order-spacing.md",
     "isDynamicEntry": true,
@@ -858,7 +858,7 @@
     ]
   },
   "src/routes/project/id-order-spacing.md?pick=$css": {
-    "file": "assets/id-order-spacing-CwPoWOo9.js",
+    "file": "assets/id-order-spacing-l-1NDlxs.js",
     "name": "id-order-spacing",
     "src": "src/routes/project/id-order-spacing.md?pick=$css",
     "isEntry": true,
@@ -870,7 +870,7 @@
     ]
   },
   "src/routes/project/katachi.md": {
-    "file": "assets/katachi-BkvVUTAE.js",
+    "file": "assets/katachi-DAWzOLEp.js",
     "name": "katachi",
     "src": "src/routes/project/katachi.md",
     "isDynamicEntry": true,
@@ -881,7 +881,7 @@
     ]
   },
   "src/routes/project/katachi.md?pick=$css": {
-    "file": "assets/katachi-f_Y0Rby2.js",
+    "file": "assets/katachi-0CJQMtJY.js",
     "name": "katachi",
     "src": "src/routes/project/katachi.md?pick=$css",
     "isEntry": true,
@@ -893,7 +893,7 @@
     ]
   },
   "src/routes/project/liveframe.md": {
-    "file": "assets/liveframe-Dgs86BjP.js",
+    "file": "assets/liveframe-6vonXZT_.js",
     "name": "liveframe",
     "src": "src/routes/project/liveframe.md",
     "isDynamicEntry": true,
@@ -904,7 +904,7 @@
     ]
   },
   "src/routes/project/liveframe.md?pick=$css": {
-    "file": "assets/liveframe-Cla_xuwA.js",
+    "file": "assets/liveframe-DQhuY-ll.js",
     "name": "liveframe",
     "src": "src/routes/project/liveframe.md?pick=$css",
     "isEntry": true,
@@ -916,7 +916,7 @@
     ]
   },
   "src/routes/project/ntna-yard-sale-map.md": {
-    "file": "assets/ntna-yard-sale-map-B4xILrPk.js",
+    "file": "assets/ntna-yard-sale-map-CnAEFpOI.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/project/ntna-yard-sale-map.md",
     "isDynamicEntry": true,
@@ -927,7 +927,7 @@
     ]
   },
   "src/routes/project/ntna-yard-sale-map.md?pick=$css": {
-    "file": "assets/ntna-yard-sale-map-BJdJPIGc.js",
+    "file": "assets/ntna-yard-sale-map-CuWrQOAs.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/project/ntna-yard-sale-map.md?pick=$css",
     "isEntry": true,
@@ -939,7 +939,7 @@
     ]
   },
   "src/routes/project/pocketbase-schema.md": {
-    "file": "assets/pocketbase-schema-BtvmvgrV.js",
+    "file": "assets/pocketbase-schema-Df5UF5-G.js",
     "name": "pocketbase-schema",
     "src": "src/routes/project/pocketbase-schema.md",
     "isDynamicEntry": true,
@@ -950,7 +950,7 @@
     ]
   },
   "src/routes/project/pocketbase-schema.md?pick=$css": {
-    "file": "assets/pocketbase-schema-DjVQdDpw.js",
+    "file": "assets/pocketbase-schema-BekGoOTf.js",
     "name": "pocketbase-schema",
     "src": "src/routes/project/pocketbase-schema.md?pick=$css",
     "isEntry": true,
@@ -962,7 +962,7 @@
     ]
   },
   "src/routes/project/solid-forms.md": {
-    "file": "assets/solid-forms-CB17Fufd.js",
+    "file": "assets/solid-forms-C8s0zESG.js",
     "name": "solid-forms",
     "src": "src/routes/project/solid-forms.md",
     "isDynamicEntry": true,
@@ -973,7 +973,7 @@
     ]
   },
   "src/routes/project/solid-forms.md?pick=$css": {
-    "file": "assets/solid-forms-Djuksf-O.js",
+    "file": "assets/solid-forms-Cm4T6aB7.js",
     "name": "solid-forms",
     "src": "src/routes/project/solid-forms.md?pick=$css",
     "isEntry": true,
@@ -985,7 +985,7 @@
     ]
   },
   "src/routes/project/solid-validation.md": {
-    "file": "assets/solid-validation-D0f3PTgM.js",
+    "file": "assets/solid-validation-CehSo94b.js",
     "name": "solid-validation",
     "src": "src/routes/project/solid-validation.md",
     "isDynamicEntry": true,
@@ -996,7 +996,7 @@
     ]
   },
   "src/routes/project/solid-validation.md?pick=$css": {
-    "file": "assets/solid-validation-BV6fmxwN.js",
+    "file": "assets/solid-validation-CYRmpqBI.js",
     "name": "solid-validation",
     "src": "src/routes/project/solid-validation.md?pick=$css",
     "isEntry": true,
@@ -1008,7 +1008,7 @@
     ]
   },
   "src/routes/project/sparkstone-css.md": {
-    "file": "assets/sparkstone-css-zfHtADtj.js",
+    "file": "assets/sparkstone-css-L4lsmSSY.js",
     "name": "sparkstone-css",
     "src": "src/routes/project/sparkstone-css.md",
     "isDynamicEntry": true,
@@ -1019,7 +1019,7 @@
     ]
   },
   "src/routes/project/sparkstone-css.md?pick=$css": {
-    "file": "assets/sparkstone-css-D1yUmkNd.js",
+    "file": "assets/sparkstone-css-TSmAzWYs.js",
     "name": "sparkstone-css",
     "src": "src/routes/project/sparkstone-css.md?pick=$css",
     "isEntry": true,
@@ -1031,7 +1031,7 @@
     ]
   },
   "src/routes/project/tasks.md": {
-    "file": "assets/tasks-CEPziCi8.js",
+    "file": "assets/tasks-C2TOOw56.js",
     "name": "tasks",
     "src": "src/routes/project/tasks.md",
     "isDynamicEntry": true,
@@ -1042,7 +1042,7 @@
     ]
   },
   "src/routes/project/tasks.md?pick=$css": {
-    "file": "assets/tasks-SFiVxcp7.js",
+    "file": "assets/tasks-DjPTSjwG.js",
     "name": "tasks",
     "src": "src/routes/project/tasks.md?pick=$css",
     "isEntry": true,
@@ -1054,7 +1054,7 @@
     ]
   },
   "src/routes/project/version-json.md": {
-    "file": "assets/version-json-DYmdHdb9.js",
+    "file": "assets/version-json-Css7HWfz.js",
     "name": "version-json",
     "src": "src/routes/project/version-json.md",
     "isDynamicEntry": true,
@@ -1065,7 +1065,7 @@
     ]
   },
   "src/routes/project/version-json.md?pick=$css": {
-    "file": "assets/version-json-3c_F06Fb.js",
+    "file": "assets/version-json-CvA3-GWC.js",
     "name": "version-json",
     "src": "src/routes/project/version-json.md?pick=$css",
     "isEntry": true,
@@ -1077,7 +1077,7 @@
     ]
   },
   "src/routes/projects/index.tsx?pick=ProjectsGrid&pick=getPostsRss&pick=default&pick=$css": {
-    "file": "assets/index-DXYfuhSN.js",
+    "file": "assets/index-BeZwtbRb.js",
     "name": "index",
     "src": "src/routes/projects/index.tsx?pick=ProjectsGrid&pick=getPostsRss&pick=default&pick=$css",
     "isEntry": true,
@@ -1150,7 +1150,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-CI1dOgE6.js",
+    "file": "assets/client-ph64gWOL.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
