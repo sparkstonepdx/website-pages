@@ -3,8 +3,8 @@
     "file": "assets/HttpStatusCode-DjTx85av.js",
     "name": "HttpStatusCode"
   },
-  "_about-section-B6o54Fmn.js": {
-    "file": "assets/about-section-B6o54Fmn.js",
+  "_about-section-CAUL6Kpo.js": {
+    "file": "assets/about-section-CAUL6Kpo.js",
     "name": "about-section",
     "imports": [
       "_preload-helper-ug3pwPZ1.js",
@@ -243,7 +243,7 @@
     "src": "public/hero.webp"
   },
   "src/data/contributors/adam-sparks.md": {
-    "file": "assets/adam-sparks-5JMw2ECc.js",
+    "file": "assets/adam-sparks-cI8KkMwu.js",
     "name": "adam-sparks",
     "src": "src/data/contributors/adam-sparks.md",
     "isDynamicEntry": true,
@@ -254,7 +254,7 @@
     ]
   },
   "src/data/contributors/lin-wang.md": {
-    "file": "assets/lin-wang-DTWbzGDB.js",
+    "file": "assets/lin-wang-B28VlIfl.js",
     "name": "lin-wang",
     "src": "src/data/contributors/lin-wang.md",
     "isDynamicEntry": true,
@@ -265,7 +265,7 @@
     ]
   },
   "src/data/contributors/monica-welty.md": {
-    "file": "assets/monica-welty-B3QRS6pP.js",
+    "file": "assets/monica-welty-Lo62qtKy.js",
     "name": "monica-welty",
     "src": "src/data/contributors/monica-welty.md",
     "isDynamicEntry": true,
@@ -276,7 +276,7 @@
     ]
   },
   "src/data/contributors/you.md": {
-    "file": "assets/you-CA6RN1P4.js",
+    "file": "assets/you-4pfvC8bB.js",
     "name": "you",
     "src": "src/data/contributors/you.md",
     "isDynamicEntry": true,
@@ -297,7 +297,7 @@
     ]
   },
   "src/routes/[...404].mdx?pick=$css": {
-    "file": "assets/_...404_-49aDH2ha.js",
+    "file": "assets/_...404_-DdAEa5rV.js",
     "name": "_...404_",
     "src": "src/routes/[...404].mdx?pick=$css",
     "isEntry": true,
@@ -310,7 +310,7 @@
     ]
   },
   "src/routes/about.mdx?pick=$css": {
-    "file": "assets/about-Co6zrgxF.js",
+    "file": "assets/about-DQ5YyaIx.js",
     "name": "about",
     "src": "src/routes/about.mdx?pick=$css",
     "isEntry": true,
@@ -318,7 +318,7 @@
     "imports": [
       "_web-DQMegCKO.js",
       "_index-DkW_6x52.js",
-      "_about-section-B6o54Fmn.js",
+      "_about-section-CAUL6Kpo.js",
       "_solid-BA4oW9hv.js",
       "_preload-helper-ug3pwPZ1.js",
       "_routes-BtTDLt_e.js"
@@ -437,7 +437,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-Czkh9KiZ.js",
+    "file": "assets/index-BbB4-34r.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -452,7 +452,7 @@
       "_solid-BA4oW9hv.js",
       "_header-CqJg8rTp.js",
       "_routes-BtTDLt_e.js",
-      "_about-section-B6o54Fmn.js",
+      "_about-section-CAUL6Kpo.js",
       "_youtube-BmyoNzE0.js",
       "_main.modern-Df4lzn4C.js"
     ],
@@ -483,6 +483,7 @@
       "src/routes/project/tasks.md",
       "src/routes/project/version-json.md",
       "src/routes/post/2026-06-28-filesync.md",
+      "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md",
       "src/routes/post/arcanetable-insight.md",
       "src/routes/post/build-with-people.md",
       "src/routes/post/cryptpads-url-trick.md",
@@ -497,7 +498,7 @@
     ]
   },
   "src/routes/links/aligned.md?pick=$css": {
-    "file": "assets/aligned-D9XrpIda.js",
+    "file": "assets/aligned-B3fzWd7r.js",
     "name": "aligned",
     "src": "src/routes/links/aligned.md?pick=$css",
     "isEntry": true,
@@ -509,7 +510,7 @@
     ]
   },
   "src/routes/links/mentions.md?pick=$css": {
-    "file": "assets/mentions-h4CMAzqx.js",
+    "file": "assets/mentions-DVVaZUtx.js",
     "name": "mentions",
     "src": "src/routes/links/mentions.md?pick=$css",
     "isEntry": true,
@@ -541,7 +542,7 @@
     ]
   },
   "src/routes/post/2026-06-28-filesync.md": {
-    "file": "assets/2026-06-28-filesync-Dy5ZQHwk.js",
+    "file": "assets/2026-06-28-filesync-BOxoUuO1.js",
     "name": "2026-06-28-filesync",
     "src": "src/routes/post/2026-06-28-filesync.md",
     "isDynamicEntry": true,
@@ -552,7 +553,7 @@
     ]
   },
   "src/routes/post/2026-06-28-filesync.md?pick=$css": {
-    "file": "assets/2026-06-28-filesync-ByaD7gqr.js",
+    "file": "assets/2026-06-28-filesync-DtO5pEwI.js",
     "name": "2026-06-28-filesync",
     "src": "src/routes/post/2026-06-28-filesync.md?pick=$css",
     "isEntry": true,
@@ -563,8 +564,31 @@
       "_web-DQMegCKO.js"
     ]
   },
+  "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md": {
+    "file": "assets/2026-07-29-the-map-i-never-meant-to-build-aVPI05qc.js",
+    "name": "2026-07-29-the-map-i-never-meant-to-build",
+    "src": "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DkW_6x52.js",
+      "_solid-BA4oW9hv.js",
+      "_web-DQMegCKO.js"
+    ]
+  },
+  "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md?pick=$css": {
+    "file": "assets/2026-07-29-the-map-i-never-meant-to-build-BiqsfCM7.js",
+    "name": "2026-07-29-the-map-i-never-meant-to-build",
+    "src": "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md?pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DkW_6x52.js",
+      "_solid-BA4oW9hv.js",
+      "_web-DQMegCKO.js"
+    ]
+  },
   "src/routes/post/arcanetable-insight.md": {
-    "file": "assets/arcanetable-insight-CfvVqTK6.js",
+    "file": "assets/arcanetable-insight-BW61_cMl.js",
     "name": "arcanetable-insight",
     "src": "src/routes/post/arcanetable-insight.md",
     "isDynamicEntry": true,
@@ -575,7 +599,7 @@
     ]
   },
   "src/routes/post/arcanetable-insight.md?pick=$css": {
-    "file": "assets/arcanetable-insight-B9LNabIK.js",
+    "file": "assets/arcanetable-insight-Cdo0x7dQ.js",
     "name": "arcanetable-insight",
     "src": "src/routes/post/arcanetable-insight.md?pick=$css",
     "isEntry": true,
@@ -587,7 +611,7 @@
     ]
   },
   "src/routes/post/build-with-people.md": {
-    "file": "assets/build-with-people-CMNyQPrr.js",
+    "file": "assets/build-with-people-f1DAtqW3.js",
     "name": "build-with-people",
     "src": "src/routes/post/build-with-people.md",
     "isDynamicEntry": true,
@@ -598,7 +622,7 @@
     ]
   },
   "src/routes/post/build-with-people.md?pick=$css": {
-    "file": "assets/build-with-people-D1aZwXzL.js",
+    "file": "assets/build-with-people-DUHls3U_.js",
     "name": "build-with-people",
     "src": "src/routes/post/build-with-people.md?pick=$css",
     "isEntry": true,
@@ -610,7 +634,7 @@
     ]
   },
   "src/routes/post/cryptpads-url-trick.md": {
-    "file": "assets/cryptpads-url-trick-BWoQuH_Z.js",
+    "file": "assets/cryptpads-url-trick-SWCx2t6H.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/post/cryptpads-url-trick.md",
     "isDynamicEntry": true,
@@ -621,7 +645,7 @@
     ]
   },
   "src/routes/post/cryptpads-url-trick.md?pick=$css": {
-    "file": "assets/cryptpads-url-trick-DSdXHfFB.js",
+    "file": "assets/cryptpads-url-trick-CQcnPGWm.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/post/cryptpads-url-trick.md?pick=$css",
     "isEntry": true,
@@ -633,7 +657,7 @@
     ]
   },
   "src/routes/post/edible-neighborhoods.md": {
-    "file": "assets/edible-neighborhoods-DaSgW9uF.js",
+    "file": "assets/edible-neighborhoods-DLiICaUq.js",
     "name": "edible-neighborhoods",
     "src": "src/routes/post/edible-neighborhoods.md",
     "isDynamicEntry": true,
@@ -644,7 +668,7 @@
     ]
   },
   "src/routes/post/edible-neighborhoods.md?pick=$css": {
-    "file": "assets/edible-neighborhoods-CfbDTDDN.js",
+    "file": "assets/edible-neighborhoods-DHg3Qy_e.js",
     "name": "edible-neighborhoods",
     "src": "src/routes/post/edible-neighborhoods.md?pick=$css",
     "isEntry": true,
@@ -656,7 +680,7 @@
     ]
   },
   "src/routes/post/openmls-looked-like-the-perfect-answer.md": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-CLY5iwt8.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-BszW_pDa.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/post/openmls-looked-like-the-perfect-answer.md",
     "isDynamicEntry": true,
@@ -667,7 +691,7 @@
     ]
   },
   "src/routes/post/openmls-looked-like-the-perfect-answer.md?pick=$css": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-CPOb8Xzq.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-DmRLIqiA.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/post/openmls-looked-like-the-perfect-answer.md?pick=$css",
     "isEntry": true,
@@ -679,7 +703,7 @@
     ]
   },
   "src/routes/posts/index.tsx?pick=PostsGrid&pick=getPostsRss&pick=default&pick=$css": {
-    "file": "assets/index-BW9qpBeo.js",
+    "file": "assets/index-QSciGUvt.js",
     "name": "index",
     "src": "src/routes/posts/index.tsx?pick=PostsGrid&pick=getPostsRss&pick=default&pick=$css",
     "isEntry": true,
@@ -698,12 +722,14 @@
     ],
     "dynamicImports": [
       "src/routes/post/2026-06-28-filesync.md",
+      "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md",
       "src/routes/post/arcanetable-insight.md",
       "src/routes/post/build-with-people.md",
       "src/routes/post/cryptpads-url-trick.md",
       "src/routes/post/edible-neighborhoods.md",
       "src/routes/post/openmls-looked-like-the-perfect-answer.md",
       "src/routes/post/2026-06-28-filesync.md",
+      "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md",
       "src/routes/post/arcanetable-insight.md",
       "src/routes/post/build-with-people.md",
       "src/routes/post/cryptpads-url-trick.md",
@@ -732,7 +758,7 @@
     ]
   },
   "src/routes/project/arcanetable.md": {
-    "file": "assets/arcanetable-fDD3zzhW.js",
+    "file": "assets/arcanetable-B2ImHAAS.js",
     "name": "arcanetable",
     "src": "src/routes/project/arcanetable.md",
     "isDynamicEntry": true,
@@ -743,7 +769,7 @@
     ]
   },
   "src/routes/project/arcanetable.md?pick=$css": {
-    "file": "assets/arcanetable-ni-Xzfeq.js",
+    "file": "assets/arcanetable-BK81emhu.js",
     "name": "arcanetable",
     "src": "src/routes/project/arcanetable.md?pick=$css",
     "isEntry": true,
@@ -755,7 +781,7 @@
     ]
   },
   "src/routes/project/blathadex.md": {
-    "file": "assets/blathadex-BjhxJUrA.js",
+    "file": "assets/blathadex-B3Y9XKM4.js",
     "name": "blathadex",
     "src": "src/routes/project/blathadex.md",
     "isDynamicEntry": true,
@@ -766,7 +792,7 @@
     ]
   },
   "src/routes/project/blathadex.md?pick=$css": {
-    "file": "assets/blathadex-C9KkQjec.js",
+    "file": "assets/blathadex-Ctd0rUYO.js",
     "name": "blathadex",
     "src": "src/routes/project/blathadex.md?pick=$css",
     "isEntry": true,
@@ -778,7 +804,7 @@
     ]
   },
   "src/routes/project/dawei.md": {
-    "file": "assets/dawei-BjWnJV5B.js",
+    "file": "assets/dawei-CFK232GL.js",
     "name": "dawei",
     "src": "src/routes/project/dawei.md",
     "isDynamicEntry": true,
@@ -789,7 +815,7 @@
     ]
   },
   "src/routes/project/dawei.md?pick=$css": {
-    "file": "assets/dawei-CUmuTX-D.js",
+    "file": "assets/dawei-BPKHD427.js",
     "name": "dawei",
     "src": "src/routes/project/dawei.md?pick=$css",
     "isEntry": true,
@@ -801,7 +827,7 @@
     ]
   },
   "src/routes/project/feature-flags.md": {
-    "file": "assets/feature-flags-DJCFrnBz.js",
+    "file": "assets/feature-flags-Daydx1A7.js",
     "name": "feature-flags",
     "src": "src/routes/project/feature-flags.md",
     "isDynamicEntry": true,
@@ -812,7 +838,7 @@
     ]
   },
   "src/routes/project/feature-flags.md?pick=$css": {
-    "file": "assets/feature-flags-Bi5TnR9R.js",
+    "file": "assets/feature-flags-BLmfmtjl.js",
     "name": "feature-flags",
     "src": "src/routes/project/feature-flags.md?pick=$css",
     "isEntry": true,
@@ -824,7 +850,7 @@
     ]
   },
   "src/routes/project/grim-choices.md": {
-    "file": "assets/grim-choices-Bj-AeEt9.js",
+    "file": "assets/grim-choices-P5giVlOO.js",
     "name": "grim-choices",
     "src": "src/routes/project/grim-choices.md",
     "isDynamicEntry": true,
@@ -835,7 +861,7 @@
     ]
   },
   "src/routes/project/grim-choices.md?pick=$css": {
-    "file": "assets/grim-choices-C4_3uHZS.js",
+    "file": "assets/grim-choices-Cr1TPXTF.js",
     "name": "grim-choices",
     "src": "src/routes/project/grim-choices.md?pick=$css",
     "isEntry": true,
@@ -847,7 +873,7 @@
     ]
   },
   "src/routes/project/id-order-spacing.md": {
-    "file": "assets/id-order-spacing-Ctmkj_9H.js",
+    "file": "assets/id-order-spacing-Kq_MgBrM.js",
     "name": "id-order-spacing",
     "src": "src/routes/project/id-order-spacing.md",
     "isDynamicEntry": true,
@@ -858,7 +884,7 @@
     ]
   },
   "src/routes/project/id-order-spacing.md?pick=$css": {
-    "file": "assets/id-order-spacing-l-1NDlxs.js",
+    "file": "assets/id-order-spacing-D1C7nEM5.js",
     "name": "id-order-spacing",
     "src": "src/routes/project/id-order-spacing.md?pick=$css",
     "isEntry": true,
@@ -870,7 +896,7 @@
     ]
   },
   "src/routes/project/katachi.md": {
-    "file": "assets/katachi-DAWzOLEp.js",
+    "file": "assets/katachi-B6yqo0sm.js",
     "name": "katachi",
     "src": "src/routes/project/katachi.md",
     "isDynamicEntry": true,
@@ -881,7 +907,7 @@
     ]
   },
   "src/routes/project/katachi.md?pick=$css": {
-    "file": "assets/katachi-0CJQMtJY.js",
+    "file": "assets/katachi-DvzmpRAp.js",
     "name": "katachi",
     "src": "src/routes/project/katachi.md?pick=$css",
     "isEntry": true,
@@ -893,7 +919,7 @@
     ]
   },
   "src/routes/project/liveframe.md": {
-    "file": "assets/liveframe-6vonXZT_.js",
+    "file": "assets/liveframe-CNIJQpVh.js",
     "name": "liveframe",
     "src": "src/routes/project/liveframe.md",
     "isDynamicEntry": true,
@@ -904,7 +930,7 @@
     ]
   },
   "src/routes/project/liveframe.md?pick=$css": {
-    "file": "assets/liveframe-DQhuY-ll.js",
+    "file": "assets/liveframe-Cjz0-0dP.js",
     "name": "liveframe",
     "src": "src/routes/project/liveframe.md?pick=$css",
     "isEntry": true,
@@ -916,7 +942,7 @@
     ]
   },
   "src/routes/project/ntna-yard-sale-map.md": {
-    "file": "assets/ntna-yard-sale-map-CnAEFpOI.js",
+    "file": "assets/ntna-yard-sale-map-C9a0dyoc.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/project/ntna-yard-sale-map.md",
     "isDynamicEntry": true,
@@ -927,7 +953,7 @@
     ]
   },
   "src/routes/project/ntna-yard-sale-map.md?pick=$css": {
-    "file": "assets/ntna-yard-sale-map-CuWrQOAs.js",
+    "file": "assets/ntna-yard-sale-map-DX5RdFKZ.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/project/ntna-yard-sale-map.md?pick=$css",
     "isEntry": true,
@@ -939,7 +965,7 @@
     ]
   },
   "src/routes/project/pocketbase-schema.md": {
-    "file": "assets/pocketbase-schema-Df5UF5-G.js",
+    "file": "assets/pocketbase-schema-B79ZyoUv.js",
     "name": "pocketbase-schema",
     "src": "src/routes/project/pocketbase-schema.md",
     "isDynamicEntry": true,
@@ -950,7 +976,7 @@
     ]
   },
   "src/routes/project/pocketbase-schema.md?pick=$css": {
-    "file": "assets/pocketbase-schema-BekGoOTf.js",
+    "file": "assets/pocketbase-schema-DAHNQ5K5.js",
     "name": "pocketbase-schema",
     "src": "src/routes/project/pocketbase-schema.md?pick=$css",
     "isEntry": true,
@@ -962,7 +988,7 @@
     ]
   },
   "src/routes/project/solid-forms.md": {
-    "file": "assets/solid-forms-C8s0zESG.js",
+    "file": "assets/solid-forms-DQWEOTen.js",
     "name": "solid-forms",
     "src": "src/routes/project/solid-forms.md",
     "isDynamicEntry": true,
@@ -973,7 +999,7 @@
     ]
   },
   "src/routes/project/solid-forms.md?pick=$css": {
-    "file": "assets/solid-forms-Cm4T6aB7.js",
+    "file": "assets/solid-forms-C4N-PXnH.js",
     "name": "solid-forms",
     "src": "src/routes/project/solid-forms.md?pick=$css",
     "isEntry": true,
@@ -985,7 +1011,7 @@
     ]
   },
   "src/routes/project/solid-validation.md": {
-    "file": "assets/solid-validation-CehSo94b.js",
+    "file": "assets/solid-validation-C_RaeoR_.js",
     "name": "solid-validation",
     "src": "src/routes/project/solid-validation.md",
     "isDynamicEntry": true,
@@ -996,7 +1022,7 @@
     ]
   },
   "src/routes/project/solid-validation.md?pick=$css": {
-    "file": "assets/solid-validation-CYRmpqBI.js",
+    "file": "assets/solid-validation-D0VxADN9.js",
     "name": "solid-validation",
     "src": "src/routes/project/solid-validation.md?pick=$css",
     "isEntry": true,
@@ -1008,7 +1034,7 @@
     ]
   },
   "src/routes/project/sparkstone-css.md": {
-    "file": "assets/sparkstone-css-L4lsmSSY.js",
+    "file": "assets/sparkstone-css-DLw6yjbO.js",
     "name": "sparkstone-css",
     "src": "src/routes/project/sparkstone-css.md",
     "isDynamicEntry": true,
@@ -1019,7 +1045,7 @@
     ]
   },
   "src/routes/project/sparkstone-css.md?pick=$css": {
-    "file": "assets/sparkstone-css-TSmAzWYs.js",
+    "file": "assets/sparkstone-css-YcteStw3.js",
     "name": "sparkstone-css",
     "src": "src/routes/project/sparkstone-css.md?pick=$css",
     "isEntry": true,
@@ -1031,7 +1057,7 @@
     ]
   },
   "src/routes/project/tasks.md": {
-    "file": "assets/tasks-C2TOOw56.js",
+    "file": "assets/tasks-BfQzRL6O.js",
     "name": "tasks",
     "src": "src/routes/project/tasks.md",
     "isDynamicEntry": true,
@@ -1042,7 +1068,7 @@
     ]
   },
   "src/routes/project/tasks.md?pick=$css": {
-    "file": "assets/tasks-DjPTSjwG.js",
+    "file": "assets/tasks-CW3JhDmW.js",
     "name": "tasks",
     "src": "src/routes/project/tasks.md?pick=$css",
     "isEntry": true,
@@ -1054,7 +1080,7 @@
     ]
   },
   "src/routes/project/version-json.md": {
-    "file": "assets/version-json-Css7HWfz.js",
+    "file": "assets/version-json-D8XLhjCJ.js",
     "name": "version-json",
     "src": "src/routes/project/version-json.md",
     "isDynamicEntry": true,
@@ -1065,7 +1091,7 @@
     ]
   },
   "src/routes/project/version-json.md?pick=$css": {
-    "file": "assets/version-json-CvA3-GWC.js",
+    "file": "assets/version-json-hK9NH5v5.js",
     "name": "version-json",
     "src": "src/routes/project/version-json.md?pick=$css",
     "isEntry": true,
@@ -1077,7 +1103,7 @@
     ]
   },
   "src/routes/projects/index.tsx?pick=ProjectsGrid&pick=getPostsRss&pick=default&pick=$css": {
-    "file": "assets/index-BeZwtbRb.js",
+    "file": "assets/index-CC7_iD5x.js",
     "name": "index",
     "src": "src/routes/projects/index.tsx?pick=ProjectsGrid&pick=getPostsRss&pick=default&pick=$css",
     "isEntry": true,
@@ -1150,7 +1176,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-ph64gWOL.js",
+    "file": "assets/client-D1DqGMri.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
@@ -1181,6 +1207,7 @@
       "src/routes/links/aligned.md?pick=$css",
       "src/routes/links/mentions.md?pick=$css",
       "src/routes/post/2026-06-28-filesync.md?pick=$css",
+      "src/routes/post/2026-07-29-the-map-i-never-meant-to-build.md?pick=$css",
       "src/routes/post/arcanetable-insight.md?pick=$css",
       "src/routes/post/build-with-people.md?pick=$css",
       "src/routes/post/cryptpads-url-trick.md?pick=$css",
