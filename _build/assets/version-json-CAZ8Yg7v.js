@@ -1,0 +1,41 @@
+import{M as r}from"./index-BGZVogms.js";import{b as e,m as t}from"./solid-B0ppho7y.js";import"./web-C2CdMWpm.js";const d={title:"version-json",layout:"project",created:"2022-08-10",published:"2022-08-10",thumbnail:null,blurb:"Effortless versioning for long-lived JSON payloads."};function s(n){const i={a:"a",blockquote:"blockquote",br:"br",code:"code",h2:"h2",hr:"hr",li:"li",p:"p",pre:"pre",span:"span",strong:"strong",ul:"ul",...r(),...n.components};return[e(i.p,{get children(){return[e(i.strong,{children:"version-json"})," is a lightweight utility for managing and upgrading long-lived JSON data structures. You define transformation functions for each version, and it upgrades incoming payloads to the latest shape—keeping your data consistent as your schema evolves."]}}),`
+`,e(i.p,{get children(){return e(i.strong,{children:"Links:"})}}),`
+`,e(i.ul,{get children(){return[`
+`,e(i.li,{get children(){return[e(i.strong,{children:"GitHub:"})," ",e(i.a,{href:"https://github.com/odama626/version-json",children:"https://github.com/odama626/version-json"})]}}),`
+`,e(i.li,{get children(){return[e(i.strong,{children:"npm:"})," ",e(i.a,{href:"https://www.npmjs.com/package/version-json",children:"https://www.npmjs.com/package/version-json"})]}}),`
+`]}}),`
+`,e(i.hr,{}),`
+`,e(i.h2,{children:"What it does"}),`
+`,e(i.ul,{get children(){return[`
+`,e(i.li,{get children(){return[`
+`,e(i.p,{get children(){return[e(i.strong,{children:"Version-aware transformations"}),e(i.br,{}),`
+Define a chain of upgrades that move payloads from one version to the next.`]}}),`
+`]}}),`
+`,e(i.li,{get children(){return[`
+`,e(i.p,{get children(){return[e(i.strong,{children:"Flexible version detection"}),e(i.br,{}),`
+Use a dedicated version field (like `,e(i.code,{children:"version"}),") or provide a custom function that infers the version from the payload shape."]}}),`
+`]}}),`
+`,e(i.li,{get children(){return[`
+`,e(i.p,{get children(){return[e(i.strong,{children:"Simple integration"}),e(i.br,{}),`
+Small API surface: describe upgrades with `,e(i.code,{children:".add()"}),", then normalize data with ",e(i.code,{children:".process()"}),"."]}}),`
+`]}}),`
+`]}}),`
+`,e(i.h2,{children:"Example"}),`
+`,e(i.pre,{className:"shiki shiki-themes github-light github-dark",style:{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},tabIndex:"0",get children(){return e(i.code,{get children(){return[e(i.span,{className:"line",get children(){return[e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:"const"}),e(i.span,{style:{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},children:" upVersion"}),e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:" ="}),e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:" new"}),e(i.span,{style:{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},children:" VersionJson"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"("}),e(i.span,{style:{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},children:'"version"'}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:");"})]}}),`
+`,e(i.span,{className:"line"}),`
+`,e(i.span,{className:"line",get children(){return e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"upVersion"})}}),`
+`,e(i.span,{className:"line",get children(){return[e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"  ."}),e(i.span,{style:{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},children:"add"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"("}),e(i.span,{style:{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},children:"1"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:", ("}),e(i.span,{style:{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},children:"p"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:") "}),e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:"=>"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:" p)"})]}}),`
+`,e(i.span,{className:"line",get children(){return[e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"  ."}),e(i.span,{style:{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},children:"add"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"("}),e(i.span,{style:{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},children:"2"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:", ("}),e(i.span,{style:{"--shiki-light":"#E36209","--shiki-dark":"#FFAB70"},children:"p"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:") "}),e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:"=>"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:" {"})]}}),`
+`,e(i.span,{className:"line",get children(){return[e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"    p.newData "}),e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:"="}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:" p.data;"})]}}),`
+`,e(i.span,{className:"line",get children(){return[e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:"    delete"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:" p.data;"})]}}),`
+`,e(i.span,{className:"line",get children(){return[e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:"    return"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:" p;"})]}}),`
+`,e(i.span,{className:"line",get children(){return e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"  });"})}}),`
+`,e(i.span,{className:"line"}),`
+`,e(i.span,{className:"line",get children(){return[e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:"const"}),e(i.span,{style:{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},children:" newData"}),e(i.span,{style:{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},children:" ="}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:" upVersion."}),e(i.span,{style:{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},children:"process"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:"({ version: "}),e(i.span,{style:{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},children:"1"}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:", data: "}),e(i.span,{style:{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},children:'"hello world"'}),e(i.span,{style:{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},children:" });"})]}}),`
+`,e(i.span,{className:"line",get children(){return e(i.span,{style:{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},children:'// => { version: 2, newData: "hello world" }'})}})]}})}}),`
+`,e(i.h2,{children:"Why it exists"}),`
+`,e(i.p,{get children(){return["If you persist JSON in a database, local cache, config files, or synced documents, schemas inevitably change. ",e(i.strong,{children:"version-json"})," gives you a clear, explicit place to keep migrations so you can accept older payloads without scattering compatibility logic throughout your codebase."]}}),`
+`,e(i.blockquote,{get children(){return[`
+`,e(i.p,{children:`“We created version-json to simplify the process of managing evolving JSON data structures, making data migrations effortless and reliable.”
+— The Sparkstone Team`}),`
+`]}})]}function c(n={}){const{wrapper:i}={...r(),...n.components};return i?e(i,t(n,{get children(){return e(s,n)}})):s(n)}export{c as default,d as frontmatter};
