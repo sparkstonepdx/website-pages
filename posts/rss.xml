@@ -1,65 +1,58 @@
-<?xml version="1.0" encoding="UTF_8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
     <rss version="2.0">
       <channel>
-        <title>Sparkstone Musings</title>
+        <title>Sparkstone Writing</title>
         <language>en-us</language>
         <link>https://sparkstonepdx.com/posts</link>
-        <description>research and musings at Sparkstone LLC</description>
+        <atom:link href="https://sparkstonepdx.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <description>research and writing at Sparkstone LLC</description>
         
       <item>
-        <title><![CDATA[The Map I Never Meant to Build]]></title>
-        <link>https://sparkstonepdx.com/post/The%20Map%20I%20Never%20Meant%20to%20Build</link>
-        <guid>https://sparkstonepdx.com/post/The%20Map%20I%20Never%20Meant%20to%20Build</guid>
-        <pubDate>Tue, 28 Jul 2026 09:00:00 GMT</pubDate>
-        <description><![CDATA[Sixty thousand views, three neighborhoods asking to borrow it, and a little map that got a bit better every spring until it turned into something anyone can run.]]></description>
-      </item>
-    ,
-      <item>
-        <title><![CDATA[Syncing Single Files Across Repos Without ceremony]]></title>
-        <link>https://sparkstonepdx.com/post/Syncing%20Single%20Files%20Across%20Repos%20Without%20ceremony</link>
-        <guid>https://sparkstonepdx.com/post/Syncing%20Single%20Files%20Across%20Repos%20Without%20ceremony</guid>
+        <title><![CDATA[Syncing Single Files Across Repos Without Ceremony]]></title>
+        <link>https://sparkstonepdx.com/posts/2026-06-28-filesync</link>
+        <guid>https://sparkstonepdx.com/posts/2026-06-28-filesync</guid>
         <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[We all have useful shared files spread over multiple repos. npm is too heavy and copying by hand makes a mess.  There is an easier way. filesync closes the gap with git merges across repos, a one-line provenance header, and private-first regions for the parts you can't share.]]></description>
+        <description><![CDATA[Shared files drift across repos. npm is too heavy and copying by hand makes a mess. filesync closes the gap with git merges, a one-line provenance header, and private-first regions.]]></description>
       </item>
-    ,
+    
       <item>
         <title><![CDATA[Edible Neighborhoods]]></title>
-        <link>https://sparkstonepdx.com/post/Edible%20Neighborhoods</link>
-        <guid>https://sparkstonepdx.com/post/Edible%20Neighborhoods</guid>
+        <link>https://sparkstonepdx.com/posts/edible-neighborhoods</link>
+        <guid>https://sparkstonepdx.com/posts/edible-neighborhoods</guid>
         <pubDate>Fri, 01 May 2026 11:01:00 GMT</pubDate>
         <description><![CDATA[Evenings like this remind me why local matters, and that the best networks aren't always digital ones.]]></description>
       </item>
-    ,
+    
       <item>
         <title><![CDATA[Arcanetable Insight]]></title>
-        <link>https://sparkstonepdx.com/post/Arcanetable%20Insight</link>
-        <guid>https://sparkstonepdx.com/post/Arcanetable%20Insight</guid>
+        <link>https://sparkstonepdx.com/posts/arcanetable-insight</link>
+        <guid>https://sparkstonepdx.com/posts/arcanetable-insight</guid>
         <pubDate>Mon, 05 Jan 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[Last night I randomly decided to check in on Arcanetable.app, an app I basically haven't touched in over a year and what I found had me utterly gobsmacked.]]></description>
+        <description><![CDATA[I checked in on an app I hadn't touched in over a year, and what I found had me utterly gobsmacked.]]></description>
       </item>
-    ,
+    
       <item>
         <title><![CDATA[Build With People, Not In Isolation]]></title>
-        <link>https://sparkstonepdx.com/post/Build%20With%20People%2C%20Not%20In%20Isolation</link>
-        <guid>https://sparkstonepdx.com/post/Build%20With%20People%2C%20Not%20In%20Isolation</guid>
+        <link>https://sparkstonepdx.com/posts/build-with-people</link>
+        <guid>https://sparkstonepdx.com/posts/build-with-people</guid>
         <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
         <description><![CDATA[A lot of us want to help by building good, useful things. But retreating to make the elegant, principled "right thing" in isolation is a trap. Software matters because it gets used, and the surest way to get it used is to build it with the people who need it.]]></description>
       </item>
-    ,
+    
       <item>
-        <title><![CDATA[CryptPad’s URL Trick Is Genius]]></title>
-        <link>https://sparkstonepdx.com/post/CryptPad%E2%80%99s%20URL%20Trick%20Is%20Genius</link>
-        <guid>https://sparkstonepdx.com/post/CryptPad%E2%80%99s%20URL%20Trick%20Is%20Genius</guid>
+        <title><![CDATA[CryptPad's URL Trick Is Genius]]></title>
+        <link>https://sparkstonepdx.com/posts/cryptpads-url-trick</link>
+        <guid>https://sparkstonepdx.com/posts/cryptpads-url-trick</guid>
         <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
-        <description><![CDATA[CryptPad stores the shared encryption key in the URL fragment — the part after the `#`. That one choice quietly solves a whole class of secure-sharing problems.]]></description>
+        <description><![CDATA[CryptPad stores the shared encryption key in the URL fragment, the part after the `#`. That one choice solves a whole class of secure-sharing problems.]]></description>
       </item>
-    ,
+    
       <item>
-        <title><![CDATA[OpenMLS Looked Like the Perfect Answer — Until It Wasn’t]]></title>
-        <link>https://sparkstonepdx.com/post/OpenMLS%20Looked%20Like%20the%20Perfect%20Answer%20%E2%80%94%20Until%20It%20Wasn%E2%80%99t</link>
-        <guid>https://sparkstonepdx.com/post/OpenMLS%20Looked%20Like%20the%20Perfect%20Answer%20%E2%80%94%20Until%20It%20Wasn%E2%80%99t</guid>
+        <title><![CDATA[OpenMLS Looked Like the Perfect Answer, Until It Wasn't]]></title>
+        <link>https://sparkstonepdx.com/posts/openmls-looked-like-the-perfect-answer</link>
+        <guid>https://sparkstonepdx.com/posts/openmls-looked-like-the-perfect-answer</guid>
         <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
-        <description><![CDATA[On paper, it checked all the boxes.  In practice, I eventually ran into a hard constraint that made it the wrong fit for what I was trying to build.]]></description>
+        <description><![CDATA[On paper, it checked all the boxes. In practice, I ran into a hard constraint that made it the wrong fit for what I was trying to build.]]></description>
       </item>
     
       </channel>
