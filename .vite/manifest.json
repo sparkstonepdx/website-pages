@@ -1,11 +1,11 @@
 {
   "__vite-browser-external": {
-    "file": "assets/__vite-browser-external-CmoBwcBI.js",
+    "file": "assets/__vite-browser-external-DtZ9fxS0.js",
     "name": "__vite-browser-external",
     "src": "__vite-browser-external",
     "isDynamicEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js"
+      "_mdx-DBYvEVUD.js"
     ]
   },
   "_about-section-ChqJ9wjY.js": {
@@ -54,8 +54,8 @@
     "file": "assets/link-BlaBDQYy.js",
     "name": "link"
   },
-  "_mdx-D55auqEg.js": {
-    "file": "assets/mdx-D55auqEg.js",
+  "_mdx-DBYvEVUD.js": {
+    "file": "assets/mdx-DBYvEVUD.js",
     "name": "mdx",
     "imports": [
       "_link-BlaBDQYy.js"
@@ -76,7 +76,7 @@
     ]
   },
   "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js": {
-    "file": "assets/serverForms-Dgp0u1cX.js",
+    "file": "assets/serverForms-DS4cYwIp.js",
     "name": "serverForms",
     "src": "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js",
     "isDynamicEntry": true,
@@ -126,12 +126,12 @@
     ]
   },
   "src/routes/(mdxpage)/[...404].mdx?pick=$css": {
-    "file": "assets/_...404_-DglsI8lX.js",
+    "file": "assets/_...404_-BfLS6usw.js",
     "name": "_...404_",
     "src": "src/routes/(mdxpage)/[...404].mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
@@ -146,43 +146,43 @@
     ]
   },
   "src/routes/(sveltia-managed-folder)/about.mdx?pick=$css": {
-    "file": "assets/about-CerDfIBJ.js",
+    "file": "assets/about-CUkvcF2p.js",
     "name": "about",
     "src": "src/routes/(sveltia-managed-folder)/about.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js",
       "_about-section-ChqJ9wjY.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/contact.mdx?pick=$css": {
-    "file": "assets/contact-BcDYpj-a.js",
+    "file": "assets/contact-NDLEL9em.js",
     "name": "contact",
     "src": "src/routes/(sveltia-managed-folder)/contact.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/links/aligned.mdx?pick=$css": {
-    "file": "assets/aligned-CKmtOI_9.js",
+    "file": "assets/aligned-AyTkJ2_b.js",
     "name": "aligned",
     "src": "src/routes/(sveltia-managed-folder)/links/aligned.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/links/mentions.mdx?pick=$css": {
-    "file": "assets/mentions-DnPCQ5Zz.js",
+    "file": "assets/mentions-YtOfwIJN.js",
     "name": "mentions",
     "src": "src/routes/(sveltia-managed-folder)/links/mentions.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
@@ -199,22 +199,22 @@
     ]
   },
   "src/routes/case-studies/(records)/2026-07-29-the-map-i-never-meant-to-build.mdx?pick=$css": {
-    "file": "assets/2026-07-29-the-map-i-never-meant-to-build-CezYmTAI.js",
+    "file": "assets/2026-07-29-the-map-i-never-meant-to-build-Q8xpwCE8.js",
     "name": "2026-07-29-the-map-i-never-meant-to-build",
     "src": "src/routes/case-studies/(records)/2026-07-29-the-map-i-never-meant-to-build.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/case-studies/(records)/2026-09-14-a-library-that-fits-in-a-free-library.mdx?pick=$css": {
-    "file": "assets/2026-09-14-a-library-that-fits-in-a-free-library-9dNEpZa0.js",
+    "file": "assets/2026-09-14-a-library-that-fits-in-a-free-library-DUhXrB8Y.js",
     "name": "2026-09-14-a-library-that-fits-in-a-free-library",
     "src": "src/routes/case-studies/(records)/2026-09-14-a-library-that-fits-in-a-free-library.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
@@ -231,12 +231,12 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-R0XyPtTo.js",
+    "file": "assets/index-Dzsp9Ogk.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js",
       "_footer-DSj8qepj.js",
       "_about-section-ChqJ9wjY.js",
@@ -270,62 +270,62 @@
     ]
   },
   "src/routes/posts/(records)/2026-06-28-filesync.mdx?pick=$css": {
-    "file": "assets/2026-06-28-filesync-DRYF9xtS.js",
+    "file": "assets/2026-06-28-filesync-DzRNo46l.js",
     "name": "2026-06-28-filesync",
     "src": "src/routes/posts/(records)/2026-06-28-filesync.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/posts/(records)/arcanetable-insight.mdx?pick=$css": {
-    "file": "assets/arcanetable-insight-BVdHdIg7.js",
+    "file": "assets/arcanetable-insight-grH--AP1.js",
     "name": "arcanetable-insight",
     "src": "src/routes/posts/(records)/arcanetable-insight.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/posts/(records)/build-with-people.mdx?pick=$css": {
-    "file": "assets/build-with-people-B-HjgXGZ.js",
+    "file": "assets/build-with-people-tfxb0HKv.js",
     "name": "build-with-people",
     "src": "src/routes/posts/(records)/build-with-people.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/posts/(records)/cryptpads-url-trick.mdx?pick=$css": {
-    "file": "assets/cryptpads-url-trick-DfAUAgNe.js",
+    "file": "assets/cryptpads-url-trick-DYwZCxdt.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/posts/(records)/cryptpads-url-trick.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/posts/(records)/edible-neighborhoods.mdx?pick=$css": {
-    "file": "assets/edible-neighborhoods-Dr1U32RV.js",
+    "file": "assets/edible-neighborhoods-CdnoxgJ5.js",
     "name": "edible-neighborhoods",
     "src": "src/routes/posts/(records)/edible-neighborhoods.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/posts/(records)/openmls-looked-like-the-perfect-answer.mdx?pick=$css": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-VnYUb4EA.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-CoQmCWh2.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/posts/(records)/openmls-looked-like-the-perfect-answer.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
@@ -354,152 +354,152 @@
     ]
   },
   "src/routes/products/(records)/arcanetable.mdx?pick=$css": {
-    "file": "assets/arcanetable-CCibTbKt.js",
+    "file": "assets/arcanetable-_6GHz4b4.js",
     "name": "arcanetable",
     "src": "src/routes/products/(records)/arcanetable.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/blathadex.mdx?pick=$css": {
-    "file": "assets/blathadex-BLoMZGiT.js",
+    "file": "assets/blathadex-fxAhanWH.js",
     "name": "blathadex",
     "src": "src/routes/products/(records)/blathadex.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/dawei.mdx?pick=$css": {
-    "file": "assets/dawei-B8UI6zQR.js",
+    "file": "assets/dawei-nadG66qV.js",
     "name": "dawei",
     "src": "src/routes/products/(records)/dawei.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/feature-flags.mdx?pick=$css": {
-    "file": "assets/feature-flags-BvF_Wc6K.js",
+    "file": "assets/feature-flags-DGkaa5C8.js",
     "name": "feature-flags",
     "src": "src/routes/products/(records)/feature-flags.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/grim-choices.mdx?pick=$css": {
-    "file": "assets/grim-choices-C6K2E1Xz.js",
+    "file": "assets/grim-choices-DjDg3Ujp.js",
     "name": "grim-choices",
     "src": "src/routes/products/(records)/grim-choices.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/id-order-spacing.mdx?pick=$css": {
-    "file": "assets/id-order-spacing-B3DSCumH.js",
+    "file": "assets/id-order-spacing-ByFNzdB7.js",
     "name": "id-order-spacing",
     "src": "src/routes/products/(records)/id-order-spacing.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/katachi.mdx?pick=$css": {
-    "file": "assets/katachi-BcGTl221.js",
+    "file": "assets/katachi-CCxyaYLp.js",
     "name": "katachi",
     "src": "src/routes/products/(records)/katachi.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/liveframe.mdx?pick=$css": {
-    "file": "assets/liveframe-CWNReSrk.js",
+    "file": "assets/liveframe-DY23QTGk.js",
     "name": "liveframe",
     "src": "src/routes/products/(records)/liveframe.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/ntna-yard-sale-map.mdx?pick=$css": {
-    "file": "assets/ntna-yard-sale-map-uDMdgrD4.js",
+    "file": "assets/ntna-yard-sale-map-lgAvkpC8.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/products/(records)/ntna-yard-sale-map.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/pocketbase-schema.mdx?pick=$css": {
-    "file": "assets/pocketbase-schema-DjTPEgQr.js",
+    "file": "assets/pocketbase-schema-CkL9Oxbd.js",
     "name": "pocketbase-schema",
     "src": "src/routes/products/(records)/pocketbase-schema.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/solid-forms.mdx?pick=$css": {
-    "file": "assets/solid-forms-DDhQo7E_.js",
+    "file": "assets/solid-forms-B4OM752E.js",
     "name": "solid-forms",
     "src": "src/routes/products/(records)/solid-forms.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/solid-validation.mdx?pick=$css": {
-    "file": "assets/solid-validation-DXkRDFFT.js",
+    "file": "assets/solid-validation-Cz3_ibv1.js",
     "name": "solid-validation",
     "src": "src/routes/products/(records)/solid-validation.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/sparkstone-css.mdx?pick=$css": {
-    "file": "assets/sparkstone-css-CPEATZMq.js",
+    "file": "assets/sparkstone-css-00V9HUXx.js",
     "name": "sparkstone-css",
     "src": "src/routes/products/(records)/sparkstone-css.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/tasks.mdx?pick=$css": {
-    "file": "assets/tasks-SQWqDQV9.js",
+    "file": "assets/tasks-BN7I4Wem.js",
     "name": "tasks",
     "src": "src/routes/products/(records)/tasks.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
   "src/routes/products/(records)/version-json.mdx?pick=$css": {
-    "file": "assets/version-json-B6k5M0M-.js",
+    "file": "assets/version-json-DmDWXJi1.js",
     "name": "version-json",
     "src": "src/routes/products/(records)/version-json.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ]
   },
@@ -516,12 +516,12 @@
     ]
   },
   "virtual:solid-ssr-entry-client.tsx": {
-    "file": "assets/virtual_solid-ssr-entry-client-BWaIQtrd.js",
+    "file": "assets/virtual_solid-ssr-entry-client-p_ilxFSB.js",
     "name": "virtual_solid-ssr-entry-client",
     "src": "virtual:solid-ssr-entry-client.tsx",
     "isEntry": true,
     "imports": [
-      "_mdx-D55auqEg.js",
+      "_mdx-DBYvEVUD.js",
       "_link-BlaBDQYy.js"
     ],
     "dynamicImports": [
