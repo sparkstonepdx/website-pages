@@ -14,6 +14,7 @@ backend:
   repo: sparkstonepdx/website-src
   base_url: https://sveltia-cms-auth.sparkstonepdx.workers.dev
 
+site_url: https://sparkstonepdx.com
 media_folder: "/public"
 public_folder: "/"
 app_title: Sparkstone Admin
