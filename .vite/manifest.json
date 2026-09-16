@@ -8,6 +8,20 @@
       "_mdx-Qe2KgVJC.js"
     ]
   },
+  "_about-section-ChqJ9wjY.js": {
+    "file": "assets/about-section-ChqJ9wjY.js",
+    "name": "about-section",
+    "imports": [
+      "_link-BlaBDQYy.js"
+    ],
+    "css": [
+      "assets/about-section-D9prPy8y.css"
+    ]
+  },
+  "_about-section-D9prPy8y.css": {
+    "file": "assets/about-section-D9prPy8y.css",
+    "src": "_about-section-D9prPy8y.css"
+  },
   "_booking-cta-DfhqNlp1.js": {
     "file": "assets/booking-cta-DfhqNlp1.js",
     "name": "booking-cta",
@@ -62,7 +76,7 @@
     ]
   },
   "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js": {
-    "file": "assets/serverForms-kQ-0iz5l.js",
+    "file": "assets/serverForms-DyfooCJB.js",
     "name": "serverForms",
     "src": "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js",
     "isDynamicEntry": true,
@@ -131,6 +145,47 @@
       "_footer-DSj8qepj.js"
     ]
   },
+  "src/routes/(sveltia-managed-folder)/about.mdx?pick=$css": {
+    "file": "assets/about--_3u-SP7.js",
+    "name": "about",
+    "src": "src/routes/(sveltia-managed-folder)/about.mdx?pick=$css",
+    "isEntry": true,
+    "imports": [
+      "_mdx-Qe2KgVJC.js",
+      "_link-BlaBDQYy.js",
+      "_about-section-ChqJ9wjY.js"
+    ]
+  },
+  "src/routes/(sveltia-managed-folder)/contact.mdx?pick=$css": {
+    "file": "assets/contact-BIg4EV6u.js",
+    "name": "contact",
+    "src": "src/routes/(sveltia-managed-folder)/contact.mdx?pick=$css",
+    "isEntry": true,
+    "imports": [
+      "_mdx-Qe2KgVJC.js",
+      "_link-BlaBDQYy.js"
+    ]
+  },
+  "src/routes/(sveltia-managed-folder)/links/aligned.mdx?pick=$css": {
+    "file": "assets/aligned-CiSF6Wcg.js",
+    "name": "aligned",
+    "src": "src/routes/(sveltia-managed-folder)/links/aligned.mdx?pick=$css",
+    "isEntry": true,
+    "imports": [
+      "_mdx-Qe2KgVJC.js",
+      "_link-BlaBDQYy.js"
+    ]
+  },
+  "src/routes/(sveltia-managed-folder)/links/mentions.mdx?pick=$css": {
+    "file": "assets/mentions-DbJP4Jyn.js",
+    "name": "mentions",
+    "src": "src/routes/(sveltia-managed-folder)/links/mentions.mdx?pick=$css",
+    "isEntry": true,
+    "imports": [
+      "_mdx-Qe2KgVJC.js",
+      "_link-BlaBDQYy.js"
+    ]
+  },
   "src/routes/case-studies/(records).tsx?pick=default&pick=$css&lang.tsx": {
     "file": "assets/(records)-BygNSpmN.js",
     "name": "(records)",
@@ -176,7 +231,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-DElz-44S.js",
+    "file": "assets/index-Bxooduui.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
@@ -184,11 +239,12 @@
       "_mdx-Qe2KgVJC.js",
       "_link-BlaBDQYy.js",
       "_footer-DSj8qepj.js",
+      "_about-section-ChqJ9wjY.js",
       "_generic-card-CPMVgpP3.js",
       "_testimonials-8x4SL2w7.js"
     ],
     "css": [
-      "assets/index-D7LRpFYi.css"
+      "assets/index-CyOTErGW.css"
     ]
   },
   "src/routes/open-source.tsx?pick=default&pick=$css&lang.tsx": {
@@ -460,7 +516,7 @@
     ]
   },
   "virtual:solid-ssr-entry-client.tsx": {
-    "file": "assets/virtual_solid-ssr-entry-client-B7jBotIx.js",
+    "file": "assets/virtual_solid-ssr-entry-client-CdsfNrEL.js",
     "name": "virtual_solid-ssr-entry-client",
     "src": "virtual:solid-ssr-entry-client.tsx",
     "isEntry": true,
@@ -474,12 +530,16 @@
       "src/routes/index.tsx?pick=default&pick=$css&lang.tsx",
       "src/routes/open-source.tsx?pick=default&pick=$css&lang.tsx",
       "src/routes/(mdxpage)/[...404].mdx?pick=$css",
+      "src/routes/(sveltia-managed-folder)/about.mdx?pick=$css",
+      "src/routes/(sveltia-managed-folder)/contact.mdx?pick=$css",
       "src/routes/case-studies/(records).tsx?pick=default&pick=$css&lang.tsx",
       "src/routes/case-studies/index.tsx?pick=default&pick=$css&lang.tsx",
       "src/routes/posts/(records).tsx?pick=default&pick=$css&lang.tsx",
       "src/routes/posts/index.tsx?pick=default&pick=$css&lang.tsx",
       "src/routes/products/(records).tsx?pick=default&pick=$css&lang.tsx",
       "src/routes/products/index.tsx?pick=default&pick=$css&lang.tsx",
+      "src/routes/(sveltia-managed-folder)/links/aligned.mdx?pick=$css",
+      "src/routes/(sveltia-managed-folder)/links/mentions.mdx?pick=$css",
       "src/routes/case-studies/(records)/2026-07-29-the-map-i-never-meant-to-build.mdx?pick=$css",
       "src/routes/case-studies/(records)/2026-09-14-a-library-that-fits-in-a-free-library.mdx?pick=$css",
       "src/routes/posts/(records)/2026-06-28-filesync.mdx?pick=$css",
