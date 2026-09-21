@@ -260,6 +260,7 @@ collections:
     create: true
     extension: mdx
     folder: "src/data/pages/"
+    preview_path: "{{fields.route}}"
     slug: "{{fields.heading}}"
     summary: "{{heading}} · {{route}}"
     fields:
