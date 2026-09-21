@@ -1,0 +1,25 @@
+import{n as e}from"./mdx-CvdavGbu.js";import{lt as t,yt as n}from"./link-D-5fxqYS.js";var r={title:`A Background Remover That Doesn't Want Your Money`,audience:`personal`,products:[`bgremove`],created:`2026-09-21T09:00:00`,published:`2026-09-21T09:00:00`,updated:``,thumbnail:``,thumbnailAlt:``,blurb:`remove.bg is folding into Canva and free tiers shrink your photos. So I built one that runs in your browser, keeps your full resolution, and costs nothing to keep online.`,booking_cta:{heading:`Paying monthly for something that could just be yours?`,body:`A lot of what small businesses pay for every month works like this: a subscription wrapped around something that could run on its own. If your business has a tool like that, I'm happy to take a look.`,action_label:``}};function i(n){let r={a:`a`,h2:`h2`,p:`p`,...e(),...n.components};return[t(r.p,{children:`Removing the background from a photo is a solved problem. It has been for years. So why does it still feel like walking through a store with a salesperson two steps behind you?`}),`
+`,t(r.p,{children:`Here is what I found when I went looking.`}),`
+`,t(r.h2,{children:`The free tier is a thumbnail`}),`
+`,t(r.p,{children:`remove.bg is the one everybody knows, and it is upfront about the catch: the free download is capped at a quarter of a megapixel. Hand it a photo from your phone and you get back something around 625 by 400 pixels. The preview on screen looks great. The file you download keeps about two percent of your pixels. Full resolution costs a credit per image.`}),`
+`,t(r.p,{children:`It is also going away. The standalone site shuts down on December 1, 2026, and background removal moves into Canva. Any credits you bought expire that same morning.`}),`
+`,t(r.p,{children:`The other big name, erase.bg, gives you three free credits and then a price list.`}),`
+`,t(r.h2,{children:`So here is bgremove`}),`
+`,t(r.p,{children:`bgremove runs entirely in your browser tab. Drop a photo in, and the model runs on your own machine. Your image never gets uploaded, because there is nowhere to upload it to. The cutout comes back at the size you gave it.`}),`
+`,t(r.p,{children:`No account. No credits. No "upgrade for HD."`}),`
+`,t(r.p,{get children(){return[`Try it: `,t(r.a,{href:`https://sparkstonepdx.github.io/bgremove/`,children:`sparkstonepdx.github.io/bgremove`}),`
+Code: `,t(r.a,{href:`https://github.com/sparkstonepdx/bgremove`,children:`github.com/sparkstonepdx/bgremove`})]}}),`
+`,t(r.h2,{children:`Why it can stay free`}),`
+`,t(r.p,{children:`This is the part I care about most.`}),`
+`,t(r.p,{children:`A free tool with a server behind it is a tool someone pays for every month. That is how free tiers end up shrinking your photos: the server costs money, so the free version has to be bad enough that you will pay. Or the company gets bought, and the tool you relied on becomes a button inside something bigger.`}),`
+`,t(r.p,{children:`bgremove has no server. It is a static site on GitHub Pages: a page, a runtime, and a model file. Your browser downloads the model once, caches it, and does all the work itself. There is nothing for me to keep running, so there is nothing I ever have to charge you for, and nothing for anyone to buy out from under you.`}),`
+`,t(r.p,{children:`It is open source, too. If GitHub Pages went away tomorrow, anyone could clone the repo, run the build, and host a copy anywhere that serves files. That is the entire deployment.`}),`
+`,t(r.h2,{children:`What it actually does`}),`
+`,t(r.p,{children:`The model is isnet-general-use, compressed to 8-bit weights so it is a 44 MB download instead of 178. On my test set it lands within 0.05 points of the full-size model.`}),`
+`,t(r.p,{children:`Models still get edges wrong sometimes, so there is a brush. Green keeps, red removes, and you paint right on the image. Turn on "Grow to edges" and one dab spreads into the matching region, so a single tap on a box flap takes the whole flap. The red brush is forgiving on purpose. If you clip a little of your subject while cleaning up background near an edge, it treats that as a slip and leaves your subject alone.`}),`
+`,t(r.p,{children:`Drop a stack of photos at once and it queues them. Finish one, hit Done, and the next one opens.`}),`
+`,t(r.p,{children:`If your phone can't handle the larger model, bgremove falls back to a smaller one and tells you it did, instead of leaving you staring at a dead page.`}),`
+`,t(r.p,{children:`Every model it ships is licensed Apache-2.0, so your cutouts are fine for work. I left out one popular model because its license is non-commercial only.`}),`
+`,t(r.h2,{children:`It's 2026`}),`
+`,t(r.p,{children:`We have models that run in a browser tab. We have free static hosting. A background remover that shrinks your photo unless you pay is a business decision, not a technical limit.`}),`
+`,t(r.p,{children:`So here is one that doesn't ask you for anything. If it misses on one of your photos, open an issue and I'll take a look.`})]}function a(r={}){let{wrapper:a}={...e(),...r.components};return a?t(a,n(r,{get children(){return t(i,r)}})):i(r)}export{a as default,r as frontmatter};
