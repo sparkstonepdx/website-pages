@@ -334,6 +334,7 @@ collections:
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
       - { label: "Blurb", name: "blurb", widget: "string" }
+      - <<: *booking_cta
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: Contributors
