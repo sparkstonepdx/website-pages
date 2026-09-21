@@ -1,64 +1,64 @@
 {
   "__vite-browser-external": {
-    "file": "assets/__vite-browser-external-BvoxfFtL.js",
+    "file": "assets/__vite-browser-external-DD26rmp_.js",
     "name": "__vite-browser-external",
     "src": "__vite-browser-external",
     "isDynamicEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js"
-    ]
-  },
-  "_about-section-Cm_JXOhN.js": {
-    "file": "assets/about-section-Cm_JXOhN.js",
-    "name": "about-section",
-    "imports": [
-      "_link-Cbt56D7K.js"
-    ],
-    "css": [
-      "assets/about-section-D9prPy8y.css"
+      "_mdx-C_C311CM.js"
     ]
   },
   "_about-section-D9prPy8y.css": {
     "file": "assets/about-section-D9prPy8y.css",
     "src": "_about-section-D9prPy8y.css"
   },
-  "_booking-cta-Dz6VqnSY.js": {
-    "file": "assets/booking-cta-Dz6VqnSY.js",
-    "name": "booking-cta",
+  "_about-section-aPA4owDF.js": {
+    "file": "assets/about-section-aPA4owDF.js",
+    "name": "about-section",
     "imports": [
-      "_link-Cbt56D7K.js"
-    ]
-  },
-  "_footer-CYZrf7I-.js": {
-    "file": "assets/footer-CYZrf7I-.js",
-    "name": "footer",
-    "imports": [
-      "_link-Cbt56D7K.js"
+      "_link-toOO1tQa.js"
     ],
     "css": [
-      "assets/footer-CrP6CDHN.css"
+      "assets/about-section-D9prPy8y.css"
+    ]
+  },
+  "_booking-cta-Dci1Qzub.js": {
+    "file": "assets/booking-cta-Dci1Qzub.js",
+    "name": "booking-cta",
+    "imports": [
+      "_link-toOO1tQa.js"
     ]
   },
   "_footer-CrP6CDHN.css": {
     "file": "assets/footer-CrP6CDHN.css",
     "src": "_footer-CrP6CDHN.css"
   },
-  "_generic-card-TfrjY1tJ.js": {
-    "file": "assets/generic-card-TfrjY1tJ.js",
-    "name": "generic-card",
+  "_footer-HoMp-OSL.js": {
+    "file": "assets/footer-HoMp-OSL.js",
+    "name": "footer",
     "imports": [
-      "_link-Cbt56D7K.js"
+      "_link-toOO1tQa.js"
+    ],
+    "css": [
+      "assets/footer-CrP6CDHN.css"
     ]
   },
-  "_link-Cbt56D7K.js": {
-    "file": "assets/link-Cbt56D7K.js",
+  "_generic-card-Ye1iwFiG.js": {
+    "file": "assets/generic-card-Ye1iwFiG.js",
+    "name": "generic-card",
+    "imports": [
+      "_link-toOO1tQa.js"
+    ]
+  },
+  "_link-toOO1tQa.js": {
+    "file": "assets/link-toOO1tQa.js",
     "name": "link"
   },
-  "_mdx-BqTHlMNA.js": {
-    "file": "assets/mdx-BqTHlMNA.js",
+  "_mdx-C_C311CM.js": {
+    "file": "assets/mdx-C_C311CM.js",
     "name": "mdx",
     "imports": [
-      "_link-Cbt56D7K.js"
+      "_link-toOO1tQa.js"
     ],
     "dynamicImports": [
       "__vite-browser-external"
@@ -68,20 +68,20 @@
     "file": "assets/routes-BgdzR0dJ.js",
     "name": "routes"
   },
-  "_testimonials-Bha0QBON.js": {
-    "file": "assets/testimonials-Bha0QBON.js",
+  "_testimonials-D_59cuCK.js": {
+    "file": "assets/testimonials-D_59cuCK.js",
     "name": "testimonials",
     "imports": [
-      "_link-Cbt56D7K.js"
+      "_link-toOO1tQa.js"
     ]
   },
   "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js": {
-    "file": "assets/serverForms-Bu-xl3PO.js",
+    "file": "assets/serverForms-CsCM7v0-.js",
     "name": "serverForms",
     "src": "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js",
     "isDynamicEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
+      "_link-toOO1tQa.js",
       "virtual:solid-ssr-entry-client.tsx"
     ],
     "dynamicImports": [
@@ -116,424 +116,434 @@
     "src": "src/lib/cal.com.js"
   },
   "src/routes/(mdxpage).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(mdxpage)-BUrHyTr1.js",
+    "file": "assets/(mdxpage)-DyC47YaD.js",
     "name": "(mdxpage)",
     "src": "src/routes/(mdxpage).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js"
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js"
     ]
   },
   "src/routes/(sveltia-managed-folder).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(sveltia-managed-folder)-BNSXBrnz.js",
+    "file": "assets/(sveltia-managed-folder)-wSshUuCE.js",
     "name": "(sveltia-managed-folder)",
     "src": "src/routes/(sveltia-managed-folder).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js"
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/[...404].mdx?pick=$css": {
-    "file": "assets/_...404_-DEE6Batx.js",
+    "file": "assets/_...404_-Cx-omPm_.js",
     "name": "_...404_",
     "src": "src/routes/(sveltia-managed-folder)/[...404].mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/about.mdx?pick=$css": {
-    "file": "assets/about-AMeZVTaa.js",
+    "file": "assets/about-ko-9K633.js",
     "name": "about",
     "src": "src/routes/(sveltia-managed-folder)/about.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js",
-      "_about-section-Cm_JXOhN.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js",
+      "_about-section-aPA4owDF.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/contact.mdx?pick=$css": {
-    "file": "assets/contact-C6vPaeLT.js",
+    "file": "assets/contact-DP3LEiAR.js",
     "name": "contact",
     "src": "src/routes/(sveltia-managed-folder)/contact.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/links/aligned.mdx?pick=$css": {
-    "file": "assets/aligned-Cxst2wYA.js",
+    "file": "assets/aligned-Do09n_um.js",
     "name": "aligned",
     "src": "src/routes/(sveltia-managed-folder)/links/aligned.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/links/mentions.mdx?pick=$css": {
-    "file": "assets/mentions-9XIboQPO.js",
+    "file": "assets/mentions-BQlTKlC6.js",
     "name": "mentions",
     "src": "src/routes/(sveltia-managed-folder)/links/mentions.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/case-studies/(records).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(records)-CDXK9YdN.js",
+    "file": "assets/(records)-CAXc3pwo.js",
     "name": "(records)",
     "src": "src/routes/case-studies/(records).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_testimonials-Bha0QBON.js",
-      "_booking-cta-Dz6VqnSY.js"
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_testimonials-D_59cuCK.js",
+      "_booking-cta-Dci1Qzub.js"
     ]
   },
   "src/routes/case-studies/(records)/2026-07-29-the-map-i-never-meant-to-build.mdx?pick=$css": {
-    "file": "assets/2026-07-29-the-map-i-never-meant-to-build-Cm_x3SwY.js",
+    "file": "assets/2026-07-29-the-map-i-never-meant-to-build-DBgs_yxa.js",
     "name": "2026-07-29-the-map-i-never-meant-to-build",
     "src": "src/routes/case-studies/(records)/2026-07-29-the-map-i-never-meant-to-build.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/case-studies/(records)/2026-09-14-a-library-that-fits-in-a-free-library.mdx?pick=$css": {
-    "file": "assets/2026-09-14-a-library-that-fits-in-a-free-library-DKgEUQNN.js",
+    "file": "assets/2026-09-14-a-library-that-fits-in-a-free-library-BSM46D69.js",
     "name": "2026-09-14-a-library-that-fits-in-a-free-library",
     "src": "src/routes/case-studies/(records)/2026-09-14-a-library-that-fits-in-a-free-library.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/case-studies/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-BfbwihPv.js",
+    "file": "assets/index-C6Ljls_z.js",
     "name": "index",
     "src": "src/routes/case-studies/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_generic-card-TfrjY1tJ.js",
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_generic-card-Ye1iwFiG.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-BhCjRuTb.js",
+    "file": "assets/index-DDGeUkRk.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_about-section-Cm_JXOhN.js",
-      "_generic-card-TfrjY1tJ.js",
-      "_testimonials-Bha0QBON.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_about-section-aPA4owDF.js",
+      "_generic-card-Ye1iwFiG.js",
+      "_testimonials-D_59cuCK.js"
     ],
     "css": [
       "assets/index-CyOTErGW.css"
     ]
   },
   "src/routes/open-source.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/open-source-Dx_bNk3X.js",
+    "file": "assets/open-source-PXaOTmy_.js",
     "name": "open-source",
     "src": "src/routes/open-source.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_generic-card-TfrjY1tJ.js",
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_generic-card-Ye1iwFiG.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "src/routes/posts/(records).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(records)-Cv_OU2uc.js",
+    "file": "assets/(records)-Cw37cHV0.js",
     "name": "(records)",
     "src": "src/routes/posts/(records).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_booking-cta-Dz6VqnSY.js"
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_booking-cta-Dci1Qzub.js"
     ]
   },
   "src/routes/posts/(records)/2026-06-28-filesync.mdx?pick=$css": {
-    "file": "assets/2026-06-28-filesync-CmLcT6JZ.js",
+    "file": "assets/2026-06-28-filesync-D1JFwwhB.js",
     "name": "2026-06-28-filesync",
     "src": "src/routes/posts/(records)/2026-06-28-filesync.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
+    ]
+  },
+  "src/routes/posts/(records)/2026-09-21-bgremove.mdx?pick=$css": {
+    "file": "assets/2026-09-21-bgremove-DfgSZsVV.js",
+    "name": "2026-09-21-bgremove",
+    "src": "src/routes/posts/(records)/2026-09-21-bgremove.mdx?pick=$css",
+    "isEntry": true,
+    "imports": [
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/posts/(records)/arcanetable-insight.mdx?pick=$css": {
-    "file": "assets/arcanetable-insight-CMgDZlTC.js",
+    "file": "assets/arcanetable-insight-BuWklxyv.js",
     "name": "arcanetable-insight",
     "src": "src/routes/posts/(records)/arcanetable-insight.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/posts/(records)/build-with-people.mdx?pick=$css": {
-    "file": "assets/build-with-people-BXtFTFTk.js",
+    "file": "assets/build-with-people-iiv6RXt-.js",
     "name": "build-with-people",
     "src": "src/routes/posts/(records)/build-with-people.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/posts/(records)/cryptpads-url-trick.mdx?pick=$css": {
-    "file": "assets/cryptpads-url-trick-C_B4nkVy.js",
+    "file": "assets/cryptpads-url-trick-B38PNh4_.js",
     "name": "cryptpads-url-trick",
     "src": "src/routes/posts/(records)/cryptpads-url-trick.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/posts/(records)/edible-neighborhoods.mdx?pick=$css": {
-    "file": "assets/edible-neighborhoods-CULJcWQd.js",
+    "file": "assets/edible-neighborhoods-BYaTn05G.js",
     "name": "edible-neighborhoods",
     "src": "src/routes/posts/(records)/edible-neighborhoods.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/posts/(records)/openmls-looked-like-the-perfect-answer.mdx?pick=$css": {
-    "file": "assets/openmls-looked-like-the-perfect-answer-tkg8Xz6n.js",
+    "file": "assets/openmls-looked-like-the-perfect-answer-VK2tqLbo.js",
     "name": "openmls-looked-like-the-perfect-answer",
     "src": "src/routes/posts/(records)/openmls-looked-like-the-perfect-answer.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/posts/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-5NbxeCg5.js",
+    "file": "assets/index-C6jq6_GA.js",
     "name": "index",
     "src": "src/routes/posts/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_generic-card-TfrjY1tJ.js",
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_generic-card-Ye1iwFiG.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "src/routes/products/(records).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(records)-C6eHVpwG.js",
+    "file": "assets/(records)-9FSTsymX.js",
     "name": "(records)",
     "src": "src/routes/products/(records).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_testimonials-Bha0QBON.js",
-      "_booking-cta-Dz6VqnSY.js"
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_testimonials-D_59cuCK.js",
+      "_booking-cta-Dci1Qzub.js"
     ]
   },
   "src/routes/products/(records)/arcanetable.mdx?pick=$css": {
-    "file": "assets/arcanetable-BWL3wC7t.js",
+    "file": "assets/arcanetable-BH4Qc3C1.js",
     "name": "arcanetable",
     "src": "src/routes/products/(records)/arcanetable.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/bgremove.mdx?pick=$css": {
-    "file": "assets/bgremove-xJZIemSn.js",
+    "file": "assets/bgremove-_6pBDoHW.js",
     "name": "bgremove",
     "src": "src/routes/products/(records)/bgremove.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/blathadex.mdx?pick=$css": {
-    "file": "assets/blathadex-BPzQ6dg0.js",
+    "file": "assets/blathadex-Btdjn7uW.js",
     "name": "blathadex",
     "src": "src/routes/products/(records)/blathadex.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/dawei.mdx?pick=$css": {
-    "file": "assets/dawei-BSTKMCWf.js",
+    "file": "assets/dawei-BffFXCfJ.js",
     "name": "dawei",
     "src": "src/routes/products/(records)/dawei.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/feature-flags.mdx?pick=$css": {
-    "file": "assets/feature-flags-CjwNS2wY.js",
+    "file": "assets/feature-flags-BEXIbOcD.js",
     "name": "feature-flags",
     "src": "src/routes/products/(records)/feature-flags.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/grim-choices.mdx?pick=$css": {
-    "file": "assets/grim-choices-CNe_vtdl.js",
+    "file": "assets/grim-choices-DnN4ERdC.js",
     "name": "grim-choices",
     "src": "src/routes/products/(records)/grim-choices.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/id-order-spacing.mdx?pick=$css": {
-    "file": "assets/id-order-spacing-ID3oIVFb.js",
+    "file": "assets/id-order-spacing-uGYsRhDb.js",
     "name": "id-order-spacing",
     "src": "src/routes/products/(records)/id-order-spacing.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/katachi.mdx?pick=$css": {
-    "file": "assets/katachi-B1KcGaC9.js",
+    "file": "assets/katachi-KgdHyYV0.js",
     "name": "katachi",
     "src": "src/routes/products/(records)/katachi.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/liveframe.mdx?pick=$css": {
-    "file": "assets/liveframe-DKtGl8tG.js",
+    "file": "assets/liveframe-cUOZH71z.js",
     "name": "liveframe",
     "src": "src/routes/products/(records)/liveframe.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/ntna-yard-sale-map.mdx?pick=$css": {
-    "file": "assets/ntna-yard-sale-map-BgZjqJ4g.js",
+    "file": "assets/ntna-yard-sale-map-CNhTH8-7.js",
     "name": "ntna-yard-sale-map",
     "src": "src/routes/products/(records)/ntna-yard-sale-map.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/pocketbase-schema.mdx?pick=$css": {
-    "file": "assets/pocketbase-schema-BpfHqDAB.js",
+    "file": "assets/pocketbase-schema-1AyCtdSl.js",
     "name": "pocketbase-schema",
     "src": "src/routes/products/(records)/pocketbase-schema.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/solid-forms.mdx?pick=$css": {
-    "file": "assets/solid-forms-De7d4NiH.js",
+    "file": "assets/solid-forms-CAnJflny.js",
     "name": "solid-forms",
     "src": "src/routes/products/(records)/solid-forms.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/solid-validation.mdx?pick=$css": {
-    "file": "assets/solid-validation-CA_TgZHx.js",
+    "file": "assets/solid-validation-1gQQF82-.js",
     "name": "solid-validation",
     "src": "src/routes/products/(records)/solid-validation.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/sparkstone-css.mdx?pick=$css": {
-    "file": "assets/sparkstone-css-D8ptzm0p.js",
+    "file": "assets/sparkstone-css-B3aslYMh.js",
     "name": "sparkstone-css",
     "src": "src/routes/products/(records)/sparkstone-css.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/tasks.mdx?pick=$css": {
-    "file": "assets/tasks-BlUWDpyb.js",
+    "file": "assets/tasks-C1hyCvrV.js",
     "name": "tasks",
     "src": "src/routes/products/(records)/tasks.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/(records)/version-json.mdx?pick=$css": {
-    "file": "assets/version-json-DKImRPfU.js",
+    "file": "assets/version-json-xsmLLgHy.js",
     "name": "version-json",
     "src": "src/routes/products/(records)/version-json.mdx?pick=$css",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ]
   },
   "src/routes/products/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-BBqsuphP.js",
+    "file": "assets/index-kvpcU6a2.js",
     "name": "index",
     "src": "src/routes/products/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
-      "_link-Cbt56D7K.js",
-      "_footer-CYZrf7I-.js",
-      "_generic-card-TfrjY1tJ.js",
+      "_link-toOO1tQa.js",
+      "_footer-HoMp-OSL.js",
+      "_generic-card-Ye1iwFiG.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "virtual:solid-ssr-entry-client.tsx": {
-    "file": "assets/virtual_solid-ssr-entry-client-DbxaFLwn.js",
+    "file": "assets/virtual_solid-ssr-entry-client-CxX930Nj.js",
     "name": "virtual_solid-ssr-entry-client",
     "src": "virtual:solid-ssr-entry-client.tsx",
     "isEntry": true,
     "imports": [
-      "_mdx-BqTHlMNA.js",
-      "_link-Cbt56D7K.js"
+      "_mdx-C_C311CM.js",
+      "_link-toOO1tQa.js"
     ],
     "dynamicImports": [
       "src/routes/(mdxpage).tsx?pick=default&pick=$css&lang.tsx",
@@ -554,6 +564,7 @@
       "src/routes/case-studies/(records)/2026-07-29-the-map-i-never-meant-to-build.mdx?pick=$css",
       "src/routes/case-studies/(records)/2026-09-14-a-library-that-fits-in-a-free-library.mdx?pick=$css",
       "src/routes/posts/(records)/2026-06-28-filesync.mdx?pick=$css",
+      "src/routes/posts/(records)/2026-09-21-bgremove.mdx?pick=$css",
       "src/routes/posts/(records)/arcanetable-insight.mdx?pick=$css",
       "src/routes/posts/(records)/build-with-people.mdx?pick=$css",
       "src/routes/posts/(records)/cryptpads-url-trick.mdx?pick=$css",
@@ -579,7 +590,7 @@
       "src/lib/cal.com.js"
     ],
     "css": [
-      "assets/virtual_solid-ssr-entry-client-B1tSWfTm.css"
+      "assets/virtual_solid-ssr-entry-client-BEjK00Bd.css"
     ]
   }
 }
