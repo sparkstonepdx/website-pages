@@ -294,6 +294,7 @@ collections:
           - { label: "Business buyers", value: business }
           - { label: "Developers", value: developer }
           - { label: "Personal", value: personal }
+      - { label: "Is Opensource", name: "isOpensource", widget: "boolean", required: false }
       - { label: "Live URL", name: "url", widget: "string", type: url, required: false }
       - { label: "Repository", name: "repo", widget: "string", type: url, required: false }
       - { label: "Package", name: "package", widget: "string", required: false, hint: "npm name, e.g. @sparkstone/css" }
