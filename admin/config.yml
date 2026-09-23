@@ -319,6 +319,7 @@ collections:
 
   - name: Posts
     label: Posts
+    label_singular: Post
     create: true
     extension: mdx
     folder: "src/routes/posts/(records)"
