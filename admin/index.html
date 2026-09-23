@@ -5,8 +5,6 @@
     <meta name="robots" content="noindex" />
     <title>Sveltia CMS</title>
     <style>
-
-
       .publish-date {
         display: flex;
         align-items: center;
@@ -17,6 +15,12 @@
         margin: var(--sui-focus-ring-width);
         width: auto;
         min-width: 0;
+      }
+
+      .publish-date-note {
+        margin: 4px 0 0;
+        color: var(--sui-secondary-foreground-color);
+        font-size: var(--sui-font-size-small);
       }
 
       .publish-date > button.now {
@@ -33,7 +37,7 @@
           --sui-button-tertiary-border-color,
           var(--sui-button-border-color)
         );
-        border-radius: var(--sui-button-medium-border-radius) !important;
+        border-radius: var(--sui-button-medium-border-radius);
         padding: var(--sui-button-medium-padding);
         height: var(--sui-button-medium-height);
 

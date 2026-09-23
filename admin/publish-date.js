@@ -16,23 +16,32 @@ const PublishDateControl = createClass({
   render: function () {
     return h(
       "div",
-      { className: "publish-date" },
-      h("input", {
-        id: this.props.forID,
-        className: this.props.classNameWrapper,
-        type: "datetime-local",
-        max: "9999-12-31T23:59",
-        value: toInputValue(this.props.value),
-        onChange: this.handleInput,
-      }),
+      null,
       h(
-        "button",
-        {
-          type: "button",
-          className: "now",
-          onClick: () => this.props.onChange(new Date().toISOString()),
-        },
-        h("span", { style: {padding: '0 4px'} }, "Now"),
+        "div",
+        { className: "publish-date" },
+        h("input", {
+          id: this.props.forID,
+          className: this.props.classNameWrapper,
+          type: "datetime-local",
+          max: "9999-12-31T23:59",
+          value: toInputValue(this.props.value),
+          onChange: this.handleInput,
+        }),
+        h(
+          "button",
+          {
+            type: "button",
+            className: "now",
+            onClick: () => this.props.onChange(new Date().toISOString()),
+          },
+          h("span", { style: { padding: "0 4px" } }, "Now"),
+        ),
+      ),
+      h(
+        "p",
+        { className: "publish-date-note" },
+        "If this entry is marked Ready, it merges automatically at this time. Checked hourly.",
       ),
     );
   },
