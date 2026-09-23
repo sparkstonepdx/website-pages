@@ -15,6 +15,9 @@ backend:
   base_url: https://sveltia-cms-auth.sparkstonepdx.workers.dev
   preview_context: preview-pr
 
+widget_types:
+  publishdate: string
+
 logo:
   src: /sparkstone-logo.svg
   show_in_header: true
