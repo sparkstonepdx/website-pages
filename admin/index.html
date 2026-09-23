@@ -4,9 +4,69 @@
     <meta charset="utf-8" />
     <meta name="robots" content="noindex" />
     <title>Sveltia CMS</title>
+    <style>
+
+
+      .publish-date {
+        display: flex;
+        align-items: center;
+      }
+
+      .publish-date > input {
+        flex: 0 0 auto !important;
+        margin: var(--sui-focus-ring-width);
+        width: auto;
+        min-width: 0;
+      }
+
+      .publish-date > button.now {
+        flex: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+
+        margin: var(--sui-focus-ring-width);
+        border-width: var(--sui-button-tertiary-border-width, 1px);
+        border-style: var(--sui-button-tertiary-border-style, solid);
+        border-color: var(
+          --sui-button-tertiary-border-color,
+          var(--sui-button-border-color)
+        );
+        border-radius: var(--sui-button-medium-border-radius) !important;
+        padding: var(--sui-button-medium-padding);
+        height: var(--sui-button-medium-height);
+
+        color: var(
+          --sui-button-tertiary-foreground-color,
+          var(--sui-highlight-foreground-color)
+        );
+        background-color: var(
+          --sui-button-tertiary-background-color,
+          var(--sui-button-background-color)
+        );
+
+        font-family: var(--sui-control-font-family);
+        font-size: var(
+          --sui-button-medium-font-size,
+          var(--sui-font-size-default)
+        );
+        font-weight: var(
+          --sui-button-tertiary-font-weight,
+          var(--sui-font-weight-normal, normal)
+        );
+        line-height: var(--sui-control-line-height);
+        text-align: start;
+
+        box-shadow: none;
+        cursor: pointer;
+        transition: all 200ms;
+      }
+    </style>
   </head>
   <body>
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
     <script src="/admin/optimized-image.js"></script>
+    <script src="/admin/publish-date.js"></script>
   </body>
 </html>

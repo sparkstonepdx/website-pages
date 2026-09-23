@@ -155,6 +155,8 @@ collections:
     summary: "{{title}} · {{client}}"
     fields:
       - { label: "Title", name: "title", widget: "string", minlength: 5 }
+      - { label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
+      - { label: "Published", name: "published", widget: "publishdate" }
       - { label: "Client", name: "client", widget: "string" }
       - label: Segment
         name: segment
@@ -189,8 +191,6 @@ collections:
       - { label: "Timeline", name: "timeline", widget: "string", required: false }
       - { label: "Live URL", name: "url", widget: "string", type: url, required: false }
       - <<: *testimonials
-      - { label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
-      - { label: "Published", name: "published", widget: "datetime", default: "{{now}}" }
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
       - <<: *booking_cta
@@ -293,6 +293,8 @@ collections:
       - { label: Personal, field: audience, pattern: personal }
     fields:
       - { label: "Title", name: "title", widget: "string", minlength: 5 }
+      - { label: "Created", name: "created", widget: "datetime", type: date, format: "YYYY-MM-DD", default: "{{now}}" }
+      - { label: "Published", name: "published", widget: "publishdate" }
       - label: Audience
         name: audience
         widget: select
@@ -304,8 +306,6 @@ collections:
       - { label: "Live URL", name: "url", widget: "string", type: url, required: false }
       - { label: "Repository", name: "repo", widget: "string", type: url, required: false }
       - { label: "Package", name: "package", widget: "string", required: false, hint: "npm name, e.g. @sparkstone/css" }
-      - { label: "Created", name: "created", widget: "datetime", type: date, format: "YYYY-MM-DD", default: "{{now}}" }
-      - { label: "Published", name: "published", widget: "datetime", type: date, format: "YYYY-MM-DD", default: "{{now}}" }
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
       - { label: "Blurb", name: "blurb", widget: "string" }
@@ -327,6 +327,8 @@ collections:
       - { label: Personal, field: audience, pattern: personal }
     fields:
       - { label: "Title", name: "title", widget: "string", minlength: 5 }
+      - { label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
+      - { label: "Published", name: "published", widget: "publishdate"}
       - label: Audience
         name: audience
         widget: select
@@ -335,8 +337,6 @@ collections:
           - { label: "Developers", value: developer }
           - { label: "Personal", value: personal }
       - { label: "Related products", name: "products", widget: relation, collection: products, value_field: "{{slug}}", search_fields: [title], display_fields: [title], multiple: true, required: false }
-      - { label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
-      - { label: "Published", name: "published", widget: "datetime", default: "{{now}}" }
       - { label: "Updated", name: "updated", widget: "datetime", required: false }
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
