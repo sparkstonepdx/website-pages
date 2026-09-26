@@ -41,7 +41,7 @@ const PublishDateControl = createClass({
       h(
         "p",
         { className: "publish-date-note" },
-        "If this entry is marked Ready, it merges automatically at this time. Checked hourly.",
+        "If this entry is marked ready, it will automatically be published within an hour of this time.",
       ),
     );
   },

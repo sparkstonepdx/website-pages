@@ -90,7 +90,7 @@
     ]
   },
   "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js": {
-    "file": "assets/serverForms-C62x7fCj.js",
+    "file": "assets/serverForms--PDV8Jro.js",
     "name": "serverForms",
     "src": "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js",
     "isDynamicEntry": true,
@@ -565,7 +565,7 @@
     ]
   },
   "virtual:solid-ssr-entry-client.tsx": {
-    "file": "assets/virtual_solid-ssr-entry-client-ySGiqkW7.js",
+    "file": "assets/virtual_solid-ssr-entry-client-nmiK6wCc.js",
     "name": "virtual_solid-ssr-entry-client",
     "src": "virtual:solid-ssr-entry-client.tsx",
     "isEntry": true,
@@ -619,7 +619,7 @@
       "src/lib/cal.com.js"
     ],
     "css": [
-      "assets/virtual_solid-ssr-entry-client-BEjK00Bd.css"
+      "assets/virtual_solid-ssr-entry-client-D_nezscx.css"
     ]
   }
 }
