@@ -43,19 +43,27 @@
     "file": "assets/cms-banner-DuAakPpt.css",
     "src": "_cms-banner-DuAakPpt.css"
   },
-  "_footer-CEJyhFXP.js": {
-    "file": "assets/footer-CEJyhFXP.js",
-    "name": "footer",
+  "_dist-C1lKdcBq.js": {
+    "file": "assets/dist-C1lKdcBq.js",
+    "name": "dist",
     "imports": [
       "_link-B3Dlgyg2.js"
-    ],
-    "css": [
-      "assets/footer-CrP6CDHN.css"
     ]
   },
   "_footer-CrP6CDHN.css": {
     "file": "assets/footer-CrP6CDHN.css",
     "src": "_footer-CrP6CDHN.css"
+  },
+  "_footer-FWfWq8sD.js": {
+    "file": "assets/footer-FWfWq8sD.js",
+    "name": "footer",
+    "imports": [
+      "_link-B3Dlgyg2.js",
+      "_dist-C1lKdcBq.js"
+    ],
+    "css": [
+      "assets/footer-CrP6CDHN.css"
+    ]
   },
   "_generic-card-9dbJnQdT.js": {
     "file": "assets/generic-card-9dbJnQdT.js",
@@ -90,7 +98,7 @@
     ]
   },
   "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js": {
-    "file": "assets/serverForms-2Xa9Qwgm.js",
+    "file": "assets/serverForms-KyEFLVJ9.js",
     "name": "serverForms",
     "src": "node_modules/.pnpm/@solidjs+router@2.0.0-next.24_@solidjs+web@2.0.0-rc.8_solid-js@2.0.0-rc.8__solid-js@2.0.0-rc.8/node_modules/@solidjs/router/dist/data/serverForms.js",
     "isDynamicEntry": true,
@@ -130,23 +138,23 @@
     "src": "src/lib/cal.com.js"
   },
   "src/routes/(mdxpage).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(mdxpage)-BZt5N_kD.js",
+    "file": "assets/(mdxpage)-DXy5A1Wr.js",
     "name": "(mdxpage)",
     "src": "src/routes/(mdxpage).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js"
+      "_footer-FWfWq8sD.js"
     ]
   },
   "src/routes/(sveltia-managed-folder).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(sveltia-managed-folder)-DGDiM21G.js",
+    "file": "assets/(sveltia-managed-folder)-CIvc3ufi.js",
     "name": "(sveltia-managed-folder)",
     "src": "src/routes/(sveltia-managed-folder).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js"
+      "_footer-FWfWq8sD.js"
     ]
   },
   "src/routes/(sveltia-managed-folder)/[...404].mdx?pick=$css": {
@@ -211,13 +219,13 @@
     ]
   },
   "src/routes/case-studies/(records).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(records)-CioIN8xf.js",
+    "file": "assets/(records)-BNtsyiIP.js",
     "name": "(records)",
     "src": "src/routes/case-studies/(records).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_testimonials-E4iICLW3.js",
       "_cms-banner-D-HZxXj3.js",
       "_booking-cta-DgLCmO_2.js"
@@ -244,26 +252,26 @@
     ]
   },
   "src/routes/case-studies/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-D9IzXkDO.js",
+    "file": "assets/index-Cy60oj_p.js",
     "name": "index",
     "src": "src/routes/case-studies/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_generic-card-9dbJnQdT.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-B1phGff3.js",
+    "file": "assets/index-CTLnslIR.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_mdx-ByN1DirU.js",
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_about-section-Bfundt2W.js",
       "_generic-card-9dbJnQdT.js",
       "_testimonials-E4iICLW3.js",
@@ -274,25 +282,25 @@
     ]
   },
   "src/routes/open-source.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/open-source-C2y4GjFs.js",
+    "file": "assets/open-source-Dcbnfo05.js",
     "name": "open-source",
     "src": "src/routes/open-source.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_generic-card-9dbJnQdT.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "src/routes/posts/(records).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(records)-CCw9sMKt.js",
+    "file": "assets/(records)-BPdMVOfZ.js",
     "name": "(records)",
     "src": "src/routes/posts/(records).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_cms-banner-D-HZxXj3.js",
       "_booking-cta-DgLCmO_2.js"
     ]
@@ -368,25 +376,25 @@
     ]
   },
   "src/routes/posts/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-xmuMGRJQ.js",
+    "file": "assets/index-mt1LcPJ-.js",
     "name": "index",
     "src": "src/routes/posts/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_generic-card-9dbJnQdT.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "src/routes/products/(records).tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/(records)-BCVWvNUP.js",
+    "file": "assets/(records)-CM9nCU-6.js",
     "name": "(records)",
     "src": "src/routes/products/(records).tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_testimonials-E4iICLW3.js",
       "_cms-banner-D-HZxXj3.js",
       "_booking-cta-DgLCmO_2.js"
@@ -553,25 +561,26 @@
     ]
   },
   "src/routes/products/index.tsx?pick=default&pick=$css&lang.tsx": {
-    "file": "assets/index-CuVl5Wzs.js",
+    "file": "assets/index-mmMCQhae.js",
     "name": "index",
     "src": "src/routes/products/index.tsx?pick=default&pick=$css&lang.tsx",
     "isEntry": true,
     "imports": [
       "_link-B3Dlgyg2.js",
-      "_footer-CEJyhFXP.js",
+      "_footer-FWfWq8sD.js",
       "_generic-card-9dbJnQdT.js",
       "_routes-BgdzR0dJ.js"
     ]
   },
   "virtual:solid-ssr-entry-client.tsx": {
-    "file": "assets/virtual_solid-ssr-entry-client-D9Xbcqhf.js",
+    "file": "assets/virtual_solid-ssr-entry-client-t5PU5-L0.js",
     "name": "virtual_solid-ssr-entry-client",
     "src": "virtual:solid-ssr-entry-client.tsx",
     "isEntry": true,
     "imports": [
       "_mdx-ByN1DirU.js",
-      "_link-B3Dlgyg2.js"
+      "_link-B3Dlgyg2.js",
+      "_dist-C1lKdcBq.js"
     ],
     "dynamicImports": [
       "src/routes/(mdxpage).tsx?pick=default&pick=$css&lang.tsx",
