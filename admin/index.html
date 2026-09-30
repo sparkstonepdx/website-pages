@@ -70,7 +70,21 @@
   </head>
   <body>
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <link rel="stylesheet" type="text/css" href="/admin/sveltia-ext.css">
     <script src="/admin/optimized-image.js"></script>
     <script src="/admin/publish-date.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@solidjs/signals": "https://esm.sh/@solidjs/signals@2.0.0-rc.11",
+          "@solidjs/signals/attribution": "https://esm.sh/@solidjs/signals@2.0.0-rc.11/attribution",
+          "solid-js": "https://esm.sh/solid-js@2.0.0-rc.11?external=@solidjs/signals",
+          "solid-js/internal": "https://esm.sh/solid-js@2.0.0-rc.11/internal?external=@solidjs/signals",
+          "@solidjs/web": "https://esm.sh/@solidjs/web@2.0.0-rc.11?external=solid-js,@solidjs/signals",
+          "@solidjs/html": "https://esm.sh/@solidjs/html@2.0.0-rc.11?external=solid-js,@solidjs/web,@solidjs/signals"
+        }
+      }
+    </script>
+    <script src="/admin/analytics-page.js" type="module"></script>
   </body>
 </html>

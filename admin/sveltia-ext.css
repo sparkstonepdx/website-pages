@@ -1,0 +1,107 @@
+/* ---- Sidebar nav item: base layer from @sveltia/ui's TreeItem ---- */
+.sx-item {
+  display: block;
+}
+
+.sx-item > .row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: var(
+    --sui-tree-item-border-radius,
+    var(--sui-option-border-radius, 4px)
+  );
+  padding: var(--sui-tree-item-padding, var(--sui-option-padding, 0 8px));
+  min-height: var(--sui-tree-item-height, var(--sui-option-height));
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.sx-item > .row:hover {
+  color: var(--sui-highlight-foreground-color);
+  background-color: var(--sui-hover-background-color);
+}
+
+.sx-item > .row:active {
+  background-color: var(--sui-active-background-color);
+}
+
+.sx-item[aria-selected="true"] > .row {
+  color: var(--sui-highlight-foreground-color);
+  background-color: var(--sui-selected-background-color);
+}
+
+.sx-item[aria-selected="true"] > .row .count {
+  color: var(--sui-highlighted-foreground-color);
+}
+
+/* The ring goes on the row, not the whole subtree */
+.sx-item:focus-visible {
+  outline-color: transparent;
+}
+.sx-item:focus-visible > .row {
+  outline-color: var(--sui-focus-ring-color);
+  outline-offset: calc(var(--sui-focus-ring-width) * -1);
+}
+
+.sx-item > .row > .chevron {
+  flex: none;
+  width: var(--sui-tree-item-chevron-size, 24px);
+  height: var(--sui-tree-item-chevron-size, 24px);
+}
+
+.sx-item > .row > .label {
+  flex: auto;
+  overflow: hidden;
+  padding: 0 4px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ---- Page shell: matches main.wrapper's children ---- */
+.sx-host { display: contents; }
+.sx-host[hidden] { display: none; }
+
+.sx-page {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sx-page[hidden] {
+  display: none;
+}
+
+.sx-toolbar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  height: var(--sui-primary-toolbar-size);
+}
+
+.sx-toolbar > h2 {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding-inline: 12px 12px;
+  min-width: 0;
+  font-size: var(--sui-font-size-x-large);
+}
+
+.sx-content {
+  flex: auto;
+  overflow: auto;
+  padding: 16px;
+  color: var(--sui-primary-foreground-color);
+  font-family: var(--sui-font-family-default);
+  font-size: var(--sui-font-size-default);
+}
+
+/* Hide the CMS's own content while one of ours is showing */
+#collection-container.sx-active > *:not(.sx-page):not(.sx-host) {
+  display: none;
+}
