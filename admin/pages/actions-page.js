@@ -27,15 +27,26 @@ const iconFor = (run) =>
 
 const when = (iso) => {
   const mins = Math.round((Date.now() - Date.parse(iso)) / 60000);
-  if (mins < 60) return `${mins}m ago`;
+  if (mins < 60) return `${mins} minutes ago`;
   if (mins < 1440) return `${Math.round(mins / 60)}h ago`;
-  return new Date(iso).toLocaleDateString();
+  return new Date(iso).toLocaleString(undefined, {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  });
 };
 
-const isLocal = () =>
-  ["local", "proxy"].includes(
-    JSON.parse(localStorage.getItem("sveltia-cms.user") ?? "{}").backendName,
-  );
+const duration = (run) => {
+  const start = Date.parse(run.run_started_at ?? run.created_at);
+  const secs = Math.round((Date.parse(run.updated_at) - start) / 1000);
+  if (!Number.isFinite(secs) || secs < 0) return "";
+  return secs < 60 ? `${secs}s` : `${Math.floor(secs / 60)}m ${secs % 60}s`;
+};
+
+const session = () => JSON.parse(localStorage.getItem("sveltia-cms.user") ?? "{}");
+
+const isLocal = () => ["local", "proxy"].includes(session().backendName);
 
 const Notice = (props) =>
   html`<div class="sx-notice">
@@ -49,7 +60,10 @@ const Notice = (props) =>
   </div>`;
 
 const Actions = () => {
-  const config = createMemo(async () => cmsConfig());
+  // Skip the fetch entirely on the local backend: config.yml is read off disk
+  // via the File System Access API, so there's nothing to request over HTTP.
+  const config = createMemo(async () => (isLocal() ? null : cmsConfig()));
+
   const repo = () => config()?.backend?.repo;
   const apiRoot = () => config()?.backend?.api_root ?? "https://api.github.com";
 
@@ -57,24 +71,19 @@ const Actions = () => {
   const [error, setError] = createSignal("");
   const [busy, setBusy] = createSignal(false);
 
-  const token = () =>
-    JSON.parse(localStorage.getItem("sveltia-cms.user") ?? "{}").token;
-
   const headers = () => ({
-    Authorization: `Bearer ${token()}`,
+    Authorization: `Bearer ${session().token}`,
     Accept: "application/vnd.github+json",
   });
 
   async function load() {
     const r = repo();
-    if (!r || !token()) return;
+    if (!r || !session().token) return;
 
     try {
       const res = await fetch(
-        `${apiRoot()}/repos/${r}/actions/runs?per_page=10`,
-        {
-          headers: headers(),
-        },
+        `${apiRoot()}/repos/${r}/actions/runs?per_page=12`,
+        { headers: headers() },
       );
 
       if (res.status === 401)
@@ -130,23 +139,23 @@ const Actions = () => {
   onCleanup(() => clearInterval(timer));
 
   return html`<${Show}
-    when=${() => config()?.backend?.name === "github"}
+    when=${() => !isLocal()}
     fallback=${() =>
       Notice({
-        icon: "info",
-        title: "Deploy status needs the GitHub backend.",
-        detail: `This site uses the "${config()?.backend?.name}" backend.`,
+        icon: "construction",
+        title: "Deploy status isn't available in local development.",
+        detail:
+          "The local backend works against files on disk and has no GitHub token, " +
+          "so there are no workflow runs to show. This page works on the published site.",
       })}
   >
     <${Show}
-      when=${() => !isLocal()}
+      when=${() => config()?.backend?.name === "github"}
       fallback=${() =>
         Notice({
-          icon: "construction",
-          title: "Deploy status isn't available in local development.",
-          detail:
-            "The local backend works against files on disk and has no GitHub token, " +
-            "so there are no workflow runs to show. This page works on the published site.",
+          icon: "info",
+          title: "Deploy status needs the GitHub backend.",
+          detail: `This site uses the "${config()?.backend?.name}" backend.`,
         })}
     >
       <div class="sx-actions-bar">
@@ -159,43 +168,56 @@ const Actions = () => {
         </button>
         <span class="sx-error">${() => error()}</span>
       </div>
-      <div class="sx-runs" role="table" aria-label="Recent workflow runs">
-        <div role="rowgroup" class="sx-rowgroup">
-          <div role="row" class="sx-row sx-head">
-            <span role="columnheader" class="sx-sr">Status</span>
-            <span role="columnheader">Run</span>
-            <span role="columnheader">Branch</span>
-            <span role="columnheader">Started</span>
-          </div>
-        </div>
-        <div role="rowgroup" class="sx-rowgroup">
-          <${For} each=${runs}>
-            ${(run) =>
-              html`<div role="row" class="sx-row">
-                <span role="cell">
+
+      <div class="sx-runs">
+        <${For} each=${runs}>
+          ${(run) =>
+            html`<a
+              class="sx-run"
+              href=${run.html_url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span
+                class="sui icon material-symbols-outlined sx-run-status"
+                style=${`color:${iconFor(run)[1]}`}
+                title=${run.status === "completed" ? run.conclusion : run.status}
+                >${iconFor(run)[0]}</span
+              >
+
+              <span class="sx-run-main">
+                <span class="sx-run-title"
+                  >${run.display_title ?? run.name}</span
+                >
+                <span class="sx-run-sub">
+                  ${run.name} #${run.run_number}: Commit
+                  <code>${run.head_sha?.slice(0, 7)}</code> by
+                  ${run.triggering_actor?.login ?? run.actor?.login}
+                </span>
+              </span>
+
+              <span class="sx-run-branch">${run.head_branch}</span>
+
+              <span class="sx-run-meta">
+                <span>
                   <span
                     class="sui icon material-symbols-outlined"
-                    style=${`color:${iconFor(run)[1]}`}
-                    title=${run.status === "completed" ? run.conclusion : run.status}
-                    >${iconFor(run)[0]}</span
+                    aria-hidden="true"
+                    >event</span
                   >
+                  <time datetime=${run.created_at}>${when(run.created_at)}</time>
                 </span>
-                <span role="cell" class="sx-run-title">
-                  <a href=${run.html_url} target="_blank" rel="noreferrer">
-                    ${run.display_title ?? run.name}
-                  </a>
-                </span>
-                <span role="cell" class="sx-run-branch"
-                  >${run.head_branch}</span
-                >
-                <span role="cell" class="sx-run-time">
-                  <time datetime=${run.created_at}
-                    >${when(run.created_at)}</time
+                <span>
+                  <span
+                    class="sui icon material-symbols-outlined"
+                    aria-hidden="true"
+                    >timer</span
                   >
+                  ${duration(run)}
                 </span>
-              </div>`}
-          <//>
-        </div>
+              </span>
+            </a>`}
+        <//>
       </div>
     <//>
   <//>`;
