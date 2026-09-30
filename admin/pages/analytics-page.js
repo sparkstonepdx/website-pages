@@ -1,4 +1,4 @@
-import { registerPage } from "./sveltia-ext.js";
+import { registerPage } from "sveltia-ext";
 import html from "@solidjs/html";
 
 registerPage({

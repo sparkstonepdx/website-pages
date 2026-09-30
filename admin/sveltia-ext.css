@@ -123,3 +123,60 @@
 #collection-container.sx-active > *:not(.sx-page):not(.sx-host) {
   display: none;
 }
+
+.sx-deploys-bar {
+  margin-bottom: 12px;
+}
+
+.sx-run {
+  display: grid;
+  grid-template-columns: 24px 1fr auto auto;
+  align-items: center;
+  gap: 8px;
+  border-bottom: var(--area-border);
+  padding: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.sx-run:hover {
+  background-color: var(--sui-hover-background-color);
+}
+
+.sx-run-branch,
+.sx-run-time {
+  color: var(--sui-secondary-foreground-color);
+  font-size: var(--sui-font-size-small);
+}
+
+.sx-run-branch {
+  font-family: var(--sui-font-family-monospace);
+}
+
+.sx-error {
+  color: var(--sui-error-foreground-color);
+}
+
+.sx-button {
+  border: var(--sui-button-tertiary-border-width, 1px) solid
+    var(--sui-button-tertiary-border-color, var(--sui-button-border-color));
+  border-radius: var(--sui-button-medium-border-radius);
+  padding: var(--sui-button-medium-padding);
+  height: var(--sui-button-medium-height);
+  color: var(
+    --sui-button-tertiary-foreground-color,
+    var(--sui-highlight-foreground-color)
+  );
+  background-color: var(
+    --sui-button-tertiary-background-color,
+    var(--sui-button-background-color)
+  );
+  font-family: var(--sui-control-font-family);
+  font-size: var(--sui-button-medium-font-size, var(--sui-font-size-default));
+  cursor: pointer;
+}
+
+.sx-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}

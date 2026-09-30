@@ -1,6 +1,7 @@
 import { render } from "@solidjs/web";
 import html from "@solidjs/html";
-import { createSignal, createEffect } from "solid-js";
+import { parse } from "yaml";
+import { createSignal, createEffect, createErrorBoundary } from "solid-js";
 
 const [hash, setHash] = createSignal(location.hash);
 addEventListener("hashchange", () => setHash(location.hash));
@@ -26,6 +27,21 @@ export function registerPage({
   schedule();
 }
 
+let configPromise;
+
+export function cmsConfig() {
+  configPromise ??= (async () => {
+    const link = document.querySelector('link[rel="cms-config-url"]');
+    const path = new URL(
+      location.pathname.replace(/[^/]*$/, "config.yml"),
+      location.origin,
+    );
+    const res = await fetch(link?.href ?? path);
+    if (!res.ok) throw new Error(`config.yml: ${res.status}`);
+    return parse(await res.text());
+  })();
+  return configPromise;
+}
 /** @type {Map<string, HTMLElement>} */
 const sectionHosts = new Map();
 
@@ -82,7 +98,26 @@ const NavItem = (props) => {
 const PageShell = (props) =>
   html`<div class="sx-page">
     <div class="sx-toolbar"><h2>${props.page.label}</h2></div>
-    <div class="sx-content">${props.page.render()}</div>
+    <div class="sx-content">
+      ${createErrorBoundary(
+        () => props.page.render(),
+        (err, reset) =>
+          html`<div class="sx-page-error">
+            <span class="sui icon material-symbols-outlined" aria-hidden="true"
+              >error</span
+            >
+            <div>
+              <p>This page failed to load.</p>
+              <p class="sx-page-error-detail">
+                ${() => String(err()?.message ?? err())}
+              </p>
+              <button class="sx-button" onClick=${(e) => reset()}>
+                Try again
+              </button>
+            </div>
+          </div>`,
+      )}
+    </div>
   </div>`;
 
 /** @type {Map<string, {host: HTMLElement, dispose: () => void}>} */
