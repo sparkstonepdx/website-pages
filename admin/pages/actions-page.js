@@ -159,26 +159,43 @@ const Actions = () => {
         </button>
         <span class="sx-error">${() => error()}</span>
       </div>
-      <div class="sx-runs">
-        <${For} each=${runs}>
-          ${(run) =>
-            html`<a
-              class="sx-run"
-              href=${run.html_url}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span
-                class="sui icon material-symbols-outlined"
-                style=${`color:${iconFor(run)[1]}`}
-                aria-hidden="true"
-                >${iconFor(run)[0]}</span
-              >
-              <span class="sx-run-title">${run.display_title ?? run.name}</span>
-              <span class="sx-run-branch">${run.head_branch}</span>
-              <span class="sx-run-time">${when(run.created_at)}</span>
-            </a>`}
-        <//>
+      <div class="sx-runs" role="table" aria-label="Recent workflow runs">
+        <div role="rowgroup" class="sx-rowgroup">
+          <div role="row" class="sx-row sx-head">
+            <span role="columnheader" class="sx-sr">Status</span>
+            <span role="columnheader">Run</span>
+            <span role="columnheader">Branch</span>
+            <span role="columnheader">Started</span>
+          </div>
+        </div>
+        <div role="rowgroup" class="sx-rowgroup">
+          <${For} each=${runs}>
+            ${(run) =>
+              html`<div role="row" class="sx-row">
+                <span role="cell">
+                  <span
+                    class="sui icon material-symbols-outlined"
+                    style=${`color:${iconFor(run)[1]}`}
+                    title=${run.status === "completed" ? run.conclusion : run.status}
+                    >${iconFor(run)[0]}</span
+                  >
+                </span>
+                <span role="cell" class="sx-run-title">
+                  <a href=${run.html_url} target="_blank" rel="noreferrer">
+                    ${run.display_title ?? run.name}
+                  </a>
+                </span>
+                <span role="cell" class="sx-run-branch"
+                  >${run.head_branch}</span
+                >
+                <span role="cell" class="sx-run-time">
+                  <time datetime=${run.created_at}
+                    >${when(run.created_at)}</time
+                  >
+                </span>
+              </div>`}
+          <//>
+        </div>
       </div>
     <//>
   <//>`;

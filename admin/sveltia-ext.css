@@ -1,4 +1,14 @@
-/* ---- Sidebar nav item: base layer from @sveltia/ui's TreeItem ---- */
+/* ============================================================
+   sveltia-ext
+   Injected UI for Sveltia CMS. Everything here is built from
+   --sui-* tokens so it tracks the host theme.
+   ============================================================ */
+
+/* ---- Sidebar nav item: base layer from @sveltia/ui's TreeItem ----
+   The CMS's own :global sidebar rules in page-container.svelte
+   already supply border-radius, coarse-pointer height, .icon and
+   .count, so only the interactive states are reimplemented here. */
+
 .sx-item {
   display: block;
 }
@@ -22,20 +32,6 @@
   background-color: var(--sui-hover-background-color);
 }
 
-.sx-group:not(:first-child) {
-  margin: 12px 0 0;
-}
-
-.sx-group > .label {
-  margin: 8px;
-  color: var(--sui-secondary-foreground-color);
-  font-size: var(--sui-font-size-small);
-}
-
-.sx-group > .inner {
-  display: contents;
-}
-
 .sx-item > .row:active {
   background-color: var(--sui-active-background-color);
 }
@@ -53,6 +49,7 @@
 .sx-item:focus-visible {
   outline-color: transparent;
 }
+
 .sx-item:focus-visible > .row {
   outline-color: var(--sui-focus-ring-color);
   outline-offset: calc(var(--sui-focus-ring-width) * -1);
@@ -72,10 +69,29 @@
   text-overflow: ellipsis;
 }
 
-/* ---- Page shell: matches main.wrapper's children ---- */
+/* ---- Section groups: mirrors @sveltia/ui's OptionGroup ---- */
+
+.sx-group:not(:first-child) {
+  margin: 12px 0 0;
+}
+
+.sx-group > .label {
+  margin: 8px;
+  color: var(--sui-secondary-foreground-color);
+  font-size: var(--sui-font-size-small);
+}
+
+.sx-group > .inner {
+  display: contents;
+}
+
+/* ---- Page shell: sits inside main.wrapper (#collection-container) ---- */
+
 .sx-host {
   display: contents;
 }
+
+/* Attribute selector beats .sx-host, so hidden wins without !important */
 .sx-host[hidden] {
   display: none;
 }
@@ -85,10 +101,6 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
-
-.sx-page[hidden] {
-  display: none;
 }
 
 .sx-toolbar {
@@ -105,7 +117,7 @@
   align-items: center;
   gap: 8px;
   margin: 0;
-  padding-inline: 12px 12px;
+  padding-inline: 12px;
   min-width: 0;
   font-size: var(--sui-font-size-x-large);
 }
@@ -119,43 +131,25 @@
   font-size: var(--sui-font-size-default);
 }
 
-/* Hide the CMS's own content while one of ours is showing */
-#collection-container.sx-active > *:not(.sx-page):not(.sx-host) {
+/* Full-bleed embeds opt out of the content padding */
+.sx-content:has(> .sx-frame) {
+  padding: 0;
+}
+
+.sx-frame {
+  flex: auto;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide the CMS's own panes while one of ours is showing.
+   Our hosts are the only children carrying data-sx-id. */
+#collection-container.sx-active > *:not([data-sx-id]) {
   display: none;
 }
 
-.sx-deploys-bar {
-  margin-bottom: 12px;
-}
-
-.sx-run {
-  display: grid;
-  grid-template-columns: 24px 1fr auto auto;
-  align-items: center;
-  gap: 8px;
-  border-bottom: var(--area-border);
-  padding: 8px;
-  color: inherit;
-  text-decoration: none;
-}
-
-.sx-run:hover {
-  background-color: var(--sui-hover-background-color);
-}
-
-.sx-run-branch,
-.sx-run-time {
-  color: var(--sui-secondary-foreground-color);
-  font-size: var(--sui-font-size-small);
-}
-
-.sx-run-branch {
-  font-family: var(--sui-font-family-monospace);
-}
-
-.sx-error {
-  color: var(--sui-error-foreground-color);
-}
+/* ---- Shared controls ---- */
 
 .sx-button {
   border: var(--sui-button-tertiary-border-width, 1px) solid
@@ -179,4 +173,100 @@
 .sx-button:disabled {
   opacity: 0.5;
   cursor: default;
+}
+
+.sx-error {
+  color: var(--sui-error-foreground-color);
+}
+
+.sx-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+/* ---- Error boundary and notices ---- */
+
+.sx-page-error,
+.sx-notice {
+  display: flex;
+  gap: 12px;
+  border: var(--area-border);
+  border-radius: var(--sui-control-medium-border-radius);
+  padding: 16px;
+}
+
+.sx-page-error {
+  color: var(--sui-error-foreground-color);
+}
+
+.sx-page-error p,
+.sx-notice p {
+  margin: 0 0 8px;
+}
+
+.sx-page-error-detail,
+.sx-notice-detail {
+  color: var(--sui-secondary-foreground-color);
+  font-size: var(--sui-font-size-small);
+}
+
+.sx-page-error-detail {
+  font-family: var(--sui-font-family-monospace);
+}
+
+/* ---- Actions page: workflow runs grid ---- */
+
+.sx-actions-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.sx-runs {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto auto;
+  align-items: center;
+}
+
+.sx-rowgroup,
+.sx-row {
+  display: contents;
+}
+
+.sx-row > [role="cell"],
+.sx-row > [role="columnheader"] {
+  border-bottom: var(--area-border);
+  padding: 8px;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sx-head > [role="columnheader"] {
+  color: var(--sui-secondary-foreground-color);
+  font-size: var(--sui-font-size-small);
+  text-align: start;
+}
+
+.sx-row:hover > [role="cell"] {
+  background-color: var(--sui-hover-background-color);
+}
+
+.sx-row > :last-child {
+  text-align: end;
+}
+
+.sx-run-branch {
+  font-family: var(--sui-font-family-monospace);
+}
+
+.sx-run-branch,
+.sx-run-time {
+  color: var(--sui-secondary-foreground-color);
+  font-size: var(--sui-font-size-small);
 }
