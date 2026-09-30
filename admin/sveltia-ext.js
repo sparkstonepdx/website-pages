@@ -21,7 +21,7 @@ export function registerPage({
     icon,
     section,
     render,
-    route: `#/collections/__${id}`,
+    route: `#/collections/_/${id}`,
   });
   schedule();
 }
