@@ -10,7 +10,7 @@ registerPage({
     <iframe
       style='flex: auto; border: 0; width: 100%; height: 100%'
       class="sx-frame"
-      src="https://stats.sparkstonepdx.com/"
+      src="https://stats.sparkstonepdx.com?hideui=1"
       title="GoatCounter"
     ></iframe>
   `,
