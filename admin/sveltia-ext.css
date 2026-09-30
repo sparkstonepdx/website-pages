@@ -22,6 +22,20 @@
   background-color: var(--sui-hover-background-color);
 }
 
+.sx-group:not(:first-child) {
+  margin: 12px 0 0;
+}
+
+.sx-group > .label {
+  margin: 8px;
+  color: var(--sui-secondary-foreground-color);
+  font-size: var(--sui-font-size-small);
+}
+
+.sx-group > .inner {
+  display: contents;
+}
+
 .sx-item > .row:active {
   background-color: var(--sui-active-background-color);
 }
@@ -59,8 +73,12 @@
 }
 
 /* ---- Page shell: matches main.wrapper's children ---- */
-.sx-host { display: contents; }
-.sx-host[hidden] { display: none; }
+.sx-host {
+  display: contents;
+}
+.sx-host[hidden] {
+  display: none;
+}
 
 .sx-page {
   flex: auto;

@@ -5,11 +5,12 @@ registerPage({
   id: "analytics",
   label: "Analytics",
   icon: "insights",
+  section: 'Reports',
   render: () => html`
     <iframe
       style='flex: auto; border: 0; width: 100%; height: 100%'
       class="sx-frame"
-      src="https://stats.sparkstonepdx.com"
+      src="https://stats.sparkstonepdx.com/"
       title="GoatCounter"
     ></iframe>
   `,
