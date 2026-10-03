@@ -21,7 +21,6 @@ widget_types:
 logo:
   src: /sparkstone-logo.svg
   show_in_header: true
-  
 
 media_folder: "/public"
 public_folder: "/"
@@ -32,7 +31,6 @@ media_libraries:
     config:
       slugify_filename: true
 
-
 # Reusable Snippets
 seo: &seo
   label: SEO
@@ -40,10 +38,28 @@ seo: &seo
   widget: object
   collapsed: true
   fields:
-    - { label: Title, name: title, widget: string, required: false, hint: "Used as-is. Falls back to Heading | Company Name" }
-    - { label: Description, name: description, widget: text, required: false, hint: "Falls back to Intro" }
+    - {
+        label: Title,
+        name: title,
+        widget: string,
+        required: false,
+        hint: "Used as-is. Falls back to Heading | Company Name",
+      }
+    - {
+        label: Description,
+        name: description,
+        widget: text,
+        required: false,
+        hint: "Falls back to Intro",
+      }
     - { label: Social image, name: image, widget: image, required: false }
-    - { label: Keywords, name: keywords, widget: list, required: false, hint: "Replaces the site keywords" }
+    - {
+        label: Keywords,
+        name: keywords,
+        widget: list,
+        required: false,
+        hint: "Replaces the site keywords",
+      }
 
 booking_cta: &booking_cta
   label: Booking Call To Action
@@ -51,9 +67,21 @@ booking_cta: &booking_cta
   widget: object
   collapsed: auto
   fields:
-    - { label: Heading, name: heading, widget: string, required: false, hint: "Used as the heading for the booking cta" }
+    - {
+        label: Heading,
+        name: heading,
+        widget: string,
+        required: false,
+        hint: "Used as the heading for the booking cta",
+      }
     - { label: Body, name: body, widget: richtext, required: false }
-    - { label: Action Text, name: action_label, widget: string, required: false, hint: 'Used as the button text' }
+    - {
+        label: Action Text,
+        name: action_label,
+        widget: string,
+        required: false,
+        hint: "Used as the button text",
+      }
 
 testimonials: &testimonials
   label: "Testimonials"
@@ -66,7 +94,6 @@ testimonials: &testimonials
   required: false
   multiple: true
 
-  
 singletons:
   - name: home
     label: Home Page
@@ -96,7 +123,15 @@ singletons:
             name: case_study
             widget: object
             fields:
-              - { label: Case study, name: entry, widget: relation, collection: case-studies, value_field: "{{slug}}", search_fields: [title, client], display_fields: [title] }
+              - {
+                  label: Case study,
+                  name: entry,
+                  widget: relation,
+                  collection: case-studies,
+                  value_field: "{{slug}}",
+                  search_fields: [title, client],
+                  display_fields: [title],
+                }
           - label: Product
             name: product
             widget: object
@@ -133,9 +168,21 @@ singletons:
     icon: settings
     delete: false
     fields:
-      - { name: headerMenu, label: "Header Menu", widget: relation, collection: menus, search_fields: [name]}
-      - { name: footerMenu, label: "Footer Menu", widget: relation, collection: menus, search_fields: [name]}
-      - { name: companyName, label: 'Company Name', widget: string }
+      - {
+          name: headerMenu,
+          label: "Header Menu",
+          widget: relation,
+          collection: menus,
+          search_fields: [name],
+        }
+      - {
+          name: footerMenu,
+          label: "Footer Menu",
+          widget: relation,
+          collection: menus,
+          search_fields: [name],
+        }
+      - { name: companyName, label: "Company Name", widget: string }
       - <<: *booking_cta
         label: Default Booking CTA
         hint: Used when a page using a booking cta but is left blank
@@ -158,7 +205,12 @@ collections:
     summary: "{{title}} · {{client}}"
     fields:
       - { label: "Title", name: "title", widget: "string", minlength: 5 }
-      - { label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
+      - {
+          label: "Created",
+          name: "created",
+          widget: "datetime",
+          default: "{{now}}",
+        }
       - { label: "Published", name: "published", widget: "publishdate" }
       - { label: "Client", name: "client", widget: "string" }
       - label: Segment
@@ -186,21 +238,56 @@ collections:
           - { label: "Project rescue", value: project-rescue }
           - { label: "Fractional CTO", value: fractional-cto }
           - { label: "Technical review", value: technical-review }
-      - { label: "Products used", name: "products", widget: relation, collection: products, value_field: "{{slug}}", search_fields: [title], display_fields: [title], multiple: true, required: false }
+      - {
+          label: "Products used",
+          name: "products",
+          widget: relation,
+          collection: products,
+          value_field: "{{slug}}",
+          search_fields: [title],
+          display_fields: [title],
+          multiple: true,
+          required: false,
+        }
       - { label: "Blurb", name: "blurb", widget: "string" }
       - { label: "Problem", name: "problem", widget: "text", required: false }
       - { label: "Built", name: "built", widget: "text", required: false }
-      - { label: "Result", name: "result", widget: "string", required: false, hint: "One sentence, with a number if one exists" }
-      - { label: "Timeline", name: "timeline", widget: "string", required: false }
-      - { label: "Live URL", name: "url", widget: "string", type: url, required: false }
+      - {
+          label: "Result",
+          name: "result",
+          widget: "string",
+          required: false,
+          hint: "One sentence, with a number if one exists",
+        }
+      - {
+          label: "Timeline",
+          name: "timeline",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Live URL",
+          name: "url",
+          widget: "string",
+          type: url,
+          required: false,
+        }
       - <<: *testimonials
-      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
-      - { label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
+      - {
+          label: "Featured Image Alt",
+          name: "thumbnailAlt",
+          widget: "string",
+          required: false,
+        }
       - <<: *booking_cta
       - { label: "Body", name: "body", widget: "markdown" }
 
-  
-   
   - name: menus
     label: Menus
     icon: menu
@@ -221,8 +308,21 @@ collections:
           - label: "Page"
             name: "page_item"
             fields:
-              - { label: "Page", name: "item", widget: relation, collection: pages, search_fields: [heading, route], display_fields: [heading] }
-              - { label: "Label override", name: "label", widget: string, required: false, hint: "Falls back to page heading" }
+              - {
+                  label: "Page",
+                  name: "item",
+                  widget: relation,
+                  collection: pages,
+                  search_fields: [heading, route],
+                  display_fields: [heading],
+                }
+              - {
+                  label: "Label override",
+                  name: "label",
+                  widget: string,
+                  required: false,
+                  hint: "Falls back to page heading",
+                }
           - label: "Link Item"
             name: "link_item"
             fields:
@@ -232,7 +332,13 @@ collections:
                 collection: "links"
                 search_fields: ["label"]
                 display_fields: ["label"]
-              - { label: "Label override", name: "label", widget: string, required: false, hint: "Falls back to link label" }
+              - {
+                  label: "Label override",
+                  name: "label",
+                  widget: string,
+                  required: false,
+                  hint: "Falls back to link label",
+                }
           - label: "Nested Menu"
             name: "nested_menu"
             fields:
@@ -242,7 +348,13 @@ collections:
                 collection: "menus"
                 search_fields: ["name"]
                 display_fields: ["name"]
-              - { label: "Label override", name: "label", widget: string, required: false, hint: "Falls back to menu name" }
+              - {
+                  label: "Label override",
+                  name: "label",
+                  widget: string,
+                  required: false,
+                  hint: "Falls back to menu name",
+                }
 
   - name: links
     label: Links
@@ -253,14 +365,42 @@ collections:
     folder: "src/data/links/"
     slug: "{{fields.label}}"
     fields:
-      - { label: "Display Label", name: "label", widget: "string", minlength: 2 }
-      - { label: Description, name: description, widget: string, required: false}
-      - { label: "URL", name: "url", widget: "string", type: url, required: false }
-      - { label: "Parent Item", name: "parent", widget: relation, collection: links, search_fields: [label], display_fields: [label], required: false } # For hierarchy
+      - {
+          label: "Display Label",
+          name: "label",
+          widget: "string",
+          minlength: 2,
+        }
+      - {
+          label: Description,
+          name: description,
+          widget: string,
+          required: false,
+        }
+      - {
+          label: "URL",
+          name: "url",
+          widget: "string",
+          type: url,
+          required: false,
+        }
+      - {
+          label: "Parent Item",
+          name: "parent",
+          widget: relation,
+          collection: links,
+          search_fields: [label],
+          display_fields: [label],
+          required: false,
+        } # For hierarchy
       - { label: "Visible", name: "visible", widget: "boolean", default: true }
-      - { label: Custom Attributes, name: customAttributes, required: false, widget: 'string'}
+      - {
+          label: Custom Attributes,
+          name: customAttributes,
+          required: false,
+          widget: "string",
+        }
 
-  
   - name: pages
     label: Pages
     label_singular: Page
@@ -272,11 +412,30 @@ collections:
     slug: "{{fields.heading}}"
     summary: "{{heading}} · {{route}}"
     fields:
-      - { label: "Route", name: "route", widget: "string", hint: "e.g. /products" }
+      - {
+          label: "Route",
+          name: "route",
+          widget: "string",
+          hint: "e.g. /products",
+        }
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Intro", name: "intro", widget: "text", required: false }
       - <<: *seo
-      - { label: Content, name: body, widget: markdown, required: false}
+      - { label: Content, name: body, widget: markdown, required: false }
+
+  - name: redirects
+    label: Redirects
+    label_singular: redirect
+    icon: link
+    extension: yml
+    folder: "src/data/redirects"
+    fields:
+      - { label: "Name", name: "name", widget: "string", required: true }
+      - { label: "URL", name: "url", widget: "string" }
+      - label: Destination
+        name: destination
+        widget: string
+        hint: Where the viewer will get sent
 
   - name: products
     label: Products
@@ -296,7 +455,14 @@ collections:
       - { label: Personal, field: audience, pattern: personal }
     fields:
       - { label: "Title", name: "title", widget: "string", minlength: 5 }
-      - { label: "Created", name: "created", widget: "datetime", type: date, format: "YYYY-MM-DD", default: "{{now}}" }
+      - {
+          label: "Created",
+          name: "created",
+          widget: "datetime",
+          type: date,
+          format: "YYYY-MM-DD",
+          default: "{{now}}",
+        }
       - { label: "Published", name: "published", widget: "publishdate" }
       - label: Audience
         name: audience
@@ -305,12 +471,45 @@ collections:
           - { label: "Business buyers", value: business }
           - { label: "Developers", value: developer }
           - { label: "Personal", value: personal }
-      - { label: "Is Opensource", name: "isOpensource", widget: "boolean", required: false }
-      - { label: "Live URL", name: "url", widget: "string", type: url, required: false }
-      - { label: "Repository", name: "repo", widget: "string", type: url, required: false }
-      - { label: "Package", name: "package", widget: "string", required: false, hint: "npm name, e.g. @sparkstone/css" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
-      - { label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
+      - {
+          label: "Is Opensource",
+          name: "isOpensource",
+          widget: "boolean",
+          required: false,
+        }
+      - {
+          label: "Live URL",
+          name: "url",
+          widget: "string",
+          type: url,
+          required: false,
+        }
+      - {
+          label: "Repository",
+          name: "repo",
+          widget: "string",
+          type: url,
+          required: false,
+        }
+      - {
+          label: "Package",
+          name: "package",
+          widget: "string",
+          required: false,
+          hint: "npm name, e.g. @sparkstone/css",
+        }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
+      - {
+          label: "Featured Image Alt",
+          name: "thumbnailAlt",
+          widget: "string",
+          required: false,
+        }
       - { label: "Blurb", name: "blurb", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - <<: *testimonials
@@ -331,8 +530,13 @@ collections:
       - { label: Personal, field: audience, pattern: personal }
     fields:
       - { label: "Title", name: "title", widget: "string", minlength: 5 }
-      - { label: "Created", name: "created", widget: "datetime", default: "{{now}}" }
-      - { label: "Published", name: "published", widget: "publishdate"}
+      - {
+          label: "Created",
+          name: "created",
+          widget: "datetime",
+          default: "{{now}}",
+        }
+      - { label: "Published", name: "published", widget: "publishdate" }
       - label: Audience
         name: audience
         widget: select
@@ -340,10 +544,35 @@ collections:
           - { label: "Business buyers", value: business }
           - { label: "Developers", value: developer }
           - { label: "Personal", value: personal }
-      - { label: "Related products", name: "products", widget: relation, collection: products, value_field: "{{slug}}", search_fields: [title], display_fields: [title], multiple: true, required: false }
-      - { label: "Updated", name: "updated", widget: "datetime", required: false }
-      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
-      - { label: "Featured Image Alt", name: "thumbnailAlt", widget: "string", required: false }
+      - {
+          label: "Related products",
+          name: "products",
+          widget: relation,
+          collection: products,
+          value_field: "{{slug}}",
+          search_fields: [title],
+          display_fields: [title],
+          multiple: true,
+          required: false,
+        }
+      - {
+          label: "Updated",
+          name: "updated",
+          widget: "datetime",
+          required: false,
+        }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
+      - {
+          label: "Featured Image Alt",
+          name: "thumbnailAlt",
+          widget: "string",
+          required: false,
+        }
       - { label: "Blurb", name: "blurb", widget: "string" }
       - <<: *booking_cta
       - { label: "Body", name: "body", widget: "markdown" }
@@ -355,7 +584,12 @@ collections:
     identifier_field: name
     fields:
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Profile Photo", name: "profilePhoto", widget: "image", required: false }
+      - {
+          label: "Profile Photo",
+          name: "profilePhoto",
+          widget: "image",
+          required: false,
+        }
       - { label: "Role", name: "role", widget: "string", required: false }
       - { label: "Testimony", name: "testimony", widget: "text" }
 
@@ -371,13 +605,41 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Title", name: "title", widget: "string", required: false }
-      - { label: "Organization", name: "organization", widget: "string", required: false }
+      - {
+          label: "Organization",
+          name: "organization",
+          widget: "string",
+          required: false,
+        }
       - { label: "Quote", name: "quote", widget: "text" }
       - { label: "Photo", name: "photo", widget: "image", required: false }
-      - { label: "Photo Alt", name: "photoAlt", widget: "string", required: false }
-      - { label: "Source URL", name: "url", widget: "string", type: url, required: false }
-      - { label: "Approved", name: "approved", widget: "boolean", default: false, hint: "Only display quotes the person has signed off on" }
-      - { label: "Received", name: "received", widget: "datetime", format: "YYYY-MM-DD", default: "{{now}}" }
+      - {
+          label: "Photo Alt",
+          name: "photoAlt",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Source URL",
+          name: "url",
+          widget: "string",
+          type: url,
+          required: false,
+        }
+      - {
+          label: "Approved",
+          name: "approved",
+          widget: "boolean",
+          default: false,
+          hint: "Only display quotes the person has signed off on",
+        }
+      - {
+          label: "Received",
+          name: "received",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          default: "{{now}}",
+        }
 
   - name: Emails
     label: Emails
