@@ -1,0 +1,2 @@
+import{n as e}from"./mdx-CFwy6W3y.js";import{K as t,Nt as n,ft as r,xt as i}from"./link-YbTYLWsA.js";var a=r(`<meta http-equiv=refresh content="0; url=/about">`),o=r(`<link rel=canonical href=/about>`),s={name:`Business Card Adam`,url:`/business-card/adam`,destination:`/about`};function c(e){return[t(a),`
+`,t(o)]}function l(t={}){let{wrapper:r}={...e(),...t.components};return r?i(r,n(t,{get children(){return i(c,t)}})):c(t)}export{l as default,s as frontmatter};
