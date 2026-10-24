@@ -67,12 +67,6 @@
         transition: all 200ms;
       }
     </style>
-  </head>
-  <body>
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
-    <link rel="stylesheet" type="text/css" href="/admin/sveltia-ext.css" />
-    <script src="/admin/optimized-image.js"></script>
-    <script src="/admin/publish-date.js"></script>
     <script type="importmap">
       {
         "imports": {
@@ -87,6 +81,12 @@
         }
       }
     </script>
-    <script src='/admin/pages.js' type='module'></script>
+  </head>
+  <body>
+    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <link rel="stylesheet" type="text/css" href="/admin/sveltia-ext.css" />
+    <script src="/admin/optimized-image.js"></script>
+    <script src="/admin/publish-date.js"></script>
+    <script src="/admin/pages.js" type="module"></script>
   </body>
 </html>
